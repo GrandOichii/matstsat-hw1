@@ -1,0 +1,141 @@
+\documentclass{article}
+\usepackage{amsmath}
+\begin{document}
+Number of observations ($n$) = 449
+
+$k=5$
+
+Regression equation: 
+$Y_i=\alpha+\beta_1square_i+\beta_2floor_i+\beta_3maxFloor_i+\beta_4toMetro_i+\beta_5otherPrice_i$
+
+
+$Y=\left[\begin{matrix}64977836\\26600000\\26386743\\\cdots\\76000000\end{matrix}\right]$
+
+
+$X=\begin{bmatrix}1 & 65.4300000000000 & 2 & \dots  & 993089 \\ 1 & 63.7000000000000 & 15 & \dots  & 417582 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 1 & 75.6000000000000 & 2 & \dots  & 1005291\end{bmatrix}$
+
+Calculating the estimate $\hat\beta$ values
+
+$\hat{\beta}=(X^TX)^{-1}X^TY=\left[\begin{matrix}-49462877.0516766\\757364.585489941\\-89455.1405469093\\-73718.264042654\\54385.5648089241\\74.4611537508182\end{matrix}\right]$
+
+Regression equation (with values): $Y_i=-49462877.0516766+757364.585489941*square-89455.1405469093*floor-73718.2640426540*maxFloor+54385.5648089241*toMetro+74.4611537508182*otherPrice$
+
+
+Estimated $Y$: $\hat{Y}=\left[\begin{matrix}73320157.1326581\\28146403.4567285\\37628907.7974807\\\cdots\\82478598.1461398\end{matrix}\right]$
+
+$\overline{Y}=39268458.465478845$
+
+$TSS=\sum_{t=1}^{n} (Y_i-\overline{Y})^2=552692050510246336.00$
+
+$ESS=\sum_{t=1}^{n} (\hat{Y_i}-\overline{Y})^2=512641730033639616.00$
+
+$RSS=TSS-ESS=40050320476606720.00$
+
+$R^2=\frac{ESS}{TSS}=0.93$
+
+$\hat{\sigma^2}=\frac{RSS}{n-k-1}=90407043965252.19$
+
+$\hat{V}(\hat{\beta})=\hat{\sigma^2}(X^TX)^{-1}=\left[\begin{matrix}3302128314124.48 & -21522074602.6407 & 10838441011.9444 & -20122138792.1541 & -105515904198.351 & -719430.113992324\\-21522074602.6407 & 461023559.810969 & -200184845.164351 & 17578192.8101135 & 60052345.337183 & -15165.3161175021\\10838441011.9444 & -200184845.164351 & 3177216451.36346 & -1565647926.78992 & -3923687.82920669 & 3634.37938091425\\-20122138792.1541 & 17578192.810114 & -1565647926.78992 & 1368127924.23898 & 398286089.384401 & 2409.71607137957\\-105515904198.351 & 60052345.3371849 & -3923687.82920782 & 398286089.384401 & 9710017067.55206 & 16761.0180540248\\-719430.113992323 & -15165.316117502 & 3634.37938091425 & 2409.71607137958 & 16761.0180540248 & 2.79301362420593\end{matrix}\right]
+
+$\cdot$ Calculate the significance of value $square_i$
+
+$H_o: \hat{\beta_1}=0$
+
+$H_a: \hat{\beta_1}\neq0$
+
+$\hat{D}(\hat{\beta_1})=[\hat{V}(\hat{\beta})]_{1 1}=461023559.810969$
+
+$\sqrt{\hat{D}(\hat{\beta_1})}=21471.4591914702$
+
+$\hat{\beta_1}=757364.585489941$
+
+$T_{obs}=\frac{\hat{\beta_1}-0}{\sqrt{\hat{D}(\hat{\beta_1})}}=35.27$
+
+$T\sim t(n-k-1)$
+
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.0000\approx0.00\%$
+
+$\cdot$ Calculate the significance of value $floor_i$
+
+$H_o: \hat{\beta_2}=0$
+
+$H_a: \hat{\beta_2}\neq0$
+
+$\hat{D}(\hat{\beta_2})=[\hat{V}(\hat{\beta})]_{2 2}=3177216451.36346$
+
+$\sqrt{\hat{D}(\hat{\beta_2})}=56366.8027420703$
+
+$\hat{\beta_2}=-89455.1405469093$
+
+$T_{obs}=\frac{\hat{\beta_2}-0}{\sqrt{\hat{D}(\hat{\beta_2})}}=-1.59$
+
+$T\sim t(n-k-1)$
+
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.1132\approx11.32\%$
+
+$\cdot$ Calculate the significance of value $maxFloor_i$
+
+$H_o: \hat{\beta_3}=0$
+
+$H_a: \hat{\beta_3}\neq0$
+
+$\hat{D}(\hat{\beta_3})=[\hat{V}(\hat{\beta})]_{3 3}=1368127924.23898$
+
+$\sqrt{\hat{D}(\hat{\beta_3})}=36988.213315041$
+
+$\hat{\beta_3}=-73718.2640426540$
+
+$T_{obs}=\frac{\hat{\beta_3}-0}{\sqrt{\hat{D}(\hat{\beta_3})}}=-1.99$
+
+$T\sim t(n-k-1)$
+
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.0469\approx4.69\%$
+
+$\cdot$ Calculate the significance of value $toMetro_i$
+
+$H_o: \hat{\beta_4}=0$
+
+$H_a: \hat{\beta_4}\neq0$
+
+$\hat{D}(\hat{\beta_4})=[\hat{V}(\hat{\beta})]_{4 4}=9710017067.55206$
+
+$\sqrt{\hat{D}(\hat{\beta_4})}=98539.4188513006$
+
+$\hat{\beta_4}=54385.5648089241$
+
+$T_{obs}=\frac{\hat{\beta_4}-0}{\sqrt{\hat{D}(\hat{\beta_4})}}=0.55$
+
+$T\sim t(n-k-1)$
+
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.5813\approx58.13\%$
+
+$\cdot$ Calculate the significance of value $otherPrice_i$
+
+$H_o: \hat{\beta_5}=0$
+
+$H_a: \hat{\beta_5}\neq0$
+
+$\hat{D}(\hat{\beta_5})=[\hat{V}(\hat{\beta})]_{5 5}=2.79301362420593$
+
+$\sqrt{\hat{D}(\hat{\beta_5})}=1.6712311701874$
+
+$\hat{\beta_5}=74.4611537508182$
+
+$T_{obs}=\frac{\hat{\beta_5}-0}{\sqrt{\hat{D}(\hat{\beta_5})}}=44.55$
+
+$T\sim t(n-k-1)$
+
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.0000\approx0.00\%$
+
+$\cdot$ Check the validity of the entire regression equation
+
+$H_o: \beta_1=\beta_2=\beta_3=\beta_4=\beta_5=0$
+
+$H_a: |\beta_1|+|\beta_2|+|\beta_3|+|\beta_4|+|\beta_5|\neq0$
+
+$T_{obs}=\frac{R^2}{1-R^2}*\frac{n-k-1}{k}=1134.07$
+
+$T\sim F(k,n-k-1)$
+
+$pvalue=P(\{T>T_{obs}\})=1-F_T(T_{obs})=1-fcdf(|T_{obs}|,k,n-k-1)=0.00\approx0.00\%$
+\end{document}
