@@ -1,3594 +1,6671 @@
 [
 	{
-		"square": 65.43,
-		"floor": 2,
-		"maxFloor": 11,
-		"toMetro": 5,
-		"mainPrice": 64977836,
-		"otherPrice": 993089
-	},
-	{
-		"square": 63.7,
-		"floor": 15,
-		"maxFloor": 20,
-		"toMetro": 20,
-		"mainPrice": 26600000,
-		"otherPrice": 417582
-	},
-	{
-		"square": 90.3,
-		"floor": 15,
-		"maxFloor": 24,
-		"toMetro": 1,
-		"mainPrice": 26386743,
-		"otherPrice": 292212
-	},
-	{
-		"square": 63.2,
-		"floor": 2,
-		"maxFloor": 10,
-		"toMetro": 5,
-		"mainPrice": 99500000,
-		"otherPrice": 1574367
-	},
-	{
-		"square": 63.92,
-		"floor": 30,
-		"maxFloor": 55,
-		"toMetro": 8,
-		"mainPrice": 22691600,
-		"otherPrice": 355000
-	},
-	{
-		"square": 85,
-		"floor": 7,
-		"maxFloor": 14,
-		"toMetro": 9,
-		"mainPrice": 150000000,
-		"otherPrice": 1764706
-	},
-	{
-		"square": 156.3,
-		"floor": 4,
-		"maxFloor": 8,
-		"toMetro": 9,
-		"mainPrice": 135072549,
-		"otherPrice": 864188
-	},
-	{
-		"square": 150,
-		"floor": 6,
-		"maxFloor": 6,
-		"toMetro": 6,
-		"mainPrice": 84500000,
-		"otherPrice": 563333
-	},
-	{
-		"square": 85.7,
-		"floor": 14,
-		"maxFloor": 14,
-		"toMetro": 7,
-		"mainPrice": 56000000,
-		"otherPrice": 653442
-	},
-	{
-		"square": 81,
-		"floor": 1,
-		"maxFloor": 4,
-		"toMetro": 15,
-		"mainPrice": 25500000,
-		"otherPrice": 314815
-	},
-	{
-		"square": 51.3,
-		"floor": 2,
-		"maxFloor": 41,
-		"toMetro": 12,
-		"mainPrice": 31575150,
-		"otherPrice": 615500
-	},
-	{
-		"square": 87.59,
-		"floor": 6,
-		"maxFloor": 17,
-		"toMetro": 13,
-		"mainPrice": 49926300,
-		"otherPrice": 570000
-	},
-	{
-		"square": 53.7,
-		"floor": 3,
-		"maxFloor": 3,
-		"toMetro": 5,
-		"mainPrice": 29535000,
-		"otherPrice": 550000
-	},
-	{
-		"square": 79.1,
-		"floor": 2,
-		"maxFloor": 5,
-		"toMetro": 5,
-		"mainPrice": 71190000,
-		"otherPrice": 900000
-	},
-	{
-		"square": 50.9,
-		"floor": 26,
-		"maxFloor": 32,
-		"toMetro": 7,
-		"mainPrice": 45373431,
-		"otherPrice": 891423
-	},
-	{
-		"square": 86.61,
-		"floor": 5,
-		"maxFloor": 14,
-		"toMetro": 8,
-		"mainPrice": 77000000,
-		"otherPrice": 889043
-	},
-	{
-		"square": 73,
-		"floor": 2,
-		"maxFloor": 5,
-		"toMetro": 11,
-		"mainPrice": 49000000,
-		"otherPrice": 671233
-	},
-	{
-		"square": 63,
-		"floor": 11,
-		"maxFloor": 75,
-		"toMetro": 3,
-		"mainPrice": 50900000,
-		"otherPrice": 807937
-	},
-	{
-		"square": 74.2,
-		"floor": 16,
-		"maxFloor": 36,
-		"toMetro": 18,
-		"mainPrice": 50000000,
-		"otherPrice": 673854
-	},
-	{
-		"square": 67.11,
-		"floor": 8,
-		"maxFloor": 54,
-		"toMetro": 5,
-		"mainPrice": 22070801,
-		"otherPrice": 328875
-	},
-	{
-		"square": 47,
-		"floor": 16,
-		"maxFloor": 16,
-		"toMetro": 12,
-		"mainPrice": 14800000,
-		"otherPrice": 314894
-	},
-	{
-		"square": 82,
-		"floor": 2,
-		"maxFloor": 19,
-		"toMetro": 14,
-		"mainPrice": 39500000,
-		"otherPrice": 481707
-	},
-	{
-		"square": 49.02,
-		"floor": 5,
-		"maxFloor": 13,
-		"toMetro": 17,
-		"mainPrice": 13827560,
-		"otherPrice": 282080
-	},
-	{
-		"square": 75.3,
-		"floor": 3,
-		"maxFloor": 21,
-		"toMetro": 7,
-		"mainPrice": 38519999,
-		"otherPrice": 511554
-	},
-	{
-		"square": 56,
-		"floor": 5,
-		"maxFloor": 28,
-		"toMetro": 13,
-		"mainPrice": 25950000,
-		"otherPrice": 463393
-	},
-	{
-		"square": 63.7,
-		"floor": 21,
-		"maxFloor": 78,
-		"toMetro": 5,
-		"mainPrice": 43000000,
-		"otherPrice": 675039
-	},
-	{
-		"square": 83,
-		"floor": 26,
-		"maxFloor": 33,
-		"toMetro": 14,
-		"mainPrice": 37233800,
-		"otherPrice": 448600
-	},
-	{
-		"square": 71.5,
-		"floor": 8,
-		"maxFloor": 25,
-		"toMetro": 3,
-		"mainPrice": 43299000,
-		"otherPrice": 605580
-	},
-	{
-		"square": 99.1,
-		"floor": 5,
-		"maxFloor": 19,
-		"toMetro": 18,
-		"mainPrice": 52000000,
-		"otherPrice": 524723
-	},
-	{
-		"square": 65.8,
-		"floor": 2,
-		"maxFloor": 17,
-		"toMetro": 4,
-		"mainPrice": 32299904,
-		"otherPrice": 490880
-	},
-	{
-		"square": 190,
-		"floor": 44,
-		"maxFloor": 85,
-		"toMetro": 1,
-		"mainPrice": 93927380,
-		"otherPrice": 494355
-	},
-	{
-		"square": 53,
-		"floor": 14,
-		"maxFloor": 22,
-		"toMetro": 4,
-		"mainPrice": 29900000,
-		"otherPrice": 564151
-	},
-	{
-		"square": 75.81,
-		"floor": 11,
-		"maxFloor": 12,
-		"toMetro": 5,
-		"mainPrice": 53067000,
-		"otherPrice": 700000
-	},
-	{
-		"square": 67.2,
-		"floor": 29,
-		"maxFloor": 75,
-		"toMetro": 2,
-		"mainPrice": 50000000,
-		"otherPrice": 744048
-	},
-	{
-		"square": 84,
-		"floor": 15,
-		"maxFloor": 20,
-		"toMetro": 11,
-		"mainPrice": 64260000,
-		"otherPrice": 765000
-	},
-	{
-		"square": 52.8,
-		"floor": 11,
-		"maxFloor": 30,
-		"toMetro": 7,
-		"mainPrice": 19134931,
-		"otherPrice": 362404
-	},
-	{
-		"square": 104.55,
-		"floor": 10,
-		"maxFloor": 21,
-		"toMetro": 7,
-		"mainPrice": 97000000,
-		"otherPrice": 927786
-	},
-	{
-		"square": 56.3,
-		"floor": 10,
-		"maxFloor": 17,
-		"toMetro": 6,
-		"mainPrice": 23927500,
-		"otherPrice": 425000
-	},
-	{
-		"square": 104.7,
-		"floor": 3,
-		"maxFloor": 8,
-		"toMetro": 2,
-		"mainPrice": 69102000,
-		"otherPrice": 660000
-	},
-	{
-		"square": 82,
-		"floor": 8,
-		"maxFloor": 19,
-		"toMetro": 12,
-		"mainPrice": 63500000,
-		"otherPrice": 774390
-	},
-	{
-		"square": 66.5,
-		"floor": 3,
-		"maxFloor": 28,
-		"toMetro": 5,
-		"mainPrice": 36495998,
-		"otherPrice": 548812
-	},
-	{
-		"square": 63.32,
-		"floor": 10,
-		"maxFloor": 12,
-		"toMetro": 6,
-		"mainPrice": 35680820,
-		"otherPrice": 563500
-	},
-	{
-		"square": 67.5,
-		"floor": 44,
-		"maxFloor": 68,
-		"toMetro": 3,
-		"mainPrice": 60750000,
-		"otherPrice": 900000
-	},
-	{
-		"square": 47,
-		"floor": 14,
-		"maxFloor": 18,
-		"toMetro": 13,
-		"mainPrice": 20700000,
-		"otherPrice": 440426
-	},
-	{
-		"square": 63.8,
-		"floor": 3,
-		"maxFloor": 9,
-		"toMetro": 6,
-		"mainPrice": 114840000,
-		"otherPrice": 1800000
-	},
-	{
-		"square": 79,
-		"floor": 38,
-		"maxFloor": 75,
-		"toMetro": 4,
-		"mainPrice": 57600000,
-		"otherPrice": 729114
-	},
-	{
-		"square": 70.1,
-		"floor": 15,
-		"maxFloor": 22,
-		"toMetro": 12,
-		"mainPrice": 30143000,
-		"otherPrice": 430000
-	},
-	{
-		"square": 72,
-		"floor": 13,
-		"maxFloor": 25,
-		"toMetro": 3,
-		"mainPrice": 52800000,
-		"otherPrice": 733333
-	},
-	{
-		"square": 61.7,
-		"floor": 16,
-		"maxFloor": 28,
-		"toMetro": 12,
-		"mainPrice": 26531000,
-		"otherPrice": 430000
-	},
-	{
-		"square": 62.1,
-		"floor": 16,
-		"maxFloor": 32,
-		"toMetro": 18,
-		"mainPrice": 25398900,
-		"otherPrice": 409000
-	},
-	{
-		"square": 52.1,
-		"floor": 3,
-		"maxFloor": 9,
-		"toMetro": 11,
-		"mainPrice": 10130845,
-		"otherPrice": 194450
-	},
-	{
-		"square": 71.7,
-		"floor": 6,
-		"maxFloor": 8,
-		"toMetro": 7,
-		"mainPrice": 85000000,
-		"otherPrice": 1185495
-	},
-	{
-		"square": 48,
-		"floor": 7,
-		"maxFloor": 12,
-		"toMetro": 15,
-		"mainPrice": 12900000,
-		"otherPrice": 268750
-	},
-	{
-		"square": 64.2,
-		"floor": 2,
-		"maxFloor": 5,
-		"toMetro": 8,
-		"mainPrice": 54000000,
-		"otherPrice": 841121
-	},
-	{
-		"square": 60,
-		"floor": 10,
-		"maxFloor": 22,
-		"toMetro": 18,
-		"mainPrice": 35000000,
-		"otherPrice": 583333
-	},
-	{
-		"square": 98.7,
-		"floor": 6,
-		"maxFloor": 12,
-		"toMetro": 6,
-		"mainPrice": 65000000,
-		"otherPrice": 658561
-	},
-	{
-		"square": 85.6,
-		"floor": 2,
-		"maxFloor": 14,
-		"toMetro": 5,
-		"mainPrice": 150830000,
-		"otherPrice": 1762033
-	},
-	{
-		"square": 78,
-		"floor": 38,
-		"maxFloor": 75,
-		"toMetro": 2,
-		"mainPrice": 56000000,
-		"otherPrice": 717949
-	},
-	{
-		"square": 50,
-		"floor": 21,
-		"maxFloor": 32,
-		"toMetro": 10,
-		"mainPrice": 28500000,
-		"otherPrice": 570000
-	},
-	{
-		"square": 65.5,
-		"floor": 17,
-		"maxFloor": 25,
-		"toMetro": 3,
-		"mainPrice": 13583500,
-		"otherPrice": 207382
-	},
-	{
-		"square": 86.5,
-		"floor": 4,
-		"maxFloor": 9,
-		"toMetro": 14,
-		"mainPrice": 96320258,
-		"otherPrice": 1113529
-	},
-	{
-		"square": 133.55,
-		"floor": 4,
-		"maxFloor": 7,
-		"toMetro": 4,
-		"mainPrice": 124988376,
-		"otherPrice": 935892
-	},
-	{
-		"square": 48.6,
-		"floor": 9,
-		"maxFloor": 21,
-		"toMetro": 3,
-		"mainPrice": 16482690,
-		"otherPrice": 339150
-	},
-	{
-		"square": 60.4,
-		"floor": 5,
-		"maxFloor": 7,
-		"toMetro": 8,
-		"mainPrice": 59000000,
-		"otherPrice": 976821
-	},
-	{
-		"square": 135,
-		"floor": 6,
-		"maxFloor": 7,
-		"toMetro": 5,
-		"mainPrice": 245000000,
-		"otherPrice": 1814815
-	},
-	{
-		"square": 72.2,
-		"floor": 11,
-		"maxFloor": 13,
-		"toMetro": 9,
-		"mainPrice": 55680000,
-		"otherPrice": 771191
-	},
-	{
-		"square": 77.8,
-		"floor": 9,
-		"maxFloor": 53,
-		"toMetro": 9,
-		"mainPrice": 26389760,
-		"otherPrice": 339200
-	},
-	{
-		"square": 63,
-		"floor": 10,
-		"maxFloor": 28,
-		"toMetro": 17,
-		"mainPrice": 27797679,
-		"otherPrice": 441233
-	},
-	{
-		"square": 64.1,
-		"floor": 1,
-		"maxFloor": 5,
-		"toMetro": 10,
-		"mainPrice": 24999999,
-		"otherPrice": 390016
-	},
-	{
-		"square": 64.5,
-		"floor": 4,
-		"maxFloor": 22,
-		"toMetro": 5,
-		"mainPrice": 15480000,
-		"otherPrice": 240000
-	},
-	{
-		"square": 64.1,
-		"floor": 1,
-		"maxFloor": 5,
-		"toMetro": 11,
-		"mainPrice": 24999999,
-		"otherPrice": 390016
-	},
-	{
-		"square": 60.7,
-		"floor": 9,
-		"maxFloor": 9,
-		"toMetro": 13,
-		"mainPrice": 33900000,
-		"otherPrice": 558484
-	},
-	{
-		"square": 72.4,
-		"floor": 7,
-		"maxFloor": 24,
-		"toMetro": 8,
-		"mainPrice": 34449000,
-		"otherPrice": 475815
-	},
-	{
-		"square": 83.2,
-		"floor": 2,
-		"maxFloor": 7,
-		"toMetro": 11,
-		"mainPrice": 59990000,
-		"otherPrice": 721034
-	},
-	{
-		"square": 62,
-		"floor": 10,
-		"maxFloor": 76,
-		"toMetro": 2,
-		"mainPrice": 50000000,
-		"otherPrice": 806452
-	},
-	{
-		"square": 84.3,
-		"floor": 3,
-		"maxFloor": 24,
-		"toMetro": 9,
-		"mainPrice": 40901264,
-		"otherPrice": 485187
-	},
-	{
-		"square": 71.8,
-		"floor": 24,
-		"maxFloor": 75,
-		"toMetro": 6,
-		"mainPrice": 62500000,
-		"otherPrice": 870474
-	},
-	{
-		"square": 74,
-		"floor": 2,
-		"maxFloor": 15,
-		"toMetro": 7,
-		"mainPrice": 36590000,
-		"otherPrice": 494459
-	},
-	{
-		"square": 77.51,
-		"floor": 13,
-		"maxFloor": 18,
-		"toMetro": 17,
-		"mainPrice": 70389871,
-		"otherPrice": 908139
-	},
-	{
-		"square": 41.99,
-		"floor": 7,
-		"maxFloor": 17,
-		"toMetro": 15,
-		"mainPrice": 9067824,
-		"otherPrice": 215952
-	},
-	{
-		"square": 57.4,
-		"floor": 7,
-		"maxFloor": 15,
-		"toMetro": 10,
-		"mainPrice": 20552160,
-		"otherPrice": 358052
-	},
-	{
-		"square": 122.7,
-		"floor": 2,
-		"maxFloor": 8,
-		"toMetro": 15,
-		"mainPrice": 113988300,
-		"otherPrice": 929000
-	},
-	{
-		"square": 72,
-		"floor": 24,
-		"maxFloor": 75,
-		"toMetro": 2,
-		"mainPrice": 52000000,
-		"otherPrice": 722222
-	},
-	{
-		"square": 62.5,
-		"floor": 2,
-		"maxFloor": 13,
-		"toMetro": 8,
-		"mainPrice": 27804709,
-		"otherPrice": 444875
-	},
-	{
-		"square": 77,
-		"floor": 7,
-		"maxFloor": 24,
-		"toMetro": 8,
-		"mainPrice": 34449000,
-		"otherPrice": 447390
-	},
-	{
-		"square": 71.1,
-		"floor": 10,
-		"maxFloor": 56,
-		"toMetro": 20,
-		"mainPrice": 26366581,
-		"otherPrice": 370838
-	},
-	{
-		"square": 55.8,
-		"floor": 18,
-		"maxFloor": 21,
-		"toMetro": 12,
-		"mainPrice": 28508900,
-		"otherPrice": 510912
-	},
-	{
-		"square": 37.9,
-		"floor": 8,
-		"maxFloor": 14,
-		"toMetro": 7,
-		"mainPrice": 8613912,
-		"otherPrice": 227280
-	},
-	{
-		"square": 48,
-		"floor": 9,
-		"maxFloor": 12,
-		"toMetro": 12,
-		"mainPrice": 16500000,
-		"otherPrice": 343750
-	},
-	{
-		"square": 75,
-		"floor": 34,
-		"maxFloor": 42,
-		"toMetro": 5,
-		"mainPrice": 27500000,
-		"otherPrice": 366667
-	},
-	{
-		"square": 60.7,
-		"floor": 5,
-		"maxFloor": 18,
-		"toMetro": 7,
-		"mainPrice": 17845800,
-		"otherPrice": 294000
-	},
-	{
-		"square": 150,
-		"floor": 85,
-		"maxFloor": 95,
-		"toMetro": 2,
-		"mainPrice": 67000000,
-		"otherPrice": 446667
-	},
-	{
-		"square": 57,
-		"floor": 11,
-		"maxFloor": 14,
-		"toMetro": 20,
-		"mainPrice": 19700000,
-		"otherPrice": 345614
-	},
-	{
-		"square": 58.94,
-		"floor": 7,
-		"maxFloor": 12,
-		"toMetro": 5,
-		"mainPrice": 30700000,
-		"otherPrice": 520869
-	},
-	{
-		"square": 63,
-		"floor": 14,
-		"maxFloor": 36,
-		"toMetro": 12,
-		"mainPrice": 52000000,
-		"otherPrice": 825397
-	},
-	{
-		"square": 97.87,
-		"floor": 9,
-		"maxFloor": 13,
-		"toMetro": 8,
-		"mainPrice": 131000000,
-		"otherPrice": 1338510
-	},
-	{
-		"square": 110,
-		"floor": 52,
-		"maxFloor": 77,
-		"toMetro": 4,
-		"mainPrice": 120000000,
-		"otherPrice": 1090909
-	},
-	{
-		"square": 62,
-		"floor": 5,
-		"maxFloor": 17,
-		"toMetro": 11,
-		"mainPrice": 21166372,
-		"otherPrice": 341393
-	},
-	{
-		"square": 56,
-		"floor": 16,
-		"maxFloor": 24,
-		"toMetro": 15,
-		"mainPrice": 19900000,
-		"otherPrice": 355357
-	},
-	{
-		"square": 65,
-		"floor": 42,
-		"maxFloor": 55,
-		"toMetro": 8,
-		"mainPrice": 24900000,
-		"otherPrice": 383077
-	},
-	{
-		"square": 58.17,
-		"floor": 2,
-		"maxFloor": 11,
-		"toMetro": 5,
-		"mainPrice": 27500000,
-		"otherPrice": 472752
-	},
-	{
-		"square": 77.5,
-		"floor": 10,
-		"maxFloor": 20,
-		"toMetro": 5,
-		"mainPrice": 53907439,
-		"otherPrice": 695580
-	},
-	{
-		"square": 89.02,
-		"floor": 2,
-		"maxFloor": 21,
-		"toMetro": 8,
-		"mainPrice": 90800400,
-		"otherPrice": 1020000
-	},
-	{
-		"square": 62,
-		"floor": 3,
-		"maxFloor": 78,
-		"toMetro": 4,
-		"mainPrice": 40000000,
-		"otherPrice": 645161
-	},
-	{
-		"square": 64.1,
-		"floor": 8,
-		"maxFloor": 20,
-		"toMetro": 13,
-		"mainPrice": 27596973,
-		"otherPrice": 430530
-	},
-	{
-		"square": 65,
-		"floor": 5,
-		"maxFloor": 20,
-		"toMetro": 12,
-		"mainPrice": 48990000,
-		"otherPrice": 753692
-	},
-	{
-		"square": 106,
-		"floor": 48,
-		"maxFloor": 78,
-		"toMetro": 4,
-		"mainPrice": 51000000,
-		"otherPrice": 481132
-	},
-	{
-		"square": 57.8,
-		"floor": 9,
-		"maxFloor": 25,
-		"toMetro": 9,
-		"mainPrice": 22339700,
-		"otherPrice": 386500
-	},
-	{
-		"square": 52.3,
-		"floor": 2,
-		"maxFloor": 53,
-		"toMetro": 18,
-		"mainPrice": 14932591,
-		"otherPrice": 285518
-	},
-	{
-		"square": 65.83,
-		"floor": 8,
-		"maxFloor": 35,
-		"toMetro": 14,
-		"mainPrice": 27187790,
-		"otherPrice": 413000
-	},
-	{
-		"square": 63,
-		"floor": 4,
-		"maxFloor": 9,
-		"toMetro": 10,
-		"mainPrice": 43000000,
-		"otherPrice": 682540
-	},
-	{
-		"square": 59.6,
-		"floor": 2,
-		"maxFloor": 8,
-		"toMetro": 3,
-		"mainPrice": 16068000,
-		"otherPrice": 269597
-	},
-	{
-		"square": 46.8,
-		"floor": 2,
-		"maxFloor": 9,
-		"toMetro": 17,
-		"mainPrice": 16794765,
-		"otherPrice": 358863
-	},
-	{
-		"square": 75.4,
-		"floor": 9,
-		"maxFloor": 15,
-		"toMetro": 4,
-		"mainPrice": 31981310,
-		"otherPrice": 424155
-	},
-	{
-		"square": 83.6,
-		"floor": 36,
-		"maxFloor": 65,
-		"toMetro": 5,
-		"mainPrice": 73500000,
-		"otherPrice": 879187
-	},
-	{
-		"square": 83.9,
-		"floor": 5,
-		"maxFloor": 13,
-		"toMetro": 7,
-		"mainPrice": 59547782,
-		"otherPrice": 709747
-	},
-	{
-		"square": 41.76,
-		"floor": 24,
-		"maxFloor": 27,
-		"toMetro": 15,
-		"mainPrice": 8404409,
-		"otherPrice": 201255
-	},
-	{
-		"square": 115,
-		"floor": 69,
-		"maxFloor": 95,
-		"toMetro": 2,
-		"mainPrice": 50000000,
-		"otherPrice": 434783
-	},
-	{
-		"square": 78.1,
-		"floor": 40,
-		"maxFloor": 51,
-		"toMetro": 9,
-		"mainPrice": 35790000,
-		"otherPrice": 458259
-	},
-	{
-		"square": 53,
-		"floor": 9,
-		"maxFloor": 21,
-		"toMetro": 11,
-		"mainPrice": 19080000,
-		"otherPrice": 360000
-	},
-	{
-		"square": 62.4,
-		"floor": 2,
-		"maxFloor": 18,
-		"toMetro": 10,
-		"mainPrice": 17577100,
-		"otherPrice": 281684
-	},
-	{
-		"square": 66.3,
-		"floor": 2,
-		"maxFloor": 14,
-		"toMetro": 14,
-		"mainPrice": 32000000,
-		"otherPrice": 482655
-	},
-	{
-		"square": 61,
-		"floor": 4,
-		"maxFloor": 15,
-		"toMetro": 7,
-		"mainPrice": 38000000,
-		"otherPrice": 622951
-	},
-	{
-		"square": 83.25,
-		"floor": 44,
-		"maxFloor": 65,
-		"toMetro": 7,
-		"mainPrice": 74600000,
-		"otherPrice": 896096
-	},
-	{
-		"square": 62.8,
-		"floor": 3,
-		"maxFloor": 25,
-		"toMetro": 9,
-		"mainPrice": 29000000,
-		"otherPrice": 461783
-	},
-	{
-		"square": 133,
-		"floor": 8,
-		"maxFloor": 13,
-		"toMetro": 8,
-		"mainPrice": 122028432,
-		"otherPrice": 917507
-	},
-	{
-		"square": 69.8,
-		"floor": 6,
-		"maxFloor": 6,
-		"toMetro": 12,
-		"mainPrice": 36526340,
-		"otherPrice": 523300
-	},
-	{
-		"square": 55.1,
-		"floor": 6,
-		"maxFloor": 24,
-		"toMetro": 10,
-		"mainPrice": 26172500,
-		"otherPrice": 475000
-	},
-	{
-		"square": 55.6,
-		"floor": 12,
-		"maxFloor": 26,
-		"toMetro": 11,
-		"mainPrice": 13877760,
-		"otherPrice": 249600
-	},
-	{
-		"square": 53.2,
-		"floor": 14,
-		"maxFloor": 25,
-		"toMetro": 17,
-		"mainPrice": 16758000,
-		"otherPrice": 315000
-	},
-	{
-		"square": 44.24,
-		"floor": 9,
-		"maxFloor": 13,
-		"toMetro": 13,
-		"mainPrice": 30578688,
-		"otherPrice": 691200
-	},
-	{
-		"square": 57,
-		"floor": 17,
-		"maxFloor": 20,
-		"toMetro": 9,
-		"mainPrice": 30500000,
-		"otherPrice": 535088
-	},
-	{
-		"square": 44.7,
-		"floor": 4,
-		"maxFloor": 5,
-		"toMetro": 11,
-		"mainPrice": 12800000,
-		"otherPrice": 286353
-	},
-	{
-		"square": 68.5,
-		"floor": 17,
-		"maxFloor": 25,
-		"toMetro": 9,
-		"mainPrice": 31400000,
-		"otherPrice": 458394
-	},
-	{
-		"square": 55,
-		"floor": 8,
-		"maxFloor": 8,
-		"toMetro": 12,
-		"mainPrice": 30500000,
-		"otherPrice": 554545
-	},
-	{
-		"square": 172,
-		"floor": 7,
-		"maxFloor": 16,
-		"toMetro": 3,
-		"mainPrice": 110000000,
-		"otherPrice": 639535
-	},
-	{
-		"square": 59.2,
-		"floor": 5,
-		"maxFloor": 19,
-		"toMetro": 14,
-		"mainPrice": 21963200,
-		"otherPrice": 371000
-	},
-	{
-		"square": 47.8,
-		"floor": 9,
-		"maxFloor": 9,
-		"toMetro": 5,
-		"mainPrice": 17035920,
-		"otherPrice": 356400
-	},
-	{
-		"square": 70.1,
-		"floor": 4,
-		"maxFloor": 10,
-		"toMetro": 4,
-		"mainPrice": 36683330,
-		"otherPrice": 523300
-	},
-	{
-		"square": 77,
-		"floor": 6,
-		"maxFloor": 13,
-		"toMetro": 7,
-		"mainPrice": 99000000,
-		"otherPrice": 1285714
-	},
-	{
-		"square": 72.7,
-		"floor": 16,
-		"maxFloor": 25,
-		"toMetro": 11,
-		"mainPrice": 20310000,
-		"otherPrice": 279367
-	},
-	{
-		"square": 76.3,
-		"floor": 13,
-		"maxFloor": 16,
-		"toMetro": 7,
-		"mainPrice": 33600000,
-		"otherPrice": 440367
-	},
-	{
-		"square": 92.5,
-		"floor": 1,
-		"maxFloor": 6,
-		"toMetro": 6,
-		"mainPrice": 134130000,
-		"otherPrice": 1450054
-	},
-	{
-		"square": 61.9,
-		"floor": 4,
-		"maxFloor": 15,
-		"toMetro": 8,
-		"mainPrice": 37999000,
-		"otherPrice": 613877
-	},
-	{
-		"square": 82.6,
-		"floor": 10,
-		"maxFloor": 19,
-		"toMetro": 18,
-		"mainPrice": 53450000,
-		"otherPrice": 647094
-	},
-	{
-		"square": 54.9,
-		"floor": 11,
-		"maxFloor": 11,
-		"toMetro": 9,
-		"mainPrice": 32347080,
-		"otherPrice": 589200
-	},
-	{
-		"square": 78.1,
-		"floor": 20,
-		"maxFloor": 20,
-		"toMetro": 10,
-		"mainPrice": 30373090,
-		"otherPrice": 388900
-	},
-	{
-		"square": 73,
-		"floor": 6,
-		"maxFloor": 8,
-		"toMetro": 9,
-		"mainPrice": 85000000,
-		"otherPrice": 1164384
-	},
-	{
-		"square": 67.5,
-		"floor": 2,
-		"maxFloor": 16,
-		"toMetro": 5,
-		"mainPrice": 14574049,
-		"otherPrice": 215912
-	},
-	{
-		"square": 52.7,
-		"floor": 9,
-		"maxFloor": 24,
-		"toMetro": 11,
-		"mainPrice": 18050000,
-		"otherPrice": 342505
-	},
-	{
-		"square": 47.3,
-		"floor": 11,
-		"maxFloor": 24,
-		"toMetro": 6,
-		"mainPrice": 16954765,
-		"otherPrice": 358452
-	},
-	{
-		"square": 67.7,
-		"floor": 13,
-		"maxFloor": 53,
-		"toMetro": 4,
-		"mainPrice": 44500000,
-		"otherPrice": 657312
-	},
-	{
-		"square": 59.3,
-		"floor": 8,
-		"maxFloor": 58,
-		"toMetro": 9,
-		"mainPrice": 21348000,
-		"otherPrice": 360000
-	},
-	{
-		"square": 70.6,
-		"floor": 3,
-		"maxFloor": 20,
-		"toMetro": 12,
-		"mainPrice": 35022989,
-		"otherPrice": 496076
-	},
-	{
-		"square": 106,
-		"floor": 11,
-		"maxFloor": 12,
-		"toMetro": 18,
-		"mainPrice": 159165000,
-		"otherPrice": 1501557
-	},
-	{
-		"square": 45.71,
-		"floor": 5,
-		"maxFloor": 27,
-		"toMetro": 10,
-		"mainPrice": 18742791,
-		"otherPrice": 410037
-	},
-	{
-		"square": 70.34,
-		"floor": 3,
-		"maxFloor": 23,
-		"toMetro": 5,
-		"mainPrice": 26711886,
-		"otherPrice": 379754
-	},
-	{
-		"square": 62,
-		"floor": 10,
-		"maxFloor": 20,
-		"toMetro": 7,
-		"mainPrice": 39000000,
-		"otherPrice": 629032
-	},
-	{
-		"square": 54,
-		"floor": 16,
-		"maxFloor": 16,
-		"toMetro": 3,
-		"mainPrice": 15500000,
-		"otherPrice": 287037
-	},
-	{
-		"square": 54.7,
-		"floor": 7,
-		"maxFloor": 16,
-		"toMetro": 5,
-		"mainPrice": 19080000,
-		"otherPrice": 348812
-	},
-	{
-		"square": 43.3,
-		"floor": 1,
-		"maxFloor": 9,
-		"toMetro": 11,
-		"mainPrice": 13999999,
-		"otherPrice": 323326
-	},
-	{
-		"square": 60.1,
-		"floor": 17,
-		"maxFloor": 17,
-		"toMetro": 20,
-		"mainPrice": 19140000,
-		"otherPrice": 318469
-	},
-	{
-		"square": 69.5,
-		"floor": 1,
-		"maxFloor": 8,
-		"toMetro": 12,
-		"mainPrice": 18740000,
-		"otherPrice": 269640
-	},
-	{
-		"square": 43,
-		"floor": 16,
-		"maxFloor": 18,
-		"toMetro": 10,
-		"mainPrice": 24500000,
-		"otherPrice": 569767
-	},
-	{
-		"square": 42.6,
-		"floor": 3,
-		"maxFloor": 29,
-		"toMetro": 11,
-		"mainPrice": 13721460,
-		"otherPrice": 322100
-	},
-	{
-		"square": 82,
-		"floor": 5,
-		"maxFloor": 8,
-		"toMetro": 15,
-		"mainPrice": 77000000,
-		"otherPrice": 939024
-	},
-	{
-		"square": 46.5,
-		"floor": 11,
-		"maxFloor": 24,
-		"toMetro": 5,
-		"mainPrice": 22900000,
-		"otherPrice": 492473
-	},
-	{
-		"square": 53.6,
-		"floor": 19,
-		"maxFloor": 21,
-		"toMetro": 13,
-		"mainPrice": 12558366,
-		"otherPrice": 234298
-	},
-	{
-		"square": 59,
-		"floor": 24,
-		"maxFloor": 36,
-		"toMetro": 3,
-		"mainPrice": 27800000,
-		"otherPrice": 471186
-	},
-	{
-		"square": 97.2,
-		"floor": 23,
-		"maxFloor": 38,
-		"toMetro": 12,
-		"mainPrice": 35154844,
-		"otherPrice": 361675
-	},
-	{
-		"square": 70,
-		"floor": 37,
-		"maxFloor": 44,
-		"toMetro": 11,
-		"mainPrice": 55000000,
-		"otherPrice": 785714
-	},
-	{
-		"square": 42.3,
-		"floor": 13,
-		"maxFloor": 21,
-		"toMetro": 2,
-		"mainPrice": 29000000,
-		"otherPrice": 685579
-	},
-	{
-		"square": 74.8,
-		"floor": 2,
-		"maxFloor": 15,
-		"toMetro": 11,
-		"mainPrice": 36599000,
-		"otherPrice": 489291
-	},
-	{
-		"square": 73.5,
-		"floor": 9,
-		"maxFloor": 14,
-		"toMetro": 5,
-		"mainPrice": 16150837,
-		"otherPrice": 219739
-	},
-	{
-		"square": 53,
-		"floor": 24,
-		"maxFloor": 28,
-		"toMetro": 9,
-		"mainPrice": 19700000,
-		"otherPrice": 371698
-	},
-	{
-		"square": 70,
-		"floor": 36,
-		"maxFloor": 44,
-		"toMetro": 11,
-		"mainPrice": 55000000,
-		"otherPrice": 785714
-	},
-	{
-		"square": 63.5,
-		"floor": 8,
-		"maxFloor": 24,
-		"toMetro": 3,
-		"mainPrice": 20600000,
-		"otherPrice": 324409
-	},
-	{
-		"square": 57,
-		"floor": 11,
-		"maxFloor": 18,
-		"toMetro": 18,
-		"mainPrice": 10700000,
-		"otherPrice": 187719
-	},
-	{
-		"square": 60.8,
-		"floor": 10,
-		"maxFloor": 22,
-		"toMetro": 3,
-		"mainPrice": 38699999,
-		"otherPrice": 636513
-	},
-	{
-		"square": 106,
-		"floor": 5,
-		"maxFloor": 7,
-		"toMetro": 12,
-		"mainPrice": 129500000,
-		"otherPrice": 1221698
-	},
-	{
-		"square": 72.6,
-		"floor": 7,
-		"maxFloor": 19,
-		"toMetro": 7,
-		"mainPrice": 32620274,
-		"otherPrice": 449315
-	},
-	{
-		"square": 71.1,
-		"floor": 15,
-		"maxFloor": 18,
-		"toMetro": 5,
-		"mainPrice": 39990000,
-		"otherPrice": 562447
-	},
-	{
-		"square": 75,
-		"floor": 17,
-		"maxFloor": 18,
-		"toMetro": 15,
-		"mainPrice": 34261554,
-		"otherPrice": 456821
-	},
-	{
-		"square": 72,
-		"floor": 24,
-		"maxFloor": 77,
-		"toMetro": 5,
-		"mainPrice": 63000000,
-		"otherPrice": 875000
-	},
-	{
-		"square": 79,
-		"floor": 10,
-		"maxFloor": 18,
-		"toMetro": 4,
-		"mainPrice": 32400000,
-		"otherPrice": 410127
-	},
-	{
-		"square": 70.96,
-		"floor": 4,
-		"maxFloor": 8,
-		"toMetro": 9,
-		"mainPrice": 42090331,
-		"otherPrice": 593156
-	},
-	{
-		"square": 43.29,
-		"floor": 6,
-		"maxFloor": 21,
-		"toMetro": 10,
-		"mainPrice": 12533840,
-		"otherPrice": 289532
-	},
-	{
-		"square": 84.11,
-		"floor": 39,
-		"maxFloor": 51,
-		"toMetro": 6,
-		"mainPrice": 38101830,
-		"otherPrice": 453000
-	},
-	{
-		"square": 39.6,
-		"floor": 4,
-		"maxFloor": 6,
-		"toMetro": 4,
-		"mainPrice": 43030904,
-		"otherPrice": 1086639
-	},
-	{
-		"square": 45,
-		"floor": 2,
-		"maxFloor": 44,
-		"toMetro": 11,
-		"mainPrice": 30000000,
-		"otherPrice": 666667
-	},
-	{
-		"square": 46.7,
-		"floor": 1,
-		"maxFloor": 12,
-		"toMetro": 2,
-		"mainPrice": 10380000,
-		"otherPrice": 222270
-	},
-	{
-		"square": 60.4,
-		"floor": 28,
-		"maxFloor": 46,
-		"toMetro": 5,
-		"mainPrice": 19509200,
-		"otherPrice": 323000
-	},
-	{
-		"square": 65.7,
-		"floor": 15,
-		"maxFloor": 17,
-		"toMetro": 14,
-		"mainPrice": 21520000,
-		"otherPrice": 327549
-	},
-	{
-		"square": 140,
-		"floor": 2,
-		"maxFloor": 6,
-		"toMetro": 13,
-		"mainPrice": 161722319,
-		"otherPrice": 1155159
-	},
-	{
-		"square": 57,
-		"floor": 2,
-		"maxFloor": 10,
-		"toMetro": 14,
-		"mainPrice": 13042294,
-		"otherPrice": 228812
-	},
-	{
-		"square": 221,
-		"floor": 1,
-		"maxFloor": 3,
-		"toMetro": 7,
-		"mainPrice": 375700000,
-		"otherPrice": 1700000
-	},
-	{
-		"square": 83,
-		"floor": 7,
-		"maxFloor": 19,
-		"toMetro": 12,
-		"mainPrice": 56500000,
-		"otherPrice": 680723
-	},
-	{
-		"square": 122.56,
-		"floor": 3,
-		"maxFloor": 6,
-		"toMetro": 10,
-		"mainPrice": 119250880,
-		"otherPrice": 973000
-	},
-	{
-		"square": 55,
-		"floor": 5,
-		"maxFloor": 9,
-		"toMetro": 3,
-		"mainPrice": 27000000,
-		"otherPrice": 490909
-	},
-	{
-		"square": 221.2,
-		"floor": 4,
-		"maxFloor": 5,
-		"toMetro": 4,
-		"mainPrice": 154840000,
-		"otherPrice": 700000
-	},
-	{
-		"square": 47.91,
-		"floor": 18,
-		"maxFloor": 22,
-		"toMetro": 7,
-		"mainPrice": 14343775,
-		"otherPrice": 299390
-	},
-	{
-		"square": 94,
-		"floor": 6,
-		"maxFloor": 12,
-		"toMetro": 8,
-		"mainPrice": 52000000,
-		"otherPrice": 553191
-	},
-	{
-		"square": 43.3,
-		"floor": 7,
-		"maxFloor": 24,
-		"toMetro": 17,
-		"mainPrice": 16345750,
-		"otherPrice": 377500
-	},
-	{
-		"square": 58.9,
-		"floor": 6,
-		"maxFloor": 22,
-		"toMetro": 10,
-		"mainPrice": 23480863,
-		"otherPrice": 398656
-	},
-	{
-		"square": 44.1,
-		"floor": 17,
-		"maxFloor": 34,
-		"toMetro": 10,
-		"mainPrice": 17904600,
-		"otherPrice": 406000
-	},
-	{
-		"square": 66.6,
-		"floor": 9,
-		"maxFloor": 22,
-		"toMetro": 9,
-		"mainPrice": 44380575,
-		"otherPrice": 666375
-	},
-	{
-		"square": 42.1,
-		"floor": 31,
-		"maxFloor": 42,
-		"toMetro": 18,
-		"mainPrice": 21201560,
-		"otherPrice": 503600
-	},
-	{
-		"square": 65.4,
-		"floor": 16,
-		"maxFloor": 21,
-		"toMetro": 3,
-		"mainPrice": 48420000,
-		"otherPrice": 740367
-	},
-	{
-		"square": 71,
-		"floor": 6,
-		"maxFloor": 6,
-		"toMetro": 10,
-		"mainPrice": 56500000,
-		"otherPrice": 795775
-	},
-	{
-		"square": 56.3,
-		"floor": 12,
-		"maxFloor": 35,
-		"toMetro": 8,
-		"mainPrice": 22977662,
-		"otherPrice": 408129
-	},
-	{
-		"square": 46.27,
-		"floor": 18,
-		"maxFloor": 24,
-		"toMetro": 6,
-		"mainPrice": 12579298,
-		"otherPrice": 271867
-	},
-	{
-		"square": 41.4,
-		"floor": 14,
-		"maxFloor": 14,
-		"toMetro": 6,
-		"mainPrice": 12937500,
-		"otherPrice": 312500
-	},
-	{
-		"square": 51.9,
-		"floor": 19,
-		"maxFloor": 19,
-		"toMetro": 5,
-		"mainPrice": 20936460,
-		"otherPrice": 403400
-	},
-	{
-		"square": 68.7,
-		"floor": 6,
-		"maxFloor": 12,
-		"toMetro": 2,
-		"mainPrice": 15469605,
-		"otherPrice": 225176
-	},
-	{
-		"square": 42,
-		"floor": 2,
-		"maxFloor": 5,
-		"toMetro": 3,
-		"mainPrice": 19450000,
-		"otherPrice": 463095
-	},
-	{
-		"square": 55.4,
-		"floor": 16,
-		"maxFloor": 26,
-		"toMetro": 7,
-		"mainPrice": 36500000,
-		"otherPrice": 658845
-	},
-	{
-		"square": 44.2,
-		"floor": 3,
-		"maxFloor": 5,
-		"toMetro": 4,
-		"mainPrice": 16800000,
-		"otherPrice": 380090
-	},
-	{
-		"square": 44.5,
-		"floor": 6,
-		"maxFloor": 9,
-		"toMetro": 6,
-		"mainPrice": 15000000,
-		"otherPrice": 337079
-	},
-	{
-		"square": 46,
-		"floor": 7,
-		"maxFloor": 12,
-		"toMetro": 11,
-		"mainPrice": 11200000,
-		"otherPrice": 243478
-	},
-	{
-		"square": 61.6,
-		"floor": 4,
-		"maxFloor": 6,
-		"toMetro": 4,
-		"mainPrice": 57350000,
-		"otherPrice": 931006
-	},
-	{
-		"square": 116,
-		"floor": 5,
-		"maxFloor": 6,
-		"toMetro": 9,
-		"mainPrice": 149900000,
-		"otherPrice": 1292241
-	},
-	{
-		"square": 41.5,
-		"floor": 5,
-		"maxFloor": 5,
-		"toMetro": 10,
-		"mainPrice": 12900000,
-		"otherPrice": 310843
-	},
-	{
-		"square": 52,
-		"floor": 6,
-		"maxFloor": 10,
-		"toMetro": 6,
-		"mainPrice": 30960000,
-		"otherPrice": 595385
-	},
-	{
-		"square": 45.1,
-		"floor": 13,
-		"maxFloor": 15,
-		"toMetro": 4,
-		"mainPrice": 12696385,
-		"otherPrice": 281516
-	},
-	{
-		"square": 85.8,
-		"floor": 2,
-		"maxFloor": 19,
-		"toMetro": 5,
-		"mainPrice": 27790000,
-		"otherPrice": 323893
-	},
-	{
-		"square": 84,
-		"floor": 6,
-		"maxFloor": 30,
-		"toMetro": 4,
-		"mainPrice": 32500000,
-		"otherPrice": 386905
-	},
-	{
-		"square": 59,
-		"floor": 17,
-		"maxFloor": 24,
-		"toMetro": 14,
-		"mainPrice": 16900000,
-		"otherPrice": 286441
-	},
-	{
-		"square": 71,
-		"floor": 3,
-		"maxFloor": 19,
-		"toMetro": 7,
-		"mainPrice": 32900000,
-		"otherPrice": 463380
-	},
-	{
-		"square": 76.3,
-		"floor": 7,
-		"maxFloor": 13,
-		"toMetro": 11,
-		"mainPrice": 30500000,
-		"otherPrice": 399738
-	},
-	{
-		"square": 73.02,
-		"floor": 3,
-		"maxFloor": 16,
-		"toMetro": 12,
-		"mainPrice": 63146840,
-		"otherPrice": 864788
-	},
-	{
-		"square": 150,
-		"floor": 6,
-		"maxFloor": 6,
-		"toMetro": 6,
-		"mainPrice": 84500000,
-		"otherPrice": 563333
-	},
-	{
-		"square": 48.92,
-		"floor": 6,
-		"maxFloor": 22,
-		"toMetro": 13,
-		"mainPrice": 15947920,
-		"otherPrice": 326000
-	},
-	{
-		"square": 64.4,
-		"floor": 10,
-		"maxFloor": 10,
-		"toMetro": 9,
-		"mainPrice": 21761790,
-		"otherPrice": 337916
-	},
-	{
-		"square": 58,
-		"floor": 24,
-		"maxFloor": 24,
-		"toMetro": 16,
-		"mainPrice": 27900000,
-		"otherPrice": 481034
-	},
-	{
-		"square": 50.9,
-		"floor": 5,
-		"maxFloor": 16,
-		"toMetro": 14,
-		"mainPrice": 13000000,
-		"otherPrice": 255403
-	},
-	{
-		"square": 68.6,
-		"floor": 37,
-		"maxFloor": 44,
-		"toMetro": 20,
-		"mainPrice": 55000000,
-		"otherPrice": 801749
-	},
-	{
-		"square": 51.3,
-		"floor": 1,
-		"maxFloor": 15,
-		"toMetro": 9,
-		"mainPrice": 10165095,
-		"otherPrice": 198150
-	},
-	{
-		"square": 46,
-		"floor": 7,
-		"maxFloor": 22,
-		"toMetro": 3,
-		"mainPrice": 26400000,
-		"otherPrice": 573913
-	},
-	{
-		"square": 54.5,
-		"floor": 16,
-		"maxFloor": 22,
-		"toMetro": 4,
-		"mainPrice": 9978312,
-		"otherPrice": 183088
-	},
-	{
-		"square": 51,
-		"floor": 4,
-		"maxFloor": 12,
-		"toMetro": 8,
-		"mainPrice": 13500000,
-		"otherPrice": 264706
-	},
-	{
-		"square": 51.1,
-		"floor": 5,
-		"maxFloor": 17,
-		"toMetro": 4,
-		"mainPrice": 14400000,
-		"otherPrice": 281800
-	},
-	{
-		"square": 54.9,
-		"floor": 3,
-		"maxFloor": 5,
-		"toMetro": 13,
-		"mainPrice": 11850000,
-		"otherPrice": 215847
-	},
-	{
-		"square": 68.8,
-		"floor": 7,
-		"maxFloor": 7,
-		"toMetro": 5,
-		"mainPrice": 51533900,
-		"otherPrice": 749039
-	},
-	{
-		"square": 37,
-		"floor": 14,
-		"maxFloor": 33,
-		"toMetro": 8,
-		"mainPrice": 18000000,
-		"otherPrice": 486486
-	},
-	{
-		"square": 56.56,
-		"floor": 5,
-		"maxFloor": 25,
-		"toMetro": 14,
-		"mainPrice": 15157124,
-		"otherPrice": 267983
-	},
-	{
-		"square": 98.7,
-		"floor": 20,
-		"maxFloor": 20,
-		"toMetro": 11,
-		"mainPrice": 53254326,
-		"otherPrice": 539558
-	},
-	{
-		"square": 53,
-		"floor": 14,
-		"maxFloor": 14,
-		"toMetro": 19,
-		"mainPrice": 13567464,
-		"otherPrice": 255990
-	},
-	{
-		"square": 61.4,
-		"floor": 2,
-		"maxFloor": 23,
-		"toMetro": 19,
-		"mainPrice": 17170000,
-		"otherPrice": 279642
-	},
-	{
-		"square": 75.49,
-		"floor": 5,
-		"maxFloor": 10,
-		"toMetro": 19,
-		"mainPrice": 22570000,
-		"otherPrice": 298980
-	},
-	{
-		"square": 58,
-		"floor": 17,
-		"maxFloor": 24,
-		"toMetro": 14,
-		"mainPrice": 16900000,
-		"otherPrice": 291379
-	},
-	{
-		"square": 75,
-		"floor": 7,
-		"maxFloor": 11,
-		"toMetro": 15,
-		"mainPrice": 44400000,
-		"otherPrice": 592000
-	},
-	{
-		"square": 58.49,
-		"floor": 18,
-		"maxFloor": 21,
-		"toMetro": 17,
-		"mainPrice": 21057932,
-		"otherPrice": 360026
-	},
-	{
-		"square": 50.8,
-		"floor": 2,
-		"maxFloor": 18,
-		"toMetro": 19,
-		"mainPrice": 12252960,
-		"otherPrice": 241200
-	},
-	{
-		"square": 46.2,
-		"floor": 8,
-		"maxFloor": 9,
-		"toMetro": 13,
-		"mainPrice": 11400000,
-		"otherPrice": 246753
-	},
-	{
-		"square": 91,
-		"floor": 8,
-		"maxFloor": 25,
-		"toMetro": 13,
-		"mainPrice": 42000000,
-		"otherPrice": 461538
-	},
-	{
-		"square": 93,
-		"floor": 8,
-		"maxFloor": 8,
-		"toMetro": 18,
-		"mainPrice": 37490000,
-		"otherPrice": 403118
-	},
-	{
-		"square": 62,
-		"floor": 16,
-		"maxFloor": 26,
-		"toMetro": 3,
-		"mainPrice": 41500000,
-		"otherPrice": 669355
-	},
-	{
-		"square": 72,
-		"floor": 6,
-		"maxFloor": 40,
-		"toMetro": 5,
-		"mainPrice": 27900000,
-		"otherPrice": 387500
-	},
-	{
-		"square": 78,
-		"floor": 2,
-		"maxFloor": 22,
-		"toMetro": 20,
-		"mainPrice": 14600000,
-		"otherPrice": 187179
-	},
-	{
-		"square": 40,
-		"floor": 5,
-		"maxFloor": 28,
-		"toMetro": 7,
-		"mainPrice": 17500000,
-		"otherPrice": 437500
-	},
-	{
-		"square": 78.1,
-		"floor": 40,
-		"maxFloor": 52,
-		"toMetro": 10,
-		"mainPrice": 35800000,
-		"otherPrice": 458387
-	},
-	{
-		"square": 84.6,
-		"floor": 7,
-		"maxFloor": 22,
-		"toMetro": 20,
-		"mainPrice": 16570000,
-		"otherPrice": 195863
-	},
-	{
-		"square": 69,
-		"floor": 13,
-		"maxFloor": 24,
-		"toMetro": 13,
-		"mainPrice": 31000000,
-		"otherPrice": 449275
-	},
-	{
-		"square": 70,
-		"floor": 17,
-		"maxFloor": 52,
-		"toMetro": 9,
-		"mainPrice": 34000000,
-		"otherPrice": 485714
-	},
-	{
-		"square": 76.9,
-		"floor": 46,
-		"maxFloor": 52,
-		"toMetro": 10,
-		"mainPrice": 34990000,
-		"otherPrice": 455007
-	},
-	{
-		"square": 74.3,
-		"floor": 15,
-		"maxFloor": 52,
-		"toMetro": 10,
-		"mainPrice": 36500000,
-		"otherPrice": 491252
-	},
-	{
-		"square": 78,
-		"floor": 38,
-		"maxFloor": 52,
-		"toMetro": 10,
-		"mainPrice": 38000000,
-		"otherPrice": 487179
-	},
-	{
-		"square": 77,
-		"floor": 48,
-		"maxFloor": 52,
-		"toMetro": 9,
-		"mainPrice": 34990000,
-		"otherPrice": 454416
-	},
-	{
-		"square": 54.4,
-		"floor": 10,
-		"maxFloor": 14,
-		"toMetro": 18,
-		"mainPrice": 12700000,
-		"otherPrice": 233456
-	},
-	{
-		"square": 52,
-		"floor": 6,
-		"maxFloor": 14,
-		"toMetro": 6,
-		"mainPrice": 14150000,
-		"otherPrice": 272115
-	},
-	{
-		"square": 45.6,
-		"floor": 4,
-		"maxFloor": 9,
-		"toMetro": 3,
-		"mainPrice": 14990000,
-		"otherPrice": 328728
-	},
-	{
-		"square": 53.3,
-		"floor": 9,
-		"maxFloor": 16,
-		"toMetro": 5,
-		"mainPrice": 15250000,
-		"otherPrice": 286116
-	},
-	{
-		"square": 67.1,
-		"floor": 7,
-		"maxFloor": 10,
-		"toMetro": 8,
-		"mainPrice": 15260000,
-		"otherPrice": 227422
-	},
-	{
-		"square": 61.7,
-		"floor": 11,
-		"maxFloor": 24,
-		"toMetro": 2,
-		"mainPrice": 18090000,
-		"otherPrice": 293193
-	},
-	{
-		"square": 98,
-		"floor": 65,
-		"maxFloor": 85,
-		"toMetro": 2,
-		"mainPrice": 40000000,
-		"otherPrice": 408163
-	},
-	{
-		"square": 47,
-		"floor": 17,
-		"maxFloor": 24,
-		"toMetro": 11,
-		"mainPrice": 27550000,
-		"otherPrice": 586170
-	},
-	{
-		"square": 40.9,
-		"floor": 7,
-		"maxFloor": 12,
-		"toMetro": 14,
-		"mainPrice": 12250000,
-		"otherPrice": 299511
-	},
-	{
-		"square": 53,
-		"floor": 8,
-		"maxFloor": 28,
-		"toMetro": 5,
-		"mainPrice": 25000000,
-		"otherPrice": 471698
-	},
-	{
-		"square": 65,
-		"floor": 47,
-		"maxFloor": 78,
-		"toMetro": 4,
-		"mainPrice": 35700000,
-		"otherPrice": 549231
-	},
-	{
-		"square": 61.2,
-		"floor": 3,
-		"maxFloor": 14,
-		"toMetro": 6,
-		"mainPrice": 14500000,
-		"otherPrice": 236928
-	},
-	{
-		"square": 60.8,
-		"floor": 6,
-		"maxFloor": 8,
-		"toMetro": 3,
-		"mainPrice": 16700000,
-		"otherPrice": 274671
-	},
-	{
-		"square": 45.1,
-		"floor": 3,
-		"maxFloor": 9,
-		"toMetro": 4,
-		"mainPrice": 9500000,
-		"otherPrice": 210643
-	},
-	{
-		"square": 47.5,
-		"floor": 10,
-		"maxFloor": 31,
-		"toMetro": 2,
-		"mainPrice": 16290000,
-		"otherPrice": 342947
-	},
-	{
-		"square": 81,
-		"floor": 6,
-		"maxFloor": 12,
-		"toMetro": 5,
-		"mainPrice": 37000000,
-		"otherPrice": 456790
-	},
-	{
-		"square": 53,
-		"floor": 13,
-		"maxFloor": 14,
-		"toMetro": 5,
-		"mainPrice": 13500000,
-		"otherPrice": 254717
-	},
-	{
-		"square": 57.8,
-		"floor": 10,
-		"maxFloor": 12,
-		"toMetro": 3,
-		"mainPrice": 19390000,
-		"otherPrice": 335467
-	},
-	{
-		"square": 123,
-		"floor": 51,
-		"maxFloor": 75,
-		"toMetro": 2,
-		"mainPrice": 120000000,
-		"otherPrice": 975610
-	},
-	{
-		"square": 59,
-		"floor": 19,
-		"maxFloor": 22,
-		"toMetro": 5,
-		"mainPrice": 14920000,
-		"otherPrice": 252881
-	},
-	{
-		"square": 62.7,
-		"floor": 3,
-		"maxFloor": 18,
-		"toMetro": 7,
-		"mainPrice": 16299000,
-		"otherPrice": 259952
-	},
-	{
-		"square": 54.7,
-		"floor": 1,
-		"maxFloor": 6,
-		"toMetro": 7,
-		"mainPrice": 47000000,
-		"otherPrice": 859232
-	},
-	{
-		"square": 85,
-		"floor": 8,
-		"maxFloor": 15,
-		"toMetro": 8,
-		"mainPrice": 52000000,
-		"otherPrice": 611765
-	},
-	{
-		"square": 58,
-		"floor": 4,
-		"maxFloor": 6,
-		"toMetro": 5,
-		"mainPrice": 39990000,
-		"otherPrice": 689483
-	},
-	{
-		"square": 85,
-		"floor": 4,
-		"maxFloor": 13,
-		"toMetro": 7,
-		"mainPrice": 83556531,
-		"otherPrice": 983018
-	},
-	{
-		"square": 69.4,
-		"floor": 9,
-		"maxFloor": 25,
-		"toMetro": 7,
-		"mainPrice": 11000000,
-		"otherPrice": 158501
-	},
-	{
-		"square": 74.5,
-		"floor": 15,
-		"maxFloor": 19,
-		"toMetro": 12,
-		"mainPrice": 52000000,
-		"otherPrice": 697987
-	},
-	{
-		"square": 71.7,
-		"floor": 2,
-		"maxFloor": 12,
-		"toMetro": 10,
-		"mainPrice": 54000000,
-		"otherPrice": 753138
-	},
-	{
-		"square": 72,
-		"floor": 14,
-		"maxFloor": 25,
-		"toMetro": 3,
-		"mainPrice": 42800000,
-		"otherPrice": 594444
-	},
-	{
-		"square": 50.94,
-		"floor": 14,
-		"maxFloor": 33,
-		"toMetro": 9,
-		"mainPrice": 13670360,
-		"otherPrice": 268362
-	},
-	{
-		"square": 56.84,
-		"floor": 32,
-		"maxFloor": 33,
-		"toMetro": 4,
-		"mainPrice": 15311672,
-		"otherPrice": 269382
-	},
-	{
-		"square": 60,
-		"floor": 10,
-		"maxFloor": 25,
-		"toMetro": 3,
-		"mainPrice": 32898000,
-		"otherPrice": 548300
-	},
-	{
-		"square": 40.2,
-		"floor": 23,
-		"maxFloor": 33,
-		"toMetro": 11,
-		"mainPrice": 11559027,
-		"otherPrice": 287538
-	},
-	{
-		"square": 65.8,
-		"floor": 3,
-		"maxFloor": 17,
-		"toMetro": 4,
-		"mainPrice": 34097560,
-		"otherPrice": 518200
-	},
-	{
-		"square": 41.6,
-		"floor": 26,
-		"maxFloor": 33,
-		"toMetro": 12,
-		"mainPrice": 12466521,
-		"otherPrice": 299676
-	},
-	{
-		"square": 103.6,
-		"floor": 17,
-		"maxFloor": 22,
-		"toMetro": 16,
-		"mainPrice": 60000000,
-		"otherPrice": 579151
-	},
-	{
-		"square": 62.8,
-		"floor": 22,
-		"maxFloor": 24,
-		"toMetro": 6,
-		"mainPrice": 21801967,
-		"otherPrice": 347165
-	},
-	{
-		"square": 67.5,
-		"floor": 10,
-		"maxFloor": 19,
-		"toMetro": 11,
-		"mainPrice": 35490000,
-		"otherPrice": 525778
-	},
-	{
-		"square": 69.13,
-		"floor": 39,
-		"maxFloor": 65,
-		"toMetro": 7,
-		"mainPrice": 62217000,
-		"otherPrice": 900000
-	},
-	{
-		"square": 64.5,
-		"floor": 19,
-		"maxFloor": 26,
-		"toMetro": 14,
-		"mainPrice": 20427795,
-		"otherPrice": 316710
-	},
-	{
-		"square": 33,
-		"floor": 24,
-		"maxFloor": 26,
-		"toMetro": 9,
-		"mainPrice": 35999999,
-		"otherPrice": 1090909
-	},
-	{
-		"square": 81.39,
-		"floor": 2,
-		"maxFloor": 21,
-		"toMetro": 5,
-		"mainPrice": 37800000,
-		"otherPrice": 464431
-	},
-	{
-		"square": 67.54,
-		"floor": 47,
-		"maxFloor": 65,
-		"toMetro": 7,
-		"mainPrice": 58800000,
-		"otherPrice": 870595
-	},
-	{
-		"square": 67,
-		"floor": 18,
-		"maxFloor": 37,
-		"toMetro": 12,
-		"mainPrice": 31990000,
-		"otherPrice": 477463
-	},
-	{
-		"square": 53.2,
-		"floor": 29,
-		"maxFloor": 33,
-		"toMetro": 12,
-		"mainPrice": 15752839,
-		"otherPrice": 296106
-	},
-	{
-		"square": 81.9,
-		"floor": 16,
-		"maxFloor": 17,
-		"toMetro": 6,
-		"mainPrice": 28470078,
-		"otherPrice": 347620
-	},
-	{
-		"square": 61,
-		"floor": 17,
-		"maxFloor": 23,
-		"toMetro": 8,
-		"mainPrice": 30900000,
-		"otherPrice": 506557
-	},
-	{
-		"square": 59.8,
-		"floor": 11,
-		"maxFloor": 25,
-		"toMetro": 10,
-		"mainPrice": 19931340,
-		"otherPrice": 333300
-	},
-	{
-		"square": 130.2,
-		"floor": 12,
-		"maxFloor": 21,
-		"toMetro": 6,
-		"mainPrice": 151683000,
-		"otherPrice": 1165000
-	},
-	{
-		"square": 61.07,
-		"floor": 2,
-		"maxFloor": 54,
-		"toMetro": 5,
-		"mainPrice": 20679095,
-		"otherPrice": 338613
-	},
-	{
-		"square": 58,
-		"floor": 4,
-		"maxFloor": 6,
-		"toMetro": 7,
-		"mainPrice": 39990000,
-		"otherPrice": 689483
-	},
-	{
-		"square": 58.4,
-		"floor": 8,
-		"maxFloor": 22,
-		"toMetro": 5,
-		"mainPrice": 14016000,
-		"otherPrice": 240000
-	},
-	{
-		"square": 59.3,
-		"floor": 23,
-		"maxFloor": 26,
-		"toMetro": 11,
-		"mainPrice": 15002900,
-		"otherPrice": 253000
-	},
-	{
-		"square": 67.54,
-		"floor": 43,
-		"maxFloor": 65,
-		"toMetro": 7,
-		"mainPrice": 59950000,
-		"otherPrice": 887622
-	},
-	{
-		"square": 93,
-		"floor": 5,
-		"maxFloor": 10,
-		"toMetro": 6,
-		"mainPrice": 60000000,
-		"otherPrice": 645161
-	},
-	{
-		"square": 55.1,
-		"floor": 22,
-		"maxFloor": 24,
-		"toMetro": 10,
-		"mainPrice": 26999000,
-		"otherPrice": 490000
-	},
-	{
-		"square": 50.4,
-		"floor": 4,
-		"maxFloor": 23,
-		"toMetro": 12,
-		"mainPrice": 12031290,
-		"otherPrice": 238716
-	},
-	{
-		"square": 37.98,
-		"floor": 2,
-		"maxFloor": 15,
-		"toMetro": 1,
-		"mainPrice": 14239462,
-		"otherPrice": 374920
-	},
-	{
-		"square": 72.9,
-		"floor": 32,
-		"maxFloor": 68,
-		"toMetro": 3,
-		"mainPrice": 64152000,
-		"otherPrice": 880000
-	},
-	{
-		"square": 82.01,
-		"floor": 38,
-		"maxFloor": 51,
-		"toMetro": 6,
-		"mainPrice": 35920380,
-		"otherPrice": 438000
-	},
-	{
-		"square": 74.6,
-		"floor": 2,
-		"maxFloor": 4,
-		"toMetro": 8,
-		"mainPrice": 41030000,
-		"otherPrice": 550000
-	},
-	{
-		"square": 46.71,
-		"floor": 33,
-		"maxFloor": 51,
-		"toMetro": 6,
-		"mainPrice": 25597080,
-		"otherPrice": 548000
-	},
-	{
-		"square": 59.7,
-		"floor": 2,
-		"maxFloor": 24,
-		"toMetro": 2,
-		"mainPrice": 13010000,
-		"otherPrice": 217923
-	},
-	{
-		"square": 57.5,
-		"floor": 5,
-		"maxFloor": 9,
-		"toMetro": 12,
-		"mainPrice": 22690000,
-		"otherPrice": 394609
-	},
-	{
-		"square": 56,
-		"floor": 7,
-		"maxFloor": 25,
-		"toMetro": 3,
-		"mainPrice": 16760000,
-		"otherPrice": 299286
-	},
-	{
-		"square": 50,
-		"floor": 3,
-		"maxFloor": 28,
-		"toMetro": 10,
-		"mainPrice": 26500000,
-		"otherPrice": 530000
-	},
-	{
-		"square": 71,
-		"floor": 13,
-		"maxFloor": 13,
-		"toMetro": 15,
-		"mainPrice": 39400000,
-		"otherPrice": 554930
-	},
-	{
-		"square": 41.4,
-		"floor": 8,
-		"maxFloor": 14,
-		"toMetro": 6,
-		"mainPrice": 10991700,
-		"otherPrice": 265500
-	},
-	{
-		"square": 48.8,
-		"floor": 16,
-		"maxFloor": 32,
-		"toMetro": 5,
-		"mainPrice": 10806369,
-		"otherPrice": 221442
-	},
-	{
-		"square": 69.8,
-		"floor": 14,
-		"maxFloor": 44,
-		"toMetro": 7,
-		"mainPrice": 33900000,
-		"otherPrice": 485673
-	},
-	{
-		"square": 88,
-		"floor": 32,
-		"maxFloor": 48,
-		"toMetro": 19,
-		"mainPrice": 30500000,
-		"otherPrice": 346591
-	},
-	{
-		"square": 72.2,
-		"floor": 24,
-		"maxFloor": 41,
-		"toMetro": 12,
-		"mainPrice": 45486000,
-		"otherPrice": 630000
-	},
-	{
-		"square": 55,
-		"floor": 6,
-		"maxFloor": 10,
-		"toMetro": 16,
-		"mainPrice": 48700000,
-		"otherPrice": 885455
-	},
-	{
-		"square": 51,
-		"floor": 5,
-		"maxFloor": 12,
-		"toMetro": 15,
-		"mainPrice": 29950000,
-		"otherPrice": 587255
-	},
-	{
-		"square": 68.5,
-		"floor": 3,
-		"maxFloor": 53,
-		"toMetro": 9,
-		"mainPrice": 22474850,
-		"otherPrice": 328100
-	},
-	{
-		"square": 105,
-		"floor": 41,
-		"maxFloor": 64,
-		"toMetro": 2,
-		"mainPrice": 100000000,
-		"otherPrice": 952381
-	},
-	{
-		"square": 60.1,
-		"floor": 2,
-		"maxFloor": 24,
-		"toMetro": 4,
-		"mainPrice": 33000000,
-		"otherPrice": 549085
-	},
-	{
-		"square": 45,
-		"floor": 2,
-		"maxFloor": 41,
-		"toMetro": 12,
-		"mainPrice": 25987500,
-		"otherPrice": 577500
-	},
-	{
-		"square": 120,
-		"floor": 51,
-		"maxFloor": 75,
-		"toMetro": 5,
-		"mainPrice": 115000000,
-		"otherPrice": 958333
-	},
-	{
-		"square": 50.88,
-		"floor": 3,
-		"maxFloor": 13,
-		"toMetro": 1,
-		"mainPrice": 25343328,
-		"otherPrice": 498100
-	},
-	{
-		"square": 73.4,
-		"floor": 5,
-		"maxFloor": 24,
-		"toMetro": 5,
-		"mainPrice": 35892600,
-		"otherPrice": 489000
-	},
-	{
-		"square": 49,
-		"floor": 4,
-		"maxFloor": 23,
-		"toMetro": 7,
-		"mainPrice": 21700000,
-		"otherPrice": 442857
-	},
-	{
-		"square": 65.4,
-		"floor": 5,
-		"maxFloor": 24,
-		"toMetro": 5,
-		"mainPrice": 32896200,
-		"otherPrice": 503000
-	},
-	{
-		"square": 56.29,
-		"floor": 14,
-		"maxFloor": 21,
-		"toMetro": 13,
-		"mainPrice": 25829100,
-		"otherPrice": 458858
-	},
-	{
-		"square": 56.7,
-		"floor": 27,
-		"maxFloor": 41,
-		"toMetro": 15,
-		"mainPrice": 31000000,
-		"otherPrice": 546737
-	},
-	{
-		"square": 41.6,
-		"floor": 11,
-		"maxFloor": 14,
-		"toMetro": 6,
-		"mainPrice": 11190400,
-		"otherPrice": 269000
-	},
-	{
-		"square": 64.2,
-		"floor": 20,
-		"maxFloor": 28,
-		"toMetro": 9,
-		"mainPrice": 38103791,
-		"otherPrice": 593517
-	},
-	{
-		"square": 70.7,
-		"floor": 8,
-		"maxFloor": 28,
-		"toMetro": 10,
-		"mainPrice": 38285534,
-		"otherPrice": 541521
-	},
-	{
-		"square": 55.05,
-		"floor": 11,
-		"maxFloor": 21,
-		"toMetro": 12,
-		"mainPrice": 27841800,
-		"otherPrice": 505755
-	},
-	{
-		"square": 61.7,
-		"floor": 20,
-		"maxFloor": 28,
-		"toMetro": 10,
-		"mainPrice": 36614816,
-		"otherPrice": 593433
-	},
-	{
-		"square": 94,
-		"floor": 4,
-		"maxFloor": 10,
-		"toMetro": 7,
-		"mainPrice": 80000000,
-		"otherPrice": 851064
-	},
-	{
-		"square": 62.7,
-		"floor": 10,
-		"maxFloor": 28,
-		"toMetro": 10,
-		"mainPrice": 37878198,
-		"otherPrice": 604118
-	},
-	{
-		"square": 59.7,
-		"floor": 12,
-		"maxFloor": 28,
-		"toMetro": 10,
-		"mainPrice": 32002901,
-		"otherPrice": 536062
-	},
-	{
-		"square": 43.85,
-		"floor": 8,
-		"maxFloor": 14,
-		"toMetro": 1,
-		"mainPrice": 28774370,
-		"otherPrice": 656200
-	},
-	{
-		"square": 43.85,
-		"floor": 11,
-		"maxFloor": 14,
-		"toMetro": 1,
-		"mainPrice": 29383885,
-		"otherPrice": 670100
-	},
-	{
-		"square": 41,
-		"floor": 14,
-		"maxFloor": 14,
-		"toMetro": 6,
-		"mainPrice": 12812500,
-		"otherPrice": 312500
-	},
-	{
-		"square": 99.4,
-		"floor": 20,
-		"maxFloor": 20,
-		"toMetro": 11,
-		"mainPrice": 54182234,
-		"otherPrice": 545093
-	},
-	{
-		"square": 40.1,
-		"floor": 2,
-		"maxFloor": 9,
-		"toMetro": 3,
-		"mainPrice": 14590000,
-		"otherPrice": 363840
-	},
-	{
-		"square": 90,
-		"floor": 55,
-		"maxFloor": 85,
-		"toMetro": 2,
-		"mainPrice": 34000000,
-		"otherPrice": 377778
-	},
-	{
-		"square": 56,
-		"floor": 1,
-		"maxFloor": 8,
-		"toMetro": 15,
-		"mainPrice": 16990000,
-		"otherPrice": 303393
-	},
-	{
-		"square": 50,
-		"floor": 6,
-		"maxFloor": 9,
-		"toMetro": 7,
-		"mainPrice": 15950000,
-		"otherPrice": 319000
-	},
-	{
-		"square": 42.3,
-		"floor": 2,
-		"maxFloor": 8,
-		"toMetro": 15,
-		"mainPrice": 12990000,
-		"otherPrice": 307092
-	},
-	{
-		"square": 100,
-		"floor": 49,
-		"maxFloor": 75,
-		"toMetro": 2,
-		"mainPrice": 50000000,
-		"otherPrice": 500000
-	},
-	{
-		"square": 55,
-		"floor": 3,
-		"maxFloor": 5,
-		"toMetro": 5,
-		"mainPrice": 13990000,
-		"otherPrice": 254364
-	},
-	{
-		"square": 48.2,
-		"floor": 1,
-		"maxFloor": 1,
-		"toMetro": 10,
-		"mainPrice": 9158000,
-		"otherPrice": 190000
-	},
-	{
-		"square": 33.1,
-		"floor": 2,
-		"maxFloor": 9,
-		"toMetro": 4,
-		"mainPrice": 11400000,
-		"otherPrice": 344411
-	},
-	{
-		"square": 115,
-		"floor": 55,
-		"maxFloor": 75,
-		"toMetro": 2,
-		"mainPrice": 52000000,
-		"otherPrice": 452174
-	},
-	{
-		"square": 90,
-		"floor": 24,
-		"maxFloor": 37,
-		"toMetro": 2,
-		"mainPrice": 39000000,
-		"otherPrice": 433333
-	},
-	{
-		"square": 37,
-		"floor": 4,
-		"maxFloor": 8,
-		"toMetro": 2,
-		"mainPrice": 34200000,
-		"otherPrice": 924324
-	},
-	{
-		"square": 65,
-		"floor": 4,
-		"maxFloor": 7,
-		"toMetro": 8,
-		"mainPrice": 64688927,
-		"otherPrice": 995214
-	},
-	{
-		"square": 78,
-		"floor": 10,
-		"maxFloor": 20,
-		"toMetro": 5,
-		"mainPrice": 32400000,
-		"otherPrice": 415385
-	},
-	{
-		"square": 49,
-		"floor": 4,
-		"maxFloor": 23,
-		"toMetro": 9,
-		"mainPrice": 21600000,
-		"otherPrice": 440816
-	},
-	{
-		"square": 68.5,
-		"floor": 22,
-		"maxFloor": 30,
-		"toMetro": 11,
-		"mainPrice": 29805720,
-		"otherPrice": 435120
-	},
-	{
-		"square": 75,
-		"floor": 28,
-		"maxFloor": 78,
-		"toMetro": 4,
-		"mainPrice": 41500000,
-		"otherPrice": 553333
-	},
-	{
-		"square": 63,
-		"floor": 21,
-		"maxFloor": 30,
-		"toMetro": 4,
-		"mainPrice": 27500000,
-		"otherPrice": 436508
-	},
-	{
-		"square": 47.4,
-		"floor": 12,
-		"maxFloor": 12,
-		"toMetro": 4,
-		"mainPrice": 9999999,
-		"otherPrice": 210970
-	},
-	{
-		"square": 45.4,
-		"floor": 2,
-		"maxFloor": 14,
-		"toMetro": 16,
-		"mainPrice": 15490000,
-		"otherPrice": 341189
-	},
-	{
-		"square": 45.9,
-		"floor": 1,
-		"maxFloor": 9,
-		"toMetro": 1,
-		"mainPrice": 10790000,
-		"otherPrice": 235076
-	},
-	{
-		"square": 85,
-		"floor": 11,
-		"maxFloor": 18,
-		"toMetro": 8,
-		"mainPrice": 37500000,
-		"otherPrice": 441176
-	},
-	{
-		"square": 71.9,
-		"floor": 2,
-		"maxFloor": 12,
-		"toMetro": 13,
-		"mainPrice": 19199888,
-		"otherPrice": 267036
-	},
-	{
-		"square": 56.4,
-		"floor": 17,
-		"maxFloor": 20,
-		"toMetro": 4,
-		"mainPrice": 27500000,
-		"otherPrice": 487589
-	},
-	{
-		"square": 54.9,
-		"floor": 12,
-		"maxFloor": 21,
-		"toMetro": 17,
-		"mainPrice": 18878573,
-		"otherPrice": 343872
-	},
-	{
-		"square": 62,
-		"floor": 6,
-		"maxFloor": 78,
-		"toMetro": 5,
-		"mainPrice": 31500000,
-		"otherPrice": 508065
-	},
-	{
-		"square": 60,
-		"floor": 2,
-		"maxFloor": 8,
-		"toMetro": 1,
-		"mainPrice": 19430000,
-		"otherPrice": 323833
-	},
-	{
-		"square": 71.9,
-		"floor": 9,
-		"maxFloor": 12,
-		"toMetro": 13,
-		"mainPrice": 20263289,
-		"otherPrice": 281826
-	},
-	{
-		"square": 62,
-		"floor": 27,
-		"maxFloor": 61,
-		"toMetro": 5,
-		"mainPrice": 60000000,
-		"otherPrice": 967742
-	},
-	{
-		"square": 57.6,
-		"floor": 5,
-		"maxFloor": 58,
-		"toMetro": 9,
-		"mainPrice": 19872000,
-		"otherPrice": 345000
-	},
-	{
-		"square": 70,
-		"floor": 24,
-		"maxFloor": 44,
-		"toMetro": 11,
-		"mainPrice": 46000000,
-		"otherPrice": 657143
-	},
-	{
-		"square": 56.9,
-		"floor": 32,
-		"maxFloor": 46,
-		"toMetro": 5,
-		"mainPrice": 19289100,
-		"otherPrice": 339000
-	},
-	{
-		"square": 58,
-		"floor": 16,
-		"maxFloor": 21,
-		"toMetro": 11,
-		"mainPrice": 22330000,
-		"otherPrice": 385000
-	},
-	{
-		"square": 70.1,
-		"floor": 3,
-		"maxFloor": 10,
-		"toMetro": 4,
-		"mainPrice": 35850051,
-		"otherPrice": 511413
-	},
-	{
-		"square": 48.9,
-		"floor": 10,
-		"maxFloor": 10,
-		"toMetro": 18,
-		"mainPrice": 27000000,
-		"otherPrice": 552147
-	},
-	{
-		"square": 90,
-		"floor": 5,
-		"maxFloor": 13,
-		"toMetro": 5,
-		"mainPrice": 77500000,
-		"otherPrice": 861111
-	},
-	{
-		"square": 60.6,
-		"floor": 7,
-		"maxFloor": 58,
-		"toMetro": 9,
-		"mainPrice": 21513000,
-		"otherPrice": 355000
-	},
-	{
-		"square": 36.43,
-		"floor": 3,
-		"maxFloor": 27,
-		"toMetro": 10,
-		"mainPrice": 15175863,
-		"otherPrice": 416576
-	},
-	{
-		"square": 101.8,
-		"floor": 12,
-		"maxFloor": 14,
-		"toMetro": 8,
-		"mainPrice": 99000000,
-		"otherPrice": 972495
-	},
-	{
-		"square": 54.1,
-		"floor": 4,
-		"maxFloor": 5,
-		"toMetro": 8,
-		"mainPrice": 120000000,
-		"otherPrice": 2218115
-	},
-	{
-		"square": 88,
-		"floor": 14,
-		"maxFloor": 19,
-		"toMetro": 5,
-		"mainPrice": 65000000,
-		"otherPrice": 738636
-	},
-	{
-		"square": 67.1,
-		"floor": 2,
-		"maxFloor": 14,
-		"toMetro": 10,
-		"mainPrice": 24419228,
-		"otherPrice": 363923
-	},
-	{
-		"square": 51.1,
-		"floor": 11,
-		"maxFloor": 21,
-		"toMetro": 11,
-		"mainPrice": 18651500,
-		"otherPrice": 365000
-	},
-	{
-		"square": 37,
-		"floor": 6,
-		"maxFloor": 8,
-		"toMetro": 2,
-		"mainPrice": 37000000,
-		"otherPrice": 1000000
-	},
-	{
-		"square": 48.9,
-		"floor": 24,
-		"maxFloor": 33,
-		"toMetro": 11,
-		"mainPrice": 14539437,
-		"otherPrice": 297330
-	},
-	{
-		"square": 44.54,
-		"floor": 3,
-		"maxFloor": 8,
-		"toMetro": 9,
-		"mainPrice": 26530853,
-		"otherPrice": 595664
-	},
-	{
-		"square": 52.1,
-		"floor": 2,
-		"maxFloor": 32,
-		"toMetro": 12,
-		"mainPrice": 18206449,
-		"otherPrice": 349452
-	},
-	{
-		"square": 60.44,
-		"floor": 3,
-		"maxFloor": 8,
-		"toMetro": 9,
-		"mainPrice": 36729062,
-		"otherPrice": 607695
-	},
-	{
-		"square": 50.41,
-		"floor": 5,
-		"maxFloor": 8,
-		"toMetro": 2,
-		"mainPrice": 52900000,
-		"otherPrice": 1049395
-	},
-	{
-		"square": 56,
-		"floor": 16,
-		"maxFloor": 19,
-		"toMetro": 2,
-		"mainPrice": 24900000,
-		"otherPrice": 444643
-	},
-	{
-		"square": 67.84,
-		"floor": 2,
-		"maxFloor": 8,
-		"toMetro": 9,
-		"mainPrice": 38692216,
-		"otherPrice": 570345
-	},
-	{
-		"square": 53.1,
-		"floor": 3,
-		"maxFloor": 21,
-		"toMetro": 3,
-		"mainPrice": 17015895,
-		"otherPrice": 320450
-	},
-	{
-		"square": 60.9,
-		"floor": 11,
-		"maxFloor": 15,
-		"toMetro": 10,
-		"mainPrice": 22526179,
-		"otherPrice": 369888
-	},
-	{
-		"square": 63.6,
-		"floor": 9,
-		"maxFloor": 13,
-		"toMetro": 8,
-		"mainPrice": 33140616,
-		"otherPrice": 521079
-	},
-	{
-		"square": 64.5,
-		"floor": 19,
-		"maxFloor": 55,
-		"toMetro": 8,
-		"mainPrice": 24381000,
-		"otherPrice": 378000
-	},
-	{
-		"square": 60,
-		"floor": 12,
-		"maxFloor": 17,
-		"toMetro": 11,
-		"mainPrice": 18999000,
-		"otherPrice": 316650
-	},
-	{
-		"square": 58,
-		"floor": 2,
-		"maxFloor": 27,
-		"toMetro": 16,
-		"mainPrice": 25930524,
-		"otherPrice": 447078
-	},
-	{
-		"square": 62.4,
-		"floor": 39,
-		"maxFloor": 46,
-		"toMetro": 5,
-		"mainPrice": 24024000,
-		"otherPrice": 385000
-	},
-	{
-		"square": 50,
-		"floor": 3,
-		"maxFloor": 8,
-		"toMetro": 14,
-		"mainPrice": 35000000,
-		"otherPrice": 700000
-	},
-	{
-		"square": 49.8,
-		"floor": 2,
-		"maxFloor": 21,
-		"toMetro": 3,
-		"mainPrice": 16085400,
-		"otherPrice": 323000
-	},
-	{
-		"square": 62.54,
-		"floor": 4,
-		"maxFloor": 20,
-		"toMetro": 13,
-		"mainPrice": 26795888,
-		"otherPrice": 428460
-	},
-	{
-		"square": 45.7,
-		"floor": 2,
-		"maxFloor": 9,
-		"toMetro": 2,
-		"mainPrice": 11100000,
-		"otherPrice": 242888
-	},
-	{
-		"square": 53.54,
-		"floor": 2,
-		"maxFloor": 21,
-		"toMetro": 16,
-		"mainPrice": 17404461,
-		"otherPrice": 325074
-	},
-	{
-		"square": 56,
-		"floor": 8,
-		"maxFloor": 44,
-		"toMetro": 18,
-		"mainPrice": 29200000,
-		"otherPrice": 521429
-	},
-	{
-		"square": 70.1,
-		"floor": 9,
-		"maxFloor": 10,
-		"toMetro": 4,
-		"mainPrice": 39140686,
-		"otherPrice": 558355
-	},
-	{
-		"square": 81.6,
-		"floor": 5,
-		"maxFloor": 10,
-		"toMetro": 4,
-		"mainPrice": 42091157,
-		"otherPrice": 515823
-	},
-	{
-		"square": 55.8,
-		"floor": 12,
-		"maxFloor": 21,
-		"toMetro": 13,
-		"mainPrice": 20505830,
-		"otherPrice": 367488
-	},
-	{
-		"square": 58.4,
-		"floor": 13,
-		"maxFloor": 21,
-		"toMetro": 11,
-		"mainPrice": 22484000,
-		"otherPrice": 385000
-	},
-	{
-		"square": 54,
-		"floor": 18,
-		"maxFloor": 33,
-		"toMetro": 3,
-		"mainPrice": 16160472,
-		"otherPrice": 299268
-	},
-	{
-		"square": 55.6,
-		"floor": 31,
-		"maxFloor": 32,
-		"toMetro": 11,
-		"mainPrice": 19809501,
-		"otherPrice": 356286
-	},
-	{
-		"square": 53.9,
-		"floor": 14,
-		"maxFloor": 33,
-		"toMetro": 3,
-		"mainPrice": 16059073,
-		"otherPrice": 297942
-	},
-	{
-		"square": 122.8,
-		"floor": 11,
-		"maxFloor": 13,
-		"toMetro": 12,
-		"mainPrice": 135119079,
-		"otherPrice": 1100318
-	},
-	{
-		"square": 96,
-		"floor": 68,
-		"maxFloor": 78,
-		"toMetro": 4,
-		"mainPrice": 55000000,
-		"otherPrice": 572917
-	},
-	{
-		"square": 53.88,
-		"floor": 20,
-		"maxFloor": 27,
-		"toMetro": 10,
-		"mainPrice": 22512680,
-		"otherPrice": 417830
-	},
-	{
-		"square": 104.8,
-		"floor": 6,
-		"maxFloor": 8,
-		"toMetro": 2,
-		"mainPrice": 84888000,
-		"otherPrice": 810000
-	},
-	{
-		"square": 75.6,
-		"floor": 8,
-		"maxFloor": 13,
-		"toMetro": 12,
-		"mainPrice": 94961576,
-		"otherPrice": 1256106
-	},
-	{
-		"square": 52,
-		"floor": 3,
-		"maxFloor": 12,
-		"toMetro": 1,
-		"mainPrice": 11750000,
-		"otherPrice": 225962
-	},
-	{
-		"square": 45,
-		"floor": 3,
-		"maxFloor": 5,
-		"toMetro": 10,
-		"mainPrice": 14490000,
-		"otherPrice": 322000
-	},
-	{
-		"square": 73.3,
-		"floor": 4,
-		"maxFloor": 24,
-		"toMetro": 5,
-		"mainPrice": 49900000,
-		"otherPrice": 680764
-	},
-	{
-		"square": 50.7,
-		"floor": 9,
-		"maxFloor": 12,
-		"toMetro": 8,
-		"mainPrice": 10390000,
-		"otherPrice": 204931
-	},
-	{
-		"square": 97.1,
-		"floor": 2,
-		"maxFloor": 7,
-		"toMetro": 2,
-		"mainPrice": 185000000,
-		"otherPrice": 1905252
-	},
-	{
-		"square": 53.4,
-		"floor": 3,
-		"maxFloor": 5,
-		"toMetro": 4,
-		"mainPrice": 9090000,
-		"otherPrice": 170225
-	},
-	{
-		"square": 48,
-		"floor": 3,
-		"maxFloor": 5,
-		"toMetro": 2,
-		"mainPrice": 18950000,
-		"otherPrice": 394792
-	},
-	{
-		"square": 75.6,
-		"floor": 2,
-		"maxFloor": 8,
-		"toMetro": 11,
-		"mainPrice": 76000000,
-		"otherPrice": 1005291
+		"vars": {
+			"square": 63.7,
+			"floor": 15,
+			"maxFloor": 20,
+			"toMetro": 20,
+			"mainPrice": 26600000,
+			"otherPrice": 417582
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 80.2,
+			"floor": 8,
+			"maxFloor": 45,
+			"toMetro": 15,
+			"mainPrice": 15466570,
+			"otherPrice": 192850
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 67.31,
+			"floor": 8,
+			"maxFloor": 11,
+			"toMetro": 5,
+			"mainPrice": 66559946,
+			"otherPrice": 988857
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 79.9,
+			"floor": 4,
+			"maxFloor": 45,
+			"toMetro": 15,
+			"mainPrice": 15256905,
+			"otherPrice": 190950
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71.5,
+			"floor": 4,
+			"maxFloor": 41,
+			"toMetro": 12,
+			"mainPrice": 42258967,
+			"otherPrice": 591035
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 90.3,
+			"floor": 15,
+			"maxFloor": 24,
+			"toMetro": 1,
+			"mainPrice": 26386743,
+			"otherPrice": 292212
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 83.6,
+			"floor": 32,
+			"maxFloor": 68,
+			"toMetro": 3,
+			"mainPrice": 63870400,
+			"otherPrice": 764000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 150,
+			"floor": 6,
+			"maxFloor": 6,
+			"toMetro": 6,
+			"mainPrice": 78500000,
+			"otherPrice": 523333
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 76.41,
+			"floor": 4,
+			"maxFloor": 11,
+			"toMetro": 8,
+			"mainPrice": 42715100,
+			"otherPrice": 559025
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 64.6,
+			"floor": 24,
+			"maxFloor": 41,
+			"toMetro": 12,
+			"mainPrice": 39000000,
+			"otherPrice": 603715
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71.8,
+			"floor": 32,
+			"maxFloor": 41,
+			"toMetro": 3,
+			"mainPrice": 39490000,
+			"otherPrice": 550000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 81.9,
+			"floor": 4,
+			"maxFloor": 8,
+			"toMetro": 2,
+			"mainPrice": 78624000,
+			"otherPrice": 960000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 63.2,
+			"floor": 40,
+			"maxFloor": 41,
+			"toMetro": 5,
+			"mainPrice": 37390000,
+			"otherPrice": 591614
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 83,
+			"floor": 26,
+			"maxFloor": 33,
+			"toMetro": 14,
+			"mainPrice": 37233800,
+			"otherPrice": 448600
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 46.5,
+			"floor": 11,
+			"maxFloor": 24,
+			"toMetro": 5,
+			"mainPrice": 22900000,
+			"otherPrice": 492473
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 64.4,
+			"floor": 2,
+			"maxFloor": 10,
+			"toMetro": 9,
+			"mainPrice": 25800000,
+			"otherPrice": 400621
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 70,
+			"floor": 16,
+			"maxFloor": 24,
+			"toMetro": 7,
+			"mainPrice": 25000000,
+			"otherPrice": 357143
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 50.8,
+			"floor": 20,
+			"maxFloor": 32,
+			"toMetro": 7,
+			"mainPrice": 50693930,
+			"otherPrice": 997912
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62,
+			"floor": 18,
+			"maxFloor": 78,
+			"toMetro": 4,
+			"mainPrice": 52000000,
+			"otherPrice": 838710
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 54.1,
+			"floor": 4,
+			"maxFloor": 5,
+			"toMetro": 10,
+			"mainPrice": 120000000,
+			"otherPrice": 2218115
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 70.61,
+			"floor": 24,
+			"maxFloor": 49,
+			"toMetro": 5,
+			"mainPrice": 31494248,
+			"otherPrice": 446031
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 121.8,
+			"floor": 7,
+			"maxFloor": 8,
+			"toMetro": 9,
+			"mainPrice": 159215686,
+			"otherPrice": 1307190
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 79.1,
+			"floor": 2,
+			"maxFloor": 5,
+			"toMetro": 5,
+			"mainPrice": 71190000,
+			"otherPrice": 900000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 83,
+			"floor": 58,
+			"maxFloor": 77,
+			"toMetro": 2,
+			"mainPrice": 44800000,
+			"otherPrice": 539759
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 56,
+			"floor": 23,
+			"maxFloor": 58,
+			"toMetro": 9,
+			"mainPrice": 24472000,
+			"otherPrice": 437000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 86.61,
+			"floor": 5,
+			"maxFloor": 14,
+			"toMetro": 8,
+			"mainPrice": 77000000,
+			"otherPrice": 889043
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 74.2,
+			"floor": 16,
+			"maxFloor": 36,
+			"toMetro": 18,
+			"mainPrice": 50000000,
+			"otherPrice": 673854
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 63.6,
+			"floor": 20,
+			"maxFloor": 28,
+			"toMetro": 17,
+			"mainPrice": 28380418,
+			"otherPrice": 446233
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 82,
+			"floor": 2,
+			"maxFloor": 19,
+			"toMetro": 14,
+			"mainPrice": 39000000,
+			"otherPrice": 475610
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 62.45,
+			"floor": 4,
+			"maxFloor": 13,
+			"toMetro": 17,
+			"mainPrice": 14688400,
+			"otherPrice": 235203
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 70,
+			"floor": 19,
+			"maxFloor": 19,
+			"toMetro": 18,
+			"mainPrice": 34500000,
+			"otherPrice": 492857
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 55,
+			"floor": 8,
+			"maxFloor": 8,
+			"toMetro": 12,
+			"mainPrice": 29000000,
+			"otherPrice": 527273
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 74.4,
+			"floor": 2,
+			"maxFloor": 28,
+			"toMetro": 18,
+			"mainPrice": 24194617,
+			"otherPrice": 325196
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 120,
+			"floor": 4,
+			"maxFloor": 6,
+			"toMetro": 6,
+			"mainPrice": 80000000,
+			"otherPrice": 666667
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 190,
+			"floor": 44,
+			"maxFloor": 85,
+			"toMetro": 1,
+			"mainPrice": 88572690,
+			"otherPrice": 466172
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 45.25,
+			"floor": 7,
+			"maxFloor": 12,
+			"toMetro": 16,
+			"mainPrice": 14500000,
+			"otherPrice": 320442
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 61.7,
+			"floor": 5,
+			"maxFloor": 19,
+			"toMetro": 14,
+			"mainPrice": 21453090,
+			"otherPrice": 347700
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 72,
+			"floor": 14,
+			"maxFloor": 25,
+			"toMetro": 3,
+			"mainPrice": 42800000,
+			"otherPrice": 594444
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 65.8,
+			"floor": 2,
+			"maxFloor": 17,
+			"toMetro": 4,
+			"mainPrice": 32299904,
+			"otherPrice": 490880
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 75,
+			"floor": 11,
+			"maxFloor": 19,
+			"toMetro": 16,
+			"mainPrice": 45900000,
+			"otherPrice": 612000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 99.1,
+			"floor": 5,
+			"maxFloor": 19,
+			"toMetro": 18,
+			"mainPrice": 52000000,
+			"otherPrice": 524723
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 66.5,
+			"floor": 3,
+			"maxFloor": 28,
+			"toMetro": 5,
+			"mainPrice": 35207893,
+			"otherPrice": 529442
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 70,
+			"floor": 11,
+			"maxFloor": 36,
+			"toMetro": 14,
+			"mainPrice": 25900000,
+			"otherPrice": 370000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 53,
+			"floor": 14,
+			"maxFloor": 22,
+			"toMetro": 4,
+			"mainPrice": 29900000,
+			"otherPrice": 564151
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53.7,
+			"floor": 18,
+			"maxFloor": 30,
+			"toMetro": 11,
+			"mainPrice": 16244250,
+			"otherPrice": 302500
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56.3,
+			"floor": 10,
+			"maxFloor": 15,
+			"toMetro": 6,
+			"mainPrice": 23927500,
+			"otherPrice": 425000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 84,
+			"floor": 15,
+			"maxFloor": 20,
+			"toMetro": 11,
+			"mainPrice": 64260000,
+			"otherPrice": 765000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 176,
+			"floor": 63,
+			"maxFloor": 85,
+			"toMetro": 2,
+			"mainPrice": 71803363,
+			"otherPrice": 407974
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 126.4,
+			"floor": 7,
+			"maxFloor": 58,
+			"toMetro": 12,
+			"mainPrice": 35599459,
+			"otherPrice": 281641
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 104.55,
+			"floor": 10,
+			"maxFloor": 21,
+			"toMetro": 7,
+			"mainPrice": 97000000,
+			"otherPrice": 927786
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 86.2,
+			"floor": 6,
+			"maxFloor": 32,
+			"toMetro": 18,
+			"mainPrice": 32693074,
+			"otherPrice": 379270
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 51.99,
+			"floor": 17,
+			"maxFloor": 17,
+			"toMetro": 15,
+			"mainPrice": 10592963,
+			"otherPrice": 203750
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 47,
+			"floor": 16,
+			"maxFloor": 16,
+			"toMetro": 12,
+			"mainPrice": 13800000,
+			"otherPrice": 293617
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 50,
+			"floor": 15,
+			"maxFloor": 19,
+			"toMetro": 13,
+			"mainPrice": 27000000,
+			"otherPrice": 540000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 82,
+			"floor": 8,
+			"maxFloor": 19,
+			"toMetro": 12,
+			"mainPrice": 63500000,
+			"otherPrice": 774390
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 70.1,
+			"floor": 15,
+			"maxFloor": 22,
+			"toMetro": 12,
+			"mainPrice": 30143000,
+			"otherPrice": 430000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 75.3,
+			"floor": 3,
+			"maxFloor": 21,
+			"toMetro": 7,
+			"mainPrice": 39039999,
+			"otherPrice": 518459
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 45.82,
+			"floor": 10,
+			"maxFloor": 25,
+			"toMetro": 4,
+			"mainPrice": 23977606,
+			"otherPrice": 523300
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 60.8,
+			"floor": 6,
+			"maxFloor": 8,
+			"toMetro": 3,
+			"mainPrice": 16700000,
+			"otherPrice": 274671
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 63.8,
+			"floor": 3,
+			"maxFloor": 9,
+			"toMetro": 6,
+			"mainPrice": 114840000,
+			"otherPrice": 1800000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62.1,
+			"floor": 8,
+			"maxFloor": 15,
+			"toMetro": 10,
+			"mainPrice": 22694404,
+			"otherPrice": 365449
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 72,
+			"floor": 14,
+			"maxFloor": 25,
+			"toMetro": 3,
+			"mainPrice": 53900000,
+			"otherPrice": 748611
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.9,
+			"floor": 11,
+			"maxFloor": 14,
+			"toMetro": 20,
+			"mainPrice": 19225000,
+			"otherPrice": 332038
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71.7,
+			"floor": 6,
+			"maxFloor": 8,
+			"toMetro": 7,
+			"mainPrice": 85000000,
+			"otherPrice": 1185495
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 88,
+			"floor": 7,
+			"maxFloor": 10,
+			"toMetro": 7,
+			"mainPrice": 63000000,
+			"otherPrice": 715909
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 60,
+			"floor": 10,
+			"maxFloor": 22,
+			"toMetro": 18,
+			"mainPrice": 35000000,
+			"otherPrice": 583333
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 37.9,
+			"floor": 10,
+			"maxFloor": 14,
+			"toMetro": 7,
+			"mainPrice": 8613912,
+			"otherPrice": 227280
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 66.3,
+			"floor": 18,
+			"maxFloor": 20,
+			"toMetro": 7,
+			"mainPrice": 20486700,
+			"otherPrice": 309000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 68.8,
+			"floor": 24,
+			"maxFloor": 25,
+			"toMetro": 11,
+			"mainPrice": 26701280,
+			"otherPrice": 388100
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 48.3,
+			"floor": 27,
+			"maxFloor": 27,
+			"toMetro": 3,
+			"mainPrice": 15224160,
+			"otherPrice": 315200
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 60.4,
+			"floor": 5,
+			"maxFloor": 7,
+			"toMetro": 8,
+			"mainPrice": 59000000,
+			"otherPrice": 976821
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 63.8,
+			"floor": 3,
+			"maxFloor": 12,
+			"toMetro": 6,
+			"mainPrice": 114840000,
+			"otherPrice": 1800000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 38.6,
+			"floor": 3,
+			"maxFloor": 9,
+			"toMetro": 7,
+			"mainPrice": 10437848,
+			"otherPrice": 270411
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 50.88,
+			"floor": 3,
+			"maxFloor": 13,
+			"toMetro": 1,
+			"mainPrice": 25343328,
+			"otherPrice": 498100
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 55.6,
+			"floor": 15,
+			"maxFloor": 53,
+			"toMetro": 18,
+			"mainPrice": 16152800,
+			"otherPrice": 290518
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62,
+			"floor": 18,
+			"maxFloor": 78,
+			"toMetro": 10,
+			"mainPrice": 52000000,
+			"otherPrice": 838710
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 130.2,
+			"floor": 12,
+			"maxFloor": 21,
+			"toMetro": 6,
+			"mainPrice": 151683000,
+			"otherPrice": 1165000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 135,
+			"floor": 6,
+			"maxFloor": 7,
+			"toMetro": 5,
+			"mainPrice": 225000000,
+			"otherPrice": 1666667
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 48.6,
+			"floor": 8,
+			"maxFloor": 21,
+			"toMetro": 3,
+			"mainPrice": 16400070,
+			"otherPrice": 337450
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 88.4,
+			"floor": 14,
+			"maxFloor": 85,
+			"toMetro": 3,
+			"mainPrice": 62000000,
+			"otherPrice": 701357
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 64.82,
+			"floor": 30,
+			"maxFloor": 57,
+			"toMetro": 5,
+			"mainPrice": 31497010,
+			"otherPrice": 485915
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62,
+			"floor": 10,
+			"maxFloor": 76,
+			"toMetro": 2,
+			"mainPrice": 50000000,
+			"otherPrice": 806452
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 83.2,
+			"floor": 2,
+			"maxFloor": 7,
+			"toMetro": 11,
+			"mainPrice": 59990000,
+			"otherPrice": 721034
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 74,
+			"floor": 2,
+			"maxFloor": 15,
+			"toMetro": 7,
+			"mainPrice": 36590000,
+			"otherPrice": 494459
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 69.5,
+			"floor": 11,
+			"maxFloor": 53,
+			"toMetro": 9,
+			"mainPrice": 22962800,
+			"otherPrice": 330400
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 44,
+			"floor": 9,
+			"maxFloor": 9,
+			"toMetro": 5,
+			"mainPrice": 9000000,
+			"otherPrice": 204545
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 68.3,
+			"floor": 2,
+			"maxFloor": 14,
+			"toMetro": 10,
+			"mainPrice": 25275469,
+			"otherPrice": 370065
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 55.7,
+			"floor": 4,
+			"maxFloor": 24,
+			"toMetro": 10,
+			"mainPrice": 25622000,
+			"otherPrice": 460000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 46.9,
+			"floor": 2,
+			"maxFloor": 9,
+			"toMetro": 13,
+			"mainPrice": 17716475,
+			"otherPrice": 377750
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 48,
+			"floor": 9,
+			"maxFloor": 12,
+			"toMetro": 12,
+			"mainPrice": 16500000,
+			"otherPrice": 343750
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 65.7,
+			"floor": 13,
+			"maxFloor": 28,
+			"toMetro": 15,
+			"mainPrice": 24900000,
+			"otherPrice": 378995
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 75,
+			"floor": 5,
+			"maxFloor": 14,
+			"toMetro": 8,
+			"mainPrice": 35000000,
+			"otherPrice": 466667
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 50,
+			"floor": 6,
+			"maxFloor": 9,
+			"toMetro": 7,
+			"mainPrice": 15950000,
+			"otherPrice": 319000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 135.7,
+			"floor": 10,
+			"maxFloor": 10,
+			"toMetro": 9,
+			"mainPrice": 71000000,
+			"otherPrice": 523213
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 99.86,
+			"floor": 10,
+			"maxFloor": 18,
+			"toMetro": 17,
+			"mainPrice": 80275456,
+			"otherPrice": 803880
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62.1,
+			"floor": 9,
+			"maxFloor": 79,
+			"toMetro": 2,
+			"mainPrice": 46500000,
+			"otherPrice": 748792
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 56.3,
+			"floor": 24,
+			"maxFloor": 28,
+			"toMetro": 4,
+			"mainPrice": 17734500,
+			"otherPrice": 315000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 63,
+			"floor": 14,
+			"maxFloor": 36,
+			"toMetro": 12,
+			"mainPrice": 52000000,
+			"otherPrice": 825397
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56,
+			"floor": 16,
+			"maxFloor": 24,
+			"toMetro": 15,
+			"mainPrice": 19900000,
+			"otherPrice": 355357
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62,
+			"floor": 10,
+			"maxFloor": 79,
+			"toMetro": 5,
+			"mainPrice": 49000000,
+			"otherPrice": 790323
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 63,
+			"floor": 10,
+			"maxFloor": 79,
+			"toMetro": 5,
+			"mainPrice": 49000000,
+			"otherPrice": 777778
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 110,
+			"floor": 52,
+			"maxFloor": 77,
+			"toMetro": 4,
+			"mainPrice": 120000000,
+			"otherPrice": 1090909
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 62,
+			"floor": 23,
+			"maxFloor": 68,
+			"toMetro": 3,
+			"mainPrice": 50000000,
+			"otherPrice": 806452
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 74,
+			"floor": 2,
+			"maxFloor": 15,
+			"toMetro": 10,
+			"mainPrice": 36600000,
+			"otherPrice": 494595
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 67.2,
+			"floor": 2,
+			"maxFloor": 16,
+			"toMetro": 5,
+			"mainPrice": 15375360,
+			"otherPrice": 228800
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 77.5,
+			"floor": 10,
+			"maxFloor": 20,
+			"toMetro": 5,
+			"mainPrice": 50834239,
+			"otherPrice": 655926
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 84.1,
+			"floor": 3,
+			"maxFloor": 32,
+			"toMetro": 10,
+			"mainPrice": 41217494,
+			"otherPrice": 490101
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 62,
+			"floor": 3,
+			"maxFloor": 78,
+			"toMetro": 4,
+			"mainPrice": 40000000,
+			"otherPrice": 645161
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 65,
+			"floor": 5,
+			"maxFloor": 20,
+			"toMetro": 12,
+			"mainPrice": 48990000,
+			"otherPrice": 753692
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 63,
+			"floor": 4,
+			"maxFloor": 9,
+			"toMetro": 10,
+			"mainPrice": 43000000,
+			"otherPrice": 682540
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 79.6,
+			"floor": 12,
+			"maxFloor": 52,
+			"toMetro": 3,
+			"mainPrice": 28019677,
+			"otherPrice": 352006
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 106.8,
+			"floor": 2,
+			"maxFloor": 8,
+			"toMetro": 5,
+			"mainPrice": 196140000,
+			"otherPrice": 1836517
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 36.05,
+			"floor": 12,
+			"maxFloor": 27,
+			"toMetro": 15,
+			"mainPrice": 7195310,
+			"otherPrice": 199593
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 122.56,
+			"floor": 3,
+			"maxFloor": 6,
+			"toMetro": 10,
+			"mainPrice": 119250880,
+			"otherPrice": 973000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 37.7,
+			"floor": 5,
+			"maxFloor": 13,
+			"toMetro": 6,
+			"mainPrice": 21866000,
+			"otherPrice": 580000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 68.3,
+			"floor": 12,
+			"maxFloor": 19,
+			"toMetro": 5,
+			"mainPrice": 21540180,
+			"otherPrice": 315376
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62.5,
+			"floor": 2,
+			"maxFloor": 13,
+			"toMetro": 8,
+			"mainPrice": 27804709,
+			"otherPrice": 444875
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 133.55,
+			"floor": 4,
+			"maxFloor": 7,
+			"toMetro": 4,
+			"mainPrice": 124988376,
+			"otherPrice": 935892
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 42.44,
+			"floor": 3,
+			"maxFloor": 20,
+			"toMetro": 13,
+			"mainPrice": 19352427,
+			"otherPrice": 455995
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 39.7,
+			"floor": 4,
+			"maxFloor": 20,
+			"toMetro": 13,
+			"mainPrice": 21044970,
+			"otherPrice": 530100
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 84,
+			"floor": 6,
+			"maxFloor": 30,
+			"toMetro": 1,
+			"mainPrice": 32500000,
+			"otherPrice": 386905
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 78.1,
+			"floor": 40,
+			"maxFloor": 51,
+			"toMetro": 9,
+			"mainPrice": 35790000,
+			"otherPrice": 458259
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 42.45,
+			"floor": 7,
+			"maxFloor": 8,
+			"toMetro": 15,
+			"mainPrice": 14500000,
+			"otherPrice": 341578
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45.71,
+			"floor": 7,
+			"maxFloor": 27,
+			"toMetro": 10,
+			"mainPrice": 19087124,
+			"otherPrice": 417570
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 43.29,
+			"floor": 6,
+			"maxFloor": 21,
+			"toMetro": 10,
+			"mainPrice": 12533840,
+			"otherPrice": 289532
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 123.3,
+			"floor": 3,
+			"maxFloor": 8,
+			"toMetro": 15,
+			"mainPrice": 118984500,
+			"otherPrice": 965000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 64.11,
+			"floor": 7,
+			"maxFloor": 9,
+			"toMetro": 4,
+			"mainPrice": 23366966,
+			"otherPrice": 364482
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 74,
+			"floor": 15,
+			"maxFloor": 17,
+			"toMetro": 18,
+			"mainPrice": 34500000,
+			"otherPrice": 466216
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 70.6,
+			"floor": 3,
+			"maxFloor": 20,
+			"toMetro": 12,
+			"mainPrice": 35022989,
+			"otherPrice": 496076
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 133,
+			"floor": 8,
+			"maxFloor": 13,
+			"toMetro": 8,
+			"mainPrice": 122028432,
+			"otherPrice": 917507
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 65.83,
+			"floor": 8,
+			"maxFloor": 35,
+			"toMetro": 14,
+			"mainPrice": 27187790,
+			"otherPrice": 413000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 43.9,
+			"floor": 9,
+			"maxFloor": 9,
+			"toMetro": 5,
+			"mainPrice": 9000000,
+			"otherPrice": 205011
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45.1,
+			"floor": 5,
+			"maxFloor": 5,
+			"toMetro": 7,
+			"mainPrice": 10990000,
+			"otherPrice": 243681
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 39.5,
+			"floor": 14,
+			"maxFloor": 16,
+			"toMetro": 10,
+			"mainPrice": 18000000,
+			"otherPrice": 455696
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 44.7,
+			"floor": 4,
+			"maxFloor": 5,
+			"toMetro": 11,
+			"mainPrice": 12800000,
+			"otherPrice": 286353
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 84,
+			"floor": 6,
+			"maxFloor": 30,
+			"toMetro": 4,
+			"mainPrice": 32500000,
+			"otherPrice": 386905
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 73,
+			"floor": 6,
+			"maxFloor": 8,
+			"toMetro": 9,
+			"mainPrice": 85000000,
+			"otherPrice": 1164384
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 78,
+			"floor": 12,
+			"maxFloor": 18,
+			"toMetro": 5,
+			"mainPrice": 39800000,
+			"otherPrice": 510256
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 77,
+			"floor": 6,
+			"maxFloor": 13,
+			"toMetro": 7,
+			"mainPrice": 99000000,
+			"otherPrice": 1285714
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 172,
+			"floor": 7,
+			"maxFloor": 16,
+			"toMetro": 3,
+			"mainPrice": 110000000,
+			"otherPrice": 639535
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 45.1,
+			"floor": 13,
+			"maxFloor": 15,
+			"toMetro": 4,
+			"mainPrice": 12696385,
+			"otherPrice": 281516
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 67.12,
+			"floor": 2,
+			"maxFloor": 23,
+			"toMetro": 5,
+			"mainPrice": 26402206,
+			"otherPrice": 393358
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 94,
+			"floor": 6,
+			"maxFloor": 12,
+			"toMetro": 8,
+			"mainPrice": 52000000,
+			"otherPrice": 553191
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 43,
+			"floor": 5,
+			"maxFloor": 6,
+			"toMetro": 6,
+			"mainPrice": 36000000,
+			"otherPrice": 837209
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 76,
+			"floor": 11,
+			"maxFloor": 16,
+			"toMetro": 8,
+			"mainPrice": 43900000,
+			"otherPrice": 577632
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 82.6,
+			"floor": 10,
+			"maxFloor": 19,
+			"toMetro": 18,
+			"mainPrice": 53450000,
+			"otherPrice": 647094
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 60.4,
+			"floor": 5,
+			"maxFloor": 21,
+			"toMetro": 11,
+			"mainPrice": 18059600,
+			"otherPrice": 299000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 74.71,
+			"floor": 5,
+			"maxFloor": 28,
+			"toMetro": 3,
+			"mainPrice": 24327518,
+			"otherPrice": 325626
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57,
+			"floor": 21,
+			"maxFloor": 28,
+			"toMetro": 13,
+			"mainPrice": 24900000,
+			"otherPrice": 436842
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56.7,
+			"floor": 3,
+			"maxFloor": 7,
+			"toMetro": 8,
+			"mainPrice": 35721000,
+			"otherPrice": 630000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 55,
+			"floor": 13,
+			"maxFloor": 14,
+			"toMetro": 15,
+			"mainPrice": 18600000,
+			"otherPrice": 338182
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 67.7,
+			"floor": 13,
+			"maxFloor": 53,
+			"toMetro": 4,
+			"mainPrice": 44500000,
+			"otherPrice": 657312
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 60,
+			"floor": 4,
+			"maxFloor": 29,
+			"toMetro": 5,
+			"mainPrice": 21300000,
+			"otherPrice": 355000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 70.1,
+			"floor": 3,
+			"maxFloor": 10,
+			"toMetro": 4,
+			"mainPrice": 35850051,
+			"otherPrice": 511413
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 59.1,
+			"floor": 16,
+			"maxFloor": 47,
+			"toMetro": 11,
+			"mainPrice": 20850000,
+			"otherPrice": 352792
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45.7,
+			"floor": 15,
+			"maxFloor": 42,
+			"toMetro": 19,
+			"mainPrice": 21095120,
+			"otherPrice": 461600
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 74.5,
+			"floor": 9,
+			"maxFloor": 15,
+			"toMetro": 4,
+			"mainPrice": 31427631,
+			"otherPrice": 421847
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.5,
+			"floor": 2,
+			"maxFloor": 16,
+			"toMetro": 12,
+			"mainPrice": 8277125,
+			"otherPrice": 143950
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53,
+			"floor": 24,
+			"maxFloor": 28,
+			"toMetro": 9,
+			"mainPrice": 19700000,
+			"otherPrice": 371698
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 70,
+			"floor": 37,
+			"maxFloor": 44,
+			"toMetro": 11,
+			"mainPrice": 55000000,
+			"otherPrice": 785714
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 43,
+			"floor": 16,
+			"maxFloor": 18,
+			"toMetro": 10,
+			"mainPrice": 24500000,
+			"otherPrice": 569767
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 60.4,
+			"floor": 28,
+			"maxFloor": 46,
+			"toMetro": 5,
+			"mainPrice": 19509200,
+			"otherPrice": 323000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 59,
+			"floor": 24,
+			"maxFloor": 36,
+			"toMetro": 3,
+			"mainPrice": 27800000,
+			"otherPrice": 471186
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 58.7,
+			"floor": 1,
+			"maxFloor": 12,
+			"toMetro": 2,
+			"mainPrice": 10914054,
+			"otherPrice": 185929
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45.2,
+			"floor": 5,
+			"maxFloor": 20,
+			"toMetro": 5,
+			"mainPrice": 32850000,
+			"otherPrice": 726770
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 101.7,
+			"floor": 1,
+			"maxFloor": 6,
+			"toMetro": 6,
+			"mainPrice": 163780000,
+			"otherPrice": 1610423
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 54,
+			"floor": 24,
+			"maxFloor": 24,
+			"toMetro": 17,
+			"mainPrice": 21637800,
+			"otherPrice": 400700
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 77.8,
+			"floor": 13,
+			"maxFloor": 29,
+			"toMetro": 11,
+			"mainPrice": 23456700,
+			"otherPrice": 301500
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 66.89,
+			"floor": 14,
+			"maxFloor": 14,
+			"toMetro": 3,
+			"mainPrice": 33177440,
+			"otherPrice": 496000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 45.2,
+			"floor": 9,
+			"maxFloor": 9,
+			"toMetro": 5,
+			"mainPrice": 12300000,
+			"otherPrice": 272124
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 61,
+			"floor": 5,
+			"maxFloor": 25,
+			"toMetro": 9,
+			"mainPrice": 18500000,
+			"otherPrice": 303279
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57,
+			"floor": 11,
+			"maxFloor": 18,
+			"toMetro": 18,
+			"mainPrice": 10700000,
+			"otherPrice": 187719
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56,
+			"floor": 14,
+			"maxFloor": 15,
+			"toMetro": 15,
+			"mainPrice": 24250000,
+			"otherPrice": 433036
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 59.3,
+			"floor": 5,
+			"maxFloor": 34,
+			"toMetro": 10,
+			"mainPrice": 21751240,
+			"otherPrice": 366800
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 70,
+			"floor": 36,
+			"maxFloor": 44,
+			"toMetro": 11,
+			"mainPrice": 55000000,
+			"otherPrice": 785714
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 80.4,
+			"floor": 14,
+			"maxFloor": 21,
+			"toMetro": 2,
+			"mainPrice": 69060000,
+			"otherPrice": 858955
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 71.1,
+			"floor": 15,
+			"maxFloor": 18,
+			"toMetro": 5,
+			"mainPrice": 39990000,
+			"otherPrice": 562447
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 79,
+			"floor": 10,
+			"maxFloor": 18,
+			"toMetro": 4,
+			"mainPrice": 32400000,
+			"otherPrice": 410127
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 78.2,
+			"floor": 37,
+			"maxFloor": 51,
+			"toMetro": 9,
+			"mainPrice": 36500000,
+			"otherPrice": 466752
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 106,
+			"floor": 5,
+			"maxFloor": 7,
+			"toMetro": 12,
+			"mainPrice": 128770000,
+			"otherPrice": 1214811
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 67.1,
+			"floor": 12,
+			"maxFloor": 22,
+			"toMetro": 10,
+			"mainPrice": 27627982,
+			"otherPrice": 411743
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57,
+			"floor": 3,
+			"maxFloor": 10,
+			"toMetro": 14,
+			"mainPrice": 13042294,
+			"otherPrice": 228812
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 60.6,
+			"floor": 10,
+			"maxFloor": 20,
+			"toMetro": 7,
+			"mainPrice": 10491474,
+			"otherPrice": 173127
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 106,
+			"floor": 11,
+			"maxFloor": 12,
+			"toMetro": 18,
+			"mainPrice": 159165000,
+			"otherPrice": 1501557
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56.2,
+			"floor": 11,
+			"maxFloor": 19,
+			"toMetro": 7,
+			"mainPrice": 29106541,
+			"otherPrice": 517910
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 63.65,
+			"floor": 13,
+			"maxFloor": 25,
+			"toMetro": 19,
+			"mainPrice": 12284450,
+			"otherPrice": 193000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 58,
+			"floor": 4,
+			"maxFloor": 28,
+			"toMetro": 5,
+			"mainPrice": 39990000,
+			"otherPrice": 689483
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62,
+			"floor": 16,
+			"maxFloor": 26,
+			"toMetro": 3,
+			"mainPrice": 41500000,
+			"otherPrice": 669355
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62.3,
+			"floor": 11,
+			"maxFloor": 14,
+			"toMetro": 18,
+			"mainPrice": 13850000,
+			"otherPrice": 222311
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 39.4,
+			"floor": 6,
+			"maxFloor": 28,
+			"toMetro": 8,
+			"mainPrice": 16181533,
+			"otherPrice": 410699
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71,
+			"floor": 6,
+			"maxFloor": 6,
+			"toMetro": 10,
+			"mainPrice": 56500000,
+			"otherPrice": 795775
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 52.2,
+			"floor": 10,
+			"maxFloor": 14,
+			"toMetro": 5,
+			"mainPrice": 13400000,
+			"otherPrice": 256705
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 82,
+			"floor": 5,
+			"maxFloor": 8,
+			"toMetro": 15,
+			"mainPrice": 77000000,
+			"otherPrice": 939024
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 91,
+			"floor": 8,
+			"maxFloor": 25,
+			"toMetro": 13,
+			"mainPrice": 42000000,
+			"otherPrice": 461538
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62.5,
+			"floor": 9,
+			"maxFloor": 22,
+			"toMetro": 14,
+			"mainPrice": 16700000,
+			"otherPrice": 267200
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 54.8,
+			"floor": 19,
+			"maxFloor": 21,
+			"toMetro": 4,
+			"mainPrice": 26000000,
+			"otherPrice": 474453
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 55,
+			"floor": 1,
+			"maxFloor": 7,
+			"toMetro": 15,
+			"mainPrice": 11290000,
+			"otherPrice": 205273
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 83,
+			"floor": 7,
+			"maxFloor": 19,
+			"toMetro": 12,
+			"mainPrice": 55900000,
+			"otherPrice": 673494
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 68.5,
+			"floor": 2,
+			"maxFloor": 14,
+			"toMetro": 14,
+			"mainPrice": 11919000,
+			"otherPrice": 174000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 87.59,
+			"floor": 6,
+			"maxFloor": 17,
+			"toMetro": 13,
+			"mainPrice": 49926300,
+			"otherPrice": 570000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71.7,
+			"floor": 2,
+			"maxFloor": 12,
+			"toMetro": 10,
+			"mainPrice": 52000000,
+			"otherPrice": 725244
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 44.54,
+			"floor": 3,
+			"maxFloor": 8,
+			"toMetro": 9,
+			"mainPrice": 26530853,
+			"otherPrice": 595664
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 59,
+			"floor": 7,
+			"maxFloor": 7,
+			"toMetro": 20,
+			"mainPrice": 10924387,
+			"otherPrice": 185159
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 61.2,
+			"floor": 3,
+			"maxFloor": 14,
+			"toMetro": 6,
+			"mainPrice": 15636600,
+			"otherPrice": 255500
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 49.7,
+			"floor": 12,
+			"maxFloor": 23,
+			"toMetro": 13,
+			"mainPrice": 11822419,
+			"otherPrice": 237876
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 140,
+			"floor": 2,
+			"maxFloor": 6,
+			"toMetro": 13,
+			"mainPrice": 152502719,
+			"otherPrice": 1089305
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 58,
+			"floor": 14,
+			"maxFloor": 17,
+			"toMetro": 6,
+			"mainPrice": 17000000,
+			"otherPrice": 293103
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53.79,
+			"floor": 13,
+			"maxFloor": 22,
+			"toMetro": 13,
+			"mainPrice": 20230419,
+			"otherPrice": 376100
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 37.79,
+			"floor": 15,
+			"maxFloor": 18,
+			"toMetro": 7,
+			"mainPrice": 12577381,
+			"otherPrice": 332823
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 94,
+			"floor": 6,
+			"maxFloor": 12,
+			"toMetro": 8,
+			"mainPrice": 52000000,
+			"otherPrice": 553191
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 36.46,
+			"floor": 5,
+			"maxFloor": 24,
+			"toMetro": 5,
+			"mainPrice": 8493228,
+			"otherPrice": 232946
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 46,
+			"floor": 7,
+			"maxFloor": 12,
+			"toMetro": 11,
+			"mainPrice": 11200000,
+			"otherPrice": 243478
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 58,
+			"floor": 24,
+			"maxFloor": 24,
+			"toMetro": 16,
+			"mainPrice": 27900000,
+			"otherPrice": 481034
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 54.8,
+			"floor": 2,
+			"maxFloor": 17,
+			"toMetro": 17,
+			"mainPrice": 15700000,
+			"otherPrice": 286496
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 55,
+			"floor": 6,
+			"maxFloor": 10,
+			"toMetro": 6,
+			"mainPrice": 28800000,
+			"otherPrice": 523636
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 35.9,
+			"floor": 2,
+			"maxFloor": 7,
+			"toMetro": 8,
+			"mainPrice": 22976000,
+			"otherPrice": 640000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 44.5,
+			"floor": 6,
+			"maxFloor": 9,
+			"toMetro": 6,
+			"mainPrice": 15000000,
+			"otherPrice": 337079
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 41.5,
+			"floor": 5,
+			"maxFloor": 5,
+			"toMetro": 10,
+			"mainPrice": 12700000,
+			"otherPrice": 306024
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 64.85,
+			"floor": 30,
+			"maxFloor": 55,
+			"toMetro": 8,
+			"mainPrice": 24189050,
+			"otherPrice": 373000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 76.3,
+			"floor": 7,
+			"maxFloor": 13,
+			"toMetro": 11,
+			"mainPrice": 30500000,
+			"otherPrice": 399738
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 68,
+			"floor": 2,
+			"maxFloor": 21,
+			"toMetro": 17,
+			"mainPrice": 21877119,
+			"otherPrice": 321722
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 44.2,
+			"floor": 3,
+			"maxFloor": 5,
+			"toMetro": 4,
+			"mainPrice": 16800000,
+			"otherPrice": 380090
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 68.6,
+			"floor": 37,
+			"maxFloor": 44,
+			"toMetro": 20,
+			"mainPrice": 55000000,
+			"otherPrice": 801749
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 116,
+			"floor": 5,
+			"maxFloor": 6,
+			"toMetro": 9,
+			"mainPrice": 149900000,
+			"otherPrice": 1292241
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 85,
+			"floor": 4,
+			"maxFloor": 13,
+			"toMetro": 7,
+			"mainPrice": 78671180,
+			"otherPrice": 925543
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 43,
+			"floor": 2,
+			"maxFloor": 15,
+			"toMetro": 9,
+			"mainPrice": 23500000,
+			"otherPrice": 546512
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 42,
+			"floor": 2,
+			"maxFloor": 5,
+			"toMetro": 3,
+			"mainPrice": 18900000,
+			"otherPrice": 450000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 85.8,
+			"floor": 2,
+			"maxFloor": 19,
+			"toMetro": 5,
+			"mainPrice": 27790000,
+			"otherPrice": 323893
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71,
+			"floor": 3,
+			"maxFloor": 19,
+			"toMetro": 7,
+			"mainPrice": 32900000,
+			"otherPrice": 463380
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53,
+			"floor": 18,
+			"maxFloor": 22,
+			"toMetro": 16,
+			"mainPrice": 25990000,
+			"otherPrice": 490377
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 59.3,
+			"floor": 2,
+			"maxFloor": 21,
+			"toMetro": 5,
+			"mainPrice": 38000000,
+			"otherPrice": 640809
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 46,
+			"floor": 7,
+			"maxFloor": 22,
+			"toMetro": 3,
+			"mainPrice": 26000000,
+			"otherPrice": 565217
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 95,
+			"floor": 3,
+			"maxFloor": 43,
+			"toMetro": 16,
+			"mainPrice": 34505000,
+			"otherPrice": 363211
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 98.7,
+			"floor": 20,
+			"maxFloor": 20,
+			"toMetro": 11,
+			"mainPrice": 53254326,
+			"otherPrice": 539558
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 70,
+			"floor": 12,
+			"maxFloor": 24,
+			"toMetro": 14,
+			"mainPrice": 43000000,
+			"otherPrice": 614286
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 50.8,
+			"floor": 2,
+			"maxFloor": 18,
+			"toMetro": 19,
+			"mainPrice": 12252960,
+			"otherPrice": 241200
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 55,
+			"floor": 6,
+			"maxFloor": 9,
+			"toMetro": 2,
+			"mainPrice": 27000000,
+			"otherPrice": 490909
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 90,
+			"floor": 24,
+			"maxFloor": 37,
+			"toMetro": 2,
+			"mainPrice": 34900000,
+			"otherPrice": 387778
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 66.99,
+			"floor": 5,
+			"maxFloor": 10,
+			"toMetro": 19,
+			"mainPrice": 20150000,
+			"otherPrice": 300791
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 54,
+			"floor": 6,
+			"maxFloor": 15,
+			"toMetro": 9,
+			"mainPrice": 11718000,
+			"otherPrice": 217000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 35.76,
+			"floor": 2,
+			"maxFloor": 25,
+			"toMetro": 14,
+			"mainPrice": 10991674,
+			"otherPrice": 307373
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 41.2,
+			"floor": 12,
+			"maxFloor": 14,
+			"toMetro": 19,
+			"mainPrice": 10672654,
+			"otherPrice": 259045
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.5,
+			"floor": 8,
+			"maxFloor": 35,
+			"toMetro": 8,
+			"mainPrice": 24399895,
+			"otherPrice": 424346
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 68.8,
+			"floor": 7,
+			"maxFloor": 7,
+			"toMetro": 5,
+			"mainPrice": 54000000,
+			"otherPrice": 784884
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 90,
+			"floor": 4,
+			"maxFloor": 10,
+			"toMetro": 7,
+			"mainPrice": 80000000,
+			"otherPrice": 888889
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 40,
+			"floor": 8,
+			"maxFloor": 21,
+			"toMetro": 12,
+			"mainPrice": 17000000,
+			"otherPrice": 425000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 90,
+			"floor": 24,
+			"maxFloor": 37,
+			"toMetro": 1,
+			"mainPrice": 34900000,
+			"otherPrice": 387778
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 52,
+			"floor": 12,
+			"maxFloor": 17,
+			"toMetro": 7,
+			"mainPrice": 21900000,
+			"otherPrice": 421154
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 69,
+			"floor": 27,
+			"maxFloor": 29,
+			"toMetro": 19,
+			"mainPrice": 24000000,
+			"otherPrice": 347826
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 72,
+			"floor": 6,
+			"maxFloor": 40,
+			"toMetro": 5,
+			"mainPrice": 27900000,
+			"otherPrice": 387500
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 70.2,
+			"floor": 21,
+			"maxFloor": 25,
+			"toMetro": 13,
+			"mainPrice": 27400000,
+			"otherPrice": 390313
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 68.5,
+			"floor": 17,
+			"maxFloor": 25,
+			"toMetro": 9,
+			"mainPrice": 31400000,
+			"otherPrice": 458394
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 40,
+			"floor": 5,
+			"maxFloor": 28,
+			"toMetro": 7,
+			"mainPrice": 17500000,
+			"otherPrice": 437500
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 93,
+			"floor": 8,
+			"maxFloor": 8,
+			"toMetro": 18,
+			"mainPrice": 37490000,
+			"otherPrice": 403118
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 83.9,
+			"floor": 5,
+			"maxFloor": 13,
+			"toMetro": 7,
+			"mainPrice": 57036605,
+			"otherPrice": 679817
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 70,
+			"floor": 17,
+			"maxFloor": 52,
+			"toMetro": 9,
+			"mainPrice": 34000000,
+			"otherPrice": 485714
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 76.9,
+			"floor": 46,
+			"maxFloor": 52,
+			"toMetro": 10,
+			"mainPrice": 34990000,
+			"otherPrice": 455007
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 77,
+			"floor": 48,
+			"maxFloor": 52,
+			"toMetro": 9,
+			"mainPrice": 34990000,
+			"otherPrice": 454416
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 78,
+			"floor": 38,
+			"maxFloor": 52,
+			"toMetro": 10,
+			"mainPrice": 38000000,
+			"otherPrice": 487179
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 78.1,
+			"floor": 40,
+			"maxFloor": 52,
+			"toMetro": 10,
+			"mainPrice": 35800000,
+			"otherPrice": 458387
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 74.3,
+			"floor": 15,
+			"maxFloor": 52,
+			"toMetro": 10,
+			"mainPrice": 37500000,
+			"otherPrice": 504711
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 69,
+			"floor": 13,
+			"maxFloor": 24,
+			"toMetro": 13,
+			"mainPrice": 30700000,
+			"otherPrice": 444928
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 50,
+			"floor": 19,
+			"maxFloor": 28,
+			"toMetro": 13,
+			"mainPrice": 32990000,
+			"otherPrice": 659800
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56,
+			"floor": 5,
+			"maxFloor": 28,
+			"toMetro": 13,
+			"mainPrice": 25950000,
+			"otherPrice": 463393
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53,
+			"floor": 8,
+			"maxFloor": 28,
+			"toMetro": 5,
+			"mainPrice": 25000000,
+			"otherPrice": 471698
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 52.7,
+			"floor": 9,
+			"maxFloor": 24,
+			"toMetro": 5,
+			"mainPrice": 18050000,
+			"otherPrice": 342505
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 47.3,
+			"floor": 11,
+			"maxFloor": 22,
+			"toMetro": 10,
+			"mainPrice": 16120000,
+			"otherPrice": 340803
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 47.3,
+			"floor": 11,
+			"maxFloor": 22,
+			"toMetro": 10,
+			"mainPrice": 16380000,
+			"otherPrice": 346300
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 63.7,
+			"floor": 20,
+			"maxFloor": 22,
+			"toMetro": 10,
+			"mainPrice": 18800000,
+			"otherPrice": 295133
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 64,
+			"floor": 6,
+			"maxFloor": 12,
+			"toMetro": 5,
+			"mainPrice": 59800000,
+			"otherPrice": 934375
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 57.8,
+			"floor": 14,
+			"maxFloor": 22,
+			"toMetro": 3,
+			"mainPrice": 16500000,
+			"otherPrice": 285467
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 75,
+			"floor": 28,
+			"maxFloor": 78,
+			"toMetro": 4,
+			"mainPrice": 40499900,
+			"otherPrice": 539999
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 80,
+			"floor": 28,
+			"maxFloor": 85,
+			"toMetro": 2,
+			"mainPrice": 39999999,
+			"otherPrice": 500000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 81,
+			"floor": 1,
+			"maxFloor": 4,
+			"toMetro": 15,
+			"mainPrice": 25500000,
+			"otherPrice": 314815
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 63.9,
+			"floor": 15,
+			"maxFloor": 31,
+			"toMetro": 5,
+			"mainPrice": 31000000,
+			"otherPrice": 485133
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 65,
+			"floor": 25,
+			"maxFloor": 27,
+			"toMetro": 16,
+			"mainPrice": 28000000,
+			"otherPrice": 430769
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45.1,
+			"floor": 3,
+			"maxFloor": 9,
+			"toMetro": 4,
+			"mainPrice": 9500000,
+			"otherPrice": 210643
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45,
+			"floor": 3,
+			"maxFloor": 5,
+			"toMetro": 8,
+			"mainPrice": 9500000,
+			"otherPrice": 211111
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 81,
+			"floor": 6,
+			"maxFloor": 12,
+			"toMetro": 5,
+			"mainPrice": 34500000,
+			"otherPrice": 425926
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53.7,
+			"floor": 4,
+			"maxFloor": 26,
+			"toMetro": 3,
+			"mainPrice": 26500000,
+			"otherPrice": 493482
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 69.4,
+			"floor": 9,
+			"maxFloor": 17,
+			"toMetro": 7,
+			"mainPrice": 10700000,
+			"otherPrice": 154179
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53,
+			"floor": 13,
+			"maxFloor": 14,
+			"toMetro": 5,
+			"mainPrice": 13500000,
+			"otherPrice": 254717
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 123,
+			"floor": 51,
+			"maxFloor": 75,
+			"toMetro": 2,
+			"mainPrice": 120000000,
+			"otherPrice": 975610
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 54.7,
+			"floor": 1,
+			"maxFloor": 6,
+			"toMetro": 7,
+			"mainPrice": 47000000,
+			"otherPrice": 859232
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 85,
+			"floor": 8,
+			"maxFloor": 15,
+			"toMetro": 8,
+			"mainPrice": 52000000,
+			"otherPrice": 611765
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 80,
+			"floor": 28,
+			"maxFloor": 85,
+			"toMetro": 3,
+			"mainPrice": 39999999,
+			"otherPrice": 500000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 125,
+			"floor": 23,
+			"maxFloor": 44,
+			"toMetro": 8,
+			"mainPrice": 53000000,
+			"otherPrice": 424000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 43.3,
+			"floor": 12,
+			"maxFloor": 26,
+			"toMetro": 5,
+			"mainPrice": 41245000,
+			"otherPrice": 952540
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 101,
+			"floor": 9,
+			"maxFloor": 11,
+			"toMetro": 6,
+			"mainPrice": 104000000,
+			"otherPrice": 1029703
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 75,
+			"floor": 11,
+			"maxFloor": 78,
+			"toMetro": 4,
+			"mainPrice": 49900000,
+			"otherPrice": 665333
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 45,
+			"floor": 8,
+			"maxFloor": 9,
+			"toMetro": 4,
+			"mainPrice": 11530000,
+			"otherPrice": 256222
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.4,
+			"floor": 9,
+			"maxFloor": 22,
+			"toMetro": 5,
+			"mainPrice": 19900000,
+			"otherPrice": 346690
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 43.7,
+			"floor": 1,
+			"maxFloor": 9,
+			"toMetro": 8,
+			"mainPrice": 12000000,
+			"otherPrice": 274600
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 61.9,
+			"floor": 5,
+			"maxFloor": 14,
+			"toMetro": 6,
+			"mainPrice": 60000000,
+			"otherPrice": 969305
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 69,
+			"floor": 45,
+			"maxFloor": 78,
+			"toMetro": 4,
+			"mainPrice": 41900000,
+			"otherPrice": 607246
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 74.5,
+			"floor": 15,
+			"maxFloor": 19,
+			"toMetro": 12,
+			"mainPrice": 52000000,
+			"otherPrice": 697987
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 68.5,
+			"floor": 1,
+			"maxFloor": 13,
+			"toMetro": 15,
+			"mainPrice": 37800000,
+			"otherPrice": 551825
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 61.9,
+			"floor": 23,
+			"maxFloor": 28,
+			"toMetro": 10,
+			"mainPrice": 35950000,
+			"otherPrice": 580775
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 51,
+			"floor": 5,
+			"maxFloor": 12,
+			"toMetro": 15,
+			"mainPrice": 29950000,
+			"otherPrice": 587255
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 65,
+			"floor": 42,
+			"maxFloor": 55,
+			"toMetro": 8,
+			"mainPrice": 24000000,
+			"otherPrice": 369231
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45,
+			"floor": 8,
+			"maxFloor": 9,
+			"toMetro": 4,
+			"mainPrice": 11330000,
+			"otherPrice": 251778
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 78,
+			"floor": 2,
+			"maxFloor": 22,
+			"toMetro": 20,
+			"mainPrice": 14600000,
+			"otherPrice": 187179
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 76.9,
+			"floor": 21,
+			"maxFloor": 22,
+			"toMetro": 3,
+			"mainPrice": 15400000,
+			"otherPrice": 200260
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 32.2,
+			"floor": 6,
+			"maxFloor": 6,
+			"toMetro": 2,
+			"mainPrice": 5957000,
+			"otherPrice": 185000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 41.6,
+			"floor": 3,
+			"maxFloor": 7,
+			"toMetro": 8,
+			"mainPrice": 27040000,
+			"otherPrice": 650000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 67,
+			"floor": 18,
+			"maxFloor": 37,
+			"toMetro": 12,
+			"mainPrice": 30500000,
+			"otherPrice": 455224
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 60,
+			"floor": 6,
+			"maxFloor": 8,
+			"toMetro": 10,
+			"mainPrice": 19990000,
+			"otherPrice": 333167
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71.9,
+			"floor": 2,
+			"maxFloor": 12,
+			"toMetro": 13,
+			"mainPrice": 18823420,
+			"otherPrice": 261800
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 35.5,
+			"floor": 4,
+			"maxFloor": 8,
+			"toMetro": 10,
+			"mainPrice": 11890000,
+			"otherPrice": 334930
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45,
+			"floor": 2,
+			"maxFloor": 44,
+			"toMetro": 11,
+			"mainPrice": 30000000,
+			"otherPrice": 666667
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 58.4,
+			"floor": 9,
+			"maxFloor": 23,
+			"toMetro": 10,
+			"mainPrice": 25000000,
+			"otherPrice": 428082
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 63.1,
+			"floor": 2,
+			"maxFloor": 5,
+			"toMetro": 6,
+			"mainPrice": 189300000,
+			"otherPrice": 3000000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 42,
+			"floor": 28,
+			"maxFloor": 52,
+			"toMetro": 2,
+			"mainPrice": 28990000,
+			"otherPrice": 690238
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 57.5,
+			"floor": 9,
+			"maxFloor": 12,
+			"toMetro": 2,
+			"mainPrice": 31500000,
+			"otherPrice": 547826
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 52.52,
+			"floor": 6,
+			"maxFloor": 20,
+			"toMetro": 17,
+			"mainPrice": 23000000,
+			"otherPrice": 437928
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 33,
+			"floor": 24,
+			"maxFloor": 26,
+			"toMetro": 9,
+			"mainPrice": 35999999,
+			"otherPrice": 1090909
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 87.7,
+			"floor": 8,
+			"maxFloor": 12,
+			"toMetro": 2,
+			"mainPrice": 39800000,
+			"otherPrice": 453820
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 50,
+			"floor": 4,
+			"maxFloor": 44,
+			"toMetro": 11,
+			"mainPrice": 28990000,
+			"otherPrice": 579800
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 85,
+			"floor": 24,
+			"maxFloor": 49,
+			"toMetro": 3,
+			"mainPrice": 44900000,
+			"otherPrice": 528235
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 61,
+			"floor": 17,
+			"maxFloor": 23,
+			"toMetro": 8,
+			"mainPrice": 30900000,
+			"otherPrice": 506557
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 30.2,
+			"floor": 3,
+			"maxFloor": 4,
+			"toMetro": 10,
+			"mainPrice": 8178462,
+			"otherPrice": 270810
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 89.2,
+			"floor": 13,
+			"maxFloor": 37,
+			"toMetro": 12,
+			"mainPrice": 52000000,
+			"otherPrice": 582960
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 32.2,
+			"floor": 6,
+			"maxFloor": 6,
+			"toMetro": 2,
+			"mainPrice": 5957000,
+			"otherPrice": 185000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 92.7,
+			"floor": 3,
+			"maxFloor": 15,
+			"toMetro": 7,
+			"mainPrice": 102430993,
+			"otherPrice": 1104973
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 60,
+			"floor": 3,
+			"maxFloor": 6,
+			"toMetro": 1,
+			"mainPrice": 21700000,
+			"otherPrice": 361667
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 76.3,
+			"floor": 13,
+			"maxFloor": 16,
+			"toMetro": 7,
+			"mainPrice": 33500000,
+			"otherPrice": 439056
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 76.3,
+			"floor": 13,
+			"maxFloor": 16,
+			"toMetro": 7,
+			"mainPrice": 33600000,
+			"otherPrice": 440367
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53.2,
+			"floor": 32,
+			"maxFloor": 33,
+			"toMetro": 12,
+			"mainPrice": 15683360,
+			"otherPrice": 294800
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 33.8,
+			"floor": 17,
+			"maxFloor": 25,
+			"toMetro": 13,
+			"mainPrice": 8473660,
+			"otherPrice": 250700
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 67.5,
+			"floor": 10,
+			"maxFloor": 19,
+			"toMetro": 10,
+			"mainPrice": 34990000,
+			"otherPrice": 518370
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 68.9,
+			"floor": 12,
+			"maxFloor": 44,
+			"toMetro": 10,
+			"mainPrice": 30950000,
+			"otherPrice": 449202
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 54.4,
+			"floor": 4,
+			"maxFloor": 15,
+			"toMetro": 13,
+			"mainPrice": 11783040,
+			"otherPrice": 216600
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71.44,
+			"floor": 24,
+			"maxFloor": 36,
+			"toMetro": 11,
+			"mainPrice": 39360129,
+			"otherPrice": 550954
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71.1,
+			"floor": 24,
+			"maxFloor": 36,
+			"toMetro": 11,
+			"mainPrice": 39172803,
+			"otherPrice": 550954
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 76.8,
+			"floor": 12,
+			"maxFloor": 24,
+			"toMetro": 4,
+			"mainPrice": 27900000,
+			"otherPrice": 363281
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 110,
+			"floor": 2,
+			"maxFloor": 5,
+			"toMetro": 5,
+			"mainPrice": 115000000,
+			"otherPrice": 1045455
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 56.9,
+			"floor": 32,
+			"maxFloor": 46,
+			"toMetro": 5,
+			"mainPrice": 19289100,
+			"otherPrice": 339000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 63,
+			"floor": 5,
+			"maxFloor": 21,
+			"toMetro": 11,
+			"mainPrice": 19467000,
+			"otherPrice": 309000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 50,
+			"floor": 4,
+			"maxFloor": 23,
+			"toMetro": 7,
+			"mainPrice": 21500000,
+			"otherPrice": 430000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56,
+			"floor": 6,
+			"maxFloor": 25,
+			"toMetro": 20,
+			"mainPrice": 14300000,
+			"otherPrice": 255357
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 51.6,
+			"floor": 4,
+			"maxFloor": 37,
+			"toMetro": 13,
+			"mainPrice": 20500000,
+			"otherPrice": 397287
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 47,
+			"floor": 5,
+			"maxFloor": 6,
+			"toMetro": 15,
+			"mainPrice": 6900000,
+			"otherPrice": 146809
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53.3,
+			"floor": 12,
+			"maxFloor": 53,
+			"toMetro": 13,
+			"mainPrice": 19500000,
+			"otherPrice": 365854
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 108,
+			"floor": 42,
+			"maxFloor": 73,
+			"toMetro": 1,
+			"mainPrice": 85000000,
+			"otherPrice": 787037
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 62.2,
+			"floor": 33,
+			"maxFloor": 33,
+			"toMetro": 12,
+			"mainPrice": 16837540,
+			"otherPrice": 270700
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 34.5,
+			"floor": 25,
+			"maxFloor": 33,
+			"toMetro": 7,
+			"mainPrice": 12675300,
+			"otherPrice": 367400
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62.4,
+			"floor": 40,
+			"maxFloor": 46,
+			"toMetro": 5,
+			"mainPrice": 24211200,
+			"otherPrice": 388000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 74,
+			"floor": 6,
+			"maxFloor": 14,
+			"toMetro": 11,
+			"mainPrice": 51500000,
+			"otherPrice": 695946
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 61.2,
+			"floor": 2,
+			"maxFloor": 24,
+			"toMetro": 3,
+			"mainPrice": 17600000,
+			"otherPrice": 287582
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 58,
+			"floor": 4,
+			"maxFloor": 6,
+			"toMetro": 7,
+			"mainPrice": 39900000,
+			"otherPrice": 687931
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 48,
+			"floor": 3,
+			"maxFloor": 5,
+			"toMetro": 9,
+			"mainPrice": 16300000,
+			"otherPrice": 339583
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 56.84,
+			"floor": 32,
+			"maxFloor": 33,
+			"toMetro": 4,
+			"mainPrice": 15011444,
+			"otherPrice": 264100
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 66.6,
+			"floor": 13,
+			"maxFloor": 22,
+			"toMetro": 9,
+			"mainPrice": 45918102,
+			"otherPrice": 689461
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 58.8,
+			"floor": 8,
+			"maxFloor": 25,
+			"toMetro": 13,
+			"mainPrice": 13312320,
+			"otherPrice": 226400
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 73.22,
+			"floor": 26,
+			"maxFloor": 33,
+			"toMetro": 4,
+			"mainPrice": 17689952,
+			"otherPrice": 241600
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.4,
+			"floor": 46,
+			"maxFloor": 53,
+			"toMetro": 8,
+			"mainPrice": 26174400,
+			"otherPrice": 456000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 64.5,
+			"floor": 8,
+			"maxFloor": 41,
+			"toMetro": 12,
+			"mainPrice": 36900000,
+			"otherPrice": 572093
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 55.7,
+			"floor": 29,
+			"maxFloor": 46,
+			"toMetro": 5,
+			"mainPrice": 20386200,
+			"otherPrice": 366000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 72.88,
+			"floor": 9,
+			"maxFloor": 33,
+			"toMetro": 4,
+			"mainPrice": 17323576,
+			"otherPrice": 237700
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.9,
+			"floor": 49,
+			"maxFloor": 58,
+			"toMetro": 9,
+			"mainPrice": 26112900,
+			"otherPrice": 451000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 91,
+			"floor": 21,
+			"maxFloor": 85,
+			"toMetro": 3,
+			"mainPrice": 65000000,
+			"otherPrice": 714286
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 57.6,
+			"floor": 5,
+			"maxFloor": 58,
+			"toMetro": 9,
+			"mainPrice": 18892800,
+			"otherPrice": 328000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 88.4,
+			"floor": 4,
+			"maxFloor": 6,
+			"toMetro": 6,
+			"mainPrice": 73036080,
+			"otherPrice": 826200
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 66.6,
+			"floor": 9,
+			"maxFloor": 22,
+			"toMetro": 9,
+			"mainPrice": 44380575,
+			"otherPrice": 666375
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 49,
+			"floor": 31,
+			"maxFloor": 41,
+			"toMetro": 4,
+			"mainPrice": 25220000,
+			"otherPrice": 514694
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 68.9,
+			"floor": 14,
+			"maxFloor": 21,
+			"toMetro": 11,
+			"mainPrice": 21427900,
+			"otherPrice": 311000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 72,
+			"floor": 10,
+			"maxFloor": 78,
+			"toMetro": 4,
+			"mainPrice": 49900000,
+			"otherPrice": 693056
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 55.6,
+			"floor": 1,
+			"maxFloor": 4,
+			"toMetro": 14,
+			"mainPrice": 14500000,
+			"otherPrice": 260791
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 52.2,
+			"floor": 40,
+			"maxFloor": 48,
+			"toMetro": 5,
+			"mainPrice": 24200000,
+			"otherPrice": 463602
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 58.6,
+			"floor": 16,
+			"maxFloor": 18,
+			"toMetro": 7,
+			"mainPrice": 19162200,
+			"otherPrice": 327000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56,
+			"floor": 8,
+			"maxFloor": 19,
+			"toMetro": 13,
+			"mainPrice": 29900000,
+			"otherPrice": 533929
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 93,
+			"floor": 5,
+			"maxFloor": 10,
+			"toMetro": 6,
+			"mainPrice": 60000000,
+			"otherPrice": 645161
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 53,
+			"floor": 9,
+			"maxFloor": 21,
+			"toMetro": 11,
+			"mainPrice": 18126000,
+			"otherPrice": 342000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.9,
+			"floor": 18,
+			"maxFloor": 32,
+			"toMetro": 10,
+			"mainPrice": 17294730,
+			"otherPrice": 298700
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 64,
+			"floor": 21,
+			"maxFloor": 36,
+			"toMetro": 6,
+			"mainPrice": 40500000,
+			"otherPrice": 632813
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 43.7,
+			"floor": 1,
+			"maxFloor": 9,
+			"toMetro": 9,
+			"mainPrice": 12000000,
+			"otherPrice": 274600
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 65.4,
+			"floor": 5,
+			"maxFloor": 24,
+			"toMetro": 5,
+			"mainPrice": 32896200,
+			"otherPrice": 503000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 77.5,
+			"floor": 18,
+			"maxFloor": 21,
+			"toMetro": 20,
+			"mainPrice": 15600000,
+			"otherPrice": 201290
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45.8,
+			"floor": 5,
+			"maxFloor": 15,
+			"toMetro": 15,
+			"mainPrice": 25025120,
+			"otherPrice": 546400
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 85,
+			"floor": 11,
+			"maxFloor": 18,
+			"toMetro": 8,
+			"mainPrice": 36800000,
+			"otherPrice": 432941
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 50,
+			"floor": 3,
+			"maxFloor": 28,
+			"toMetro": 7,
+			"mainPrice": 24990000,
+			"otherPrice": 499800
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62.02,
+			"floor": 31,
+			"maxFloor": 65,
+			"toMetro": 7,
+			"mainPrice": 62500000,
+			"otherPrice": 1007739
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 69.8,
+			"floor": 14,
+			"maxFloor": 44,
+			"toMetro": 7,
+			"mainPrice": 33000000,
+			"otherPrice": 472779
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 56.7,
+			"floor": 27,
+			"maxFloor": 41,
+			"toMetro": 15,
+			"mainPrice": 31000000,
+			"otherPrice": 546737
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 67.54,
+			"floor": 43,
+			"maxFloor": 65,
+			"toMetro": 7,
+			"mainPrice": 59950000,
+			"otherPrice": 887622
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 88,
+			"floor": 32,
+			"maxFloor": 48,
+			"toMetro": 19,
+			"mainPrice": 29900000,
+			"otherPrice": 339773
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 66.8,
+			"floor": 39,
+			"maxFloor": 68,
+			"toMetro": 3,
+			"mainPrice": 54909600,
+			"otherPrice": 822000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 67.54,
+			"floor": 47,
+			"maxFloor": 65,
+			"toMetro": 7,
+			"mainPrice": 58800000,
+			"otherPrice": 870595
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 43.2,
+			"floor": 2,
+			"maxFloor": 25,
+			"toMetro": 7,
+			"mainPrice": 16800000,
+			"otherPrice": 388889
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 91,
+			"floor": 17,
+			"maxFloor": 85,
+			"toMetro": 3,
+			"mainPrice": 64999999,
+			"otherPrice": 714286
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 54.7,
+			"floor": 24,
+			"maxFloor": 25,
+			"toMetro": 9,
+			"mainPrice": 16076330,
+			"otherPrice": 293900
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 83.9,
+			"floor": 47,
+			"maxFloor": 68,
+			"toMetro": 3,
+			"mainPrice": 66364900,
+			"otherPrice": 791000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 54,
+			"floor": 15,
+			"maxFloor": 15,
+			"toMetro": 9,
+			"mainPrice": 15665400,
+			"otherPrice": 290100
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 74.94,
+			"floor": 11,
+			"maxFloor": 14,
+			"toMetro": 15,
+			"mainPrice": 42600000,
+			"otherPrice": 568455
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 86.6,
+			"floor": 5,
+			"maxFloor": 14,
+			"toMetro": 6,
+			"mainPrice": 77000000,
+			"otherPrice": 889145
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 46.78,
+			"floor": 39,
+			"maxFloor": 51,
+			"toMetro": 6,
+			"mainPrice": 26196800,
+			"otherPrice": 560000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 107.5,
+			"floor": 55,
+			"maxFloor": 58,
+			"toMetro": 12,
+			"mainPrice": 35927189,
+			"otherPrice": 334206
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 54.1,
+			"floor": 9,
+			"maxFloor": 32,
+			"toMetro": 19,
+			"mainPrice": 11615270,
+			"otherPrice": 214700
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 85.3,
+			"floor": 7,
+			"maxFloor": 9,
+			"toMetro": 3,
+			"mainPrice": 47900000,
+			"otherPrice": 561547
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 80.7,
+			"floor": 6,
+			"maxFloor": 53,
+			"toMetro": 9,
+			"mainPrice": 26582580,
+			"otherPrice": 329400
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 127.32,
+			"floor": 5,
+			"maxFloor": 21,
+			"toMetro": 6,
+			"mainPrice": 126683400,
+			"otherPrice": 995000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 84.4,
+			"floor": 43,
+			"maxFloor": 68,
+			"toMetro": 3,
+			"mainPrice": 77648000,
+			"otherPrice": 920000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 91.6,
+			"floor": 20,
+			"maxFloor": 68,
+			"toMetro": 3,
+			"mainPrice": 95000000,
+			"otherPrice": 1037118
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 58,
+			"floor": 24,
+			"maxFloor": 24,
+			"toMetro": 6,
+			"mainPrice": 27900000,
+			"otherPrice": 481034
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 68.6,
+			"floor": 16,
+			"maxFloor": 24,
+			"toMetro": 5,
+			"mainPrice": 34711600,
+			"otherPrice": 506000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 120.24,
+			"floor": 19,
+			"maxFloor": 21,
+			"toMetro": 6,
+			"mainPrice": 119638800,
+			"otherPrice": 995000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 81.31,
+			"floor": 38,
+			"maxFloor": 51,
+			"toMetro": 6,
+			"mainPrice": 36508190,
+			"otherPrice": 449000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 73.4,
+			"floor": 5,
+			"maxFloor": 24,
+			"toMetro": 5,
+			"mainPrice": 35892600,
+			"otherPrice": 489000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 90,
+			"floor": 55,
+			"maxFloor": 85,
+			"toMetro": 2,
+			"mainPrice": 34000000,
+			"otherPrice": 377778
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 99,
+			"floor": 8,
+			"maxFloor": 14,
+			"toMetro": 6,
+			"mainPrice": 31900000,
+			"otherPrice": 322222
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 64.5,
+			"floor": 15,
+			"maxFloor": 20,
+			"toMetro": 13,
+			"mainPrice": 33475500,
+			"otherPrice": 519000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45,
+			"floor": 5,
+			"maxFloor": 7,
+			"toMetro": 10,
+			"mainPrice": 23500000,
+			"otherPrice": 522222
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 48.2,
+			"floor": 1,
+			"maxFloor": 1,
+			"toMetro": 10,
+			"mainPrice": 9158000,
+			"otherPrice": 190000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 65,
+			"floor": 7,
+			"maxFloor": 9,
+			"toMetro": 9,
+			"mainPrice": 24990000,
+			"otherPrice": 384462
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 78.4,
+			"floor": 14,
+			"maxFloor": 22,
+			"toMetro": 20,
+			"mainPrice": 15000000,
+			"otherPrice": 191327
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 61.6,
+			"floor": 2,
+			"maxFloor": 32,
+			"toMetro": 16,
+			"mainPrice": 19397840,
+			"otherPrice": 314900
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 70,
+			"floor": 6,
+			"maxFloor": 6,
+			"toMetro": 4,
+			"mainPrice": 41302819,
+			"otherPrice": 590040
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 100,
+			"floor": 49,
+			"maxFloor": 75,
+			"toMetro": 2,
+			"mainPrice": 50000000,
+			"otherPrice": 500000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 78,
+			"floor": 10,
+			"maxFloor": 20,
+			"toMetro": 5,
+			"mainPrice": 31500000,
+			"otherPrice": 403846
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 60.9,
+			"floor": 28,
+			"maxFloor": 78,
+			"toMetro": 8,
+			"mainPrice": 44999999,
+			"otherPrice": 738916
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 62.4,
+			"floor": 28,
+			"maxFloor": 31,
+			"toMetro": 14,
+			"mainPrice": 20592000,
+			"otherPrice": 330000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 55,
+			"floor": 5,
+			"maxFloor": 9,
+			"toMetro": 3,
+			"mainPrice": 27000000,
+			"otherPrice": 490909
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 58,
+			"floor": 2,
+			"maxFloor": 27,
+			"toMetro": 16,
+			"mainPrice": 25930524,
+			"otherPrice": 447078
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 37,
+			"floor": 4,
+			"maxFloor": 8,
+			"toMetro": 2,
+			"mainPrice": 34200000,
+			"otherPrice": 924324
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 47.9,
+			"floor": 3,
+			"maxFloor": 21,
+			"toMetro": 3,
+			"mainPrice": 16683570,
+			"otherPrice": 348300
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 58,
+			"floor": 6,
+			"maxFloor": 14,
+			"toMetro": 5,
+			"mainPrice": 12500000,
+			"otherPrice": 215517
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 63,
+			"floor": 21,
+			"maxFloor": 30,
+			"toMetro": 4,
+			"mainPrice": 27500000,
+			"otherPrice": 436508
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 59.9,
+			"floor": 14,
+			"maxFloor": 24,
+			"toMetro": 11,
+			"mainPrice": 37900000,
+			"otherPrice": 632721
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 43.6,
+			"floor": 6,
+			"maxFloor": 9,
+			"toMetro": 3,
+			"mainPrice": 18900000,
+			"otherPrice": 433486
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 63,
+			"floor": 22,
+			"maxFloor": 22,
+			"toMetro": 8,
+			"mainPrice": 16800000,
+			"otherPrice": 266667
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 65,
+			"floor": 4,
+			"maxFloor": 7,
+			"toMetro": 8,
+			"mainPrice": 61001087,
+			"otherPrice": 938478
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 53.54,
+			"floor": 2,
+			"maxFloor": 21,
+			"toMetro": 16,
+			"mainPrice": 17063198,
+			"otherPrice": 318700
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.8,
+			"floor": 19,
+			"maxFloor": 28,
+			"toMetro": 8,
+			"mainPrice": 23700000,
+			"otherPrice": 410035
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 64.5,
+			"floor": 19,
+			"maxFloor": 26,
+			"toMetro": 14,
+			"mainPrice": 20111100,
+			"otherPrice": 311800
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 64,
+			"floor": 15,
+			"maxFloor": 20,
+			"toMetro": 6,
+			"mainPrice": 20400000,
+			"otherPrice": 318750
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56,
+			"floor": 4,
+			"maxFloor": 7,
+			"toMetro": 6,
+			"mainPrice": 40600000,
+			"otherPrice": 725000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 41,
+			"floor": 4,
+			"maxFloor": 5,
+			"toMetro": 5,
+			"mainPrice": 11000000,
+			"otherPrice": 268293
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71.2,
+			"floor": 1,
+			"maxFloor": 16,
+			"toMetro": 15,
+			"mainPrice": 17785760,
+			"otherPrice": 249800
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 60,
+			"floor": 2,
+			"maxFloor": 8,
+			"toMetro": 1,
+			"mainPrice": 19430000,
+			"otherPrice": 323833
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62.4,
+			"floor": 3,
+			"maxFloor": 9,
+			"toMetro": 8,
+			"mainPrice": 50000000,
+			"otherPrice": 801282
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.1,
+			"floor": 7,
+			"maxFloor": 22,
+			"toMetro": 12,
+			"mainPrice": 17100000,
+			"otherPrice": 299475
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 69.1,
+			"floor": 6,
+			"maxFloor": 8,
+			"toMetro": 2,
+			"mainPrice": 41238925,
+			"otherPrice": 596801
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 32.8,
+			"floor": 2,
+			"maxFloor": 33,
+			"toMetro": 11,
+			"mainPrice": 10282800,
+			"otherPrice": 313500
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62,
+			"floor": 27,
+			"maxFloor": 61,
+			"toMetro": 5,
+			"mainPrice": 60000000,
+			"otherPrice": 967742
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 59,
+			"floor": 6,
+			"maxFloor": 17,
+			"toMetro": 12,
+			"mainPrice": 17050000,
+			"otherPrice": 288983
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 81.39,
+			"floor": 2,
+			"maxFloor": 21,
+			"toMetro": 5,
+			"mainPrice": 37800000,
+			"otherPrice": 464431
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 51.8,
+			"floor": 2,
+			"maxFloor": 17,
+			"toMetro": 18,
+			"mainPrice": 11499600,
+			"otherPrice": 222000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56,
+			"floor": 16,
+			"maxFloor": 19,
+			"toMetro": 2,
+			"mainPrice": 24900000,
+			"otherPrice": 444643
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 79,
+			"floor": 38,
+			"maxFloor": 75,
+			"toMetro": 4,
+			"mainPrice": 57600000,
+			"otherPrice": 729114
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 31.8,
+			"floor": 2,
+			"maxFloor": 17,
+			"toMetro": 5,
+			"mainPrice": 7876860,
+			"otherPrice": 247700
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 49.4,
+			"floor": 20,
+			"maxFloor": 32,
+			"toMetro": 7,
+			"mainPrice": 48291464,
+			"otherPrice": 977560
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 37,
+			"floor": 6,
+			"maxFloor": 8,
+			"toMetro": 2,
+			"mainPrice": 37000000,
+			"otherPrice": 1000000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 51,
+			"floor": 17,
+			"maxFloor": 20,
+			"toMetro": 15,
+			"mainPrice": 28700000,
+			"otherPrice": 562745
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 52.1,
+			"floor": 2,
+			"maxFloor": 32,
+			"toMetro": 12,
+			"mainPrice": 17849460,
+			"otherPrice": 342600
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53.1,
+			"floor": 3,
+			"maxFloor": 21,
+			"toMetro": 3,
+			"mainPrice": 17015895,
+			"otherPrice": 320450
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 55.6,
+			"floor": 30,
+			"maxFloor": 32,
+			"toMetro": 12,
+			"mainPrice": 19521160,
+			"otherPrice": 351100
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 49.5,
+			"floor": 3,
+			"maxFloor": 21,
+			"toMetro": 12,
+			"mainPrice": 14632200,
+			"otherPrice": 295600
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71.8,
+			"floor": 24,
+			"maxFloor": 75,
+			"toMetro": 6,
+			"mainPrice": 62500000,
+			"otherPrice": 870474
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 43.6,
+			"floor": 6,
+			"maxFloor": 9,
+			"toMetro": 4,
+			"mainPrice": 18900000,
+			"otherPrice": 433486
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 55.3,
+			"floor": 19,
+			"maxFloor": 26,
+			"toMetro": 14,
+			"mainPrice": 17795540,
+			"otherPrice": 321800
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 83,
+			"floor": 24,
+			"maxFloor": 31,
+			"toMetro": 14,
+			"mainPrice": 33000000,
+			"otherPrice": 397590
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 41.2,
+			"floor": 3,
+			"maxFloor": 5,
+			"toMetro": 9,
+			"mainPrice": 41900000,
+			"otherPrice": 1016990
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 101.8,
+			"floor": 12,
+			"maxFloor": 14,
+			"toMetro": 8,
+			"mainPrice": 99000000,
+			"otherPrice": 972495
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 49.3,
+			"floor": 20,
+			"maxFloor": 21,
+			"toMetro": 12,
+			"mainPrice": 15287930,
+			"otherPrice": 310100
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45.4,
+			"floor": 2,
+			"maxFloor": 14,
+			"toMetro": 15,
+			"mainPrice": 27500000,
+			"otherPrice": 605727
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 49.8,
+			"floor": 2,
+			"maxFloor": 21,
+			"toMetro": 3,
+			"mainPrice": 16085400,
+			"otherPrice": 323000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 51.1,
+			"floor": 20,
+			"maxFloor": 32,
+			"toMetro": 7,
+			"mainPrice": 44103644,
+			"otherPrice": 863085
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 125.4,
+			"floor": 8,
+			"maxFloor": 8,
+			"toMetro": 7,
+			"mainPrice": 280000000,
+			"otherPrice": 2232855
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 50,
+			"floor": 3,
+			"maxFloor": 8,
+			"toMetro": 12,
+			"mainPrice": 32000000,
+			"otherPrice": 640000
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 50.41,
+			"floor": 5,
+			"maxFloor": 8,
+			"toMetro": 2,
+			"mainPrice": 52900000,
+			"otherPrice": 1049395
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 88,
+			"floor": 14,
+			"maxFloor": 19,
+			"toMetro": 5,
+			"mainPrice": 65000000,
+			"otherPrice": 738636
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 94.4,
+			"floor": 2,
+			"maxFloor": 7,
+			"toMetro": 5,
+			"mainPrice": 110000000,
+			"otherPrice": 1165254
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 47,
+			"floor": 12,
+			"maxFloor": 14,
+			"toMetro": 6,
+			"mainPrice": 12878000,
+			"otherPrice": 274000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 51,
+			"floor": 11,
+			"maxFloor": 14,
+			"toMetro": 2,
+			"mainPrice": 29300000,
+			"otherPrice": 574510
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 51.1,
+			"floor": 16,
+			"maxFloor": 17,
+			"toMetro": 5,
+			"mainPrice": 10736110,
+			"otherPrice": 210100
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 41.6,
+			"floor": 11,
+			"maxFloor": 14,
+			"toMetro": 6,
+			"mainPrice": 11190400,
+			"otherPrice": 269000
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 90,
+			"floor": 24,
+			"maxFloor": 37,
+			"toMetro": 2,
+			"mainPrice": 34900000,
+			"otherPrice": 387778
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 101,
+			"floor": 6,
+			"maxFloor": 10,
+			"toMetro": 6,
+			"mainPrice": 99700000,
+			"otherPrice": 987129
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 55,
+			"floor": 5,
+			"maxFloor": 9,
+			"toMetro": 3,
+			"mainPrice": 27000000,
+			"otherPrice": 490909
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 53.9,
+			"floor": 16,
+			"maxFloor": 33,
+			"toMetro": 3,
+			"mainPrice": 15808870,
+			"otherPrice": 293300
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 64.4,
+			"floor": 25,
+			"maxFloor": 26,
+			"toMetro": 14,
+			"mainPrice": 20665960,
+			"otherPrice": 320900
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 32.6,
+			"floor": 30,
+			"maxFloor": 33,
+			"toMetro": 11,
+			"mainPrice": 10859060,
+			"otherPrice": 333100
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53.58,
+			"floor": 19,
+			"maxFloor": 21,
+			"toMetro": 16,
+			"mainPrice": 17922510,
+			"otherPrice": 334500
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 46.8,
+			"floor": 14,
+			"maxFloor": 14,
+			"toMetro": 6,
+			"mainPrice": 14765400,
+			"otherPrice": 315500
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 44.5,
+			"floor": 3,
+			"maxFloor": 9,
+			"toMetro": 15,
+			"mainPrice": 9900000,
+			"otherPrice": 222472
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 84.6,
+			"floor": 7,
+			"maxFloor": 22,
+			"toMetro": 20,
+			"mainPrice": 16570000,
+			"otherPrice": 195863
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 47,
+			"floor": 17,
+			"maxFloor": 24,
+			"toMetro": 11,
+			"mainPrice": 27550000,
+			"otherPrice": 586170
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 115,
+			"floor": 69,
+			"maxFloor": 95,
+			"toMetro": 2,
+			"mainPrice": 50000000,
+			"otherPrice": 434783
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 67,
+			"floor": 7,
+			"maxFloor": 41,
+			"toMetro": 10,
+			"mainPrice": 35000000,
+			"otherPrice": 522388
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 76,
+			"floor": 9,
+			"maxFloor": 14,
+			"toMetro": 14,
+			"mainPrice": 34000000,
+			"otherPrice": 447368
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.8,
+			"floor": 10,
+			"maxFloor": 19,
+			"toMetro": 6,
+			"mainPrice": 18150000,
+			"otherPrice": 314014
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 47,
+			"floor": 17,
+			"maxFloor": 24,
+			"toMetro": 6,
+			"mainPrice": 19990000,
+			"otherPrice": 425319
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 105,
+			"floor": 41,
+			"maxFloor": 64,
+			"toMetro": 2,
+			"mainPrice": 100000000,
+			"otherPrice": 952381
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 61,
+			"floor": 2,
+			"maxFloor": 17,
+			"toMetro": 12,
+			"mainPrice": 17500000,
+			"otherPrice": 286885
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 73.3,
+			"floor": 4,
+			"maxFloor": 24,
+			"toMetro": 5,
+			"mainPrice": 45900000,
+			"otherPrice": 626194
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 98,
+			"floor": 65,
+			"maxFloor": 85,
+			"toMetro": 2,
+			"mainPrice": 40000000,
+			"otherPrice": 408163
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 41.7,
+			"floor": 3,
+			"maxFloor": 41,
+			"toMetro": 12,
+			"mainPrice": 30900000,
+			"otherPrice": 741007
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 43.9,
+			"floor": 6,
+			"maxFloor": 9,
+			"toMetro": 19,
+			"mainPrice": 10990000,
+			"otherPrice": 250342
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 39.6,
+			"floor": 3,
+			"maxFloor": 6,
+			"toMetro": 6,
+			"mainPrice": 23500000,
+			"otherPrice": 593434
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 86,
+			"floor": 35,
+			"maxFloor": 85,
+			"toMetro": 1,
+			"mainPrice": 67000000,
+			"otherPrice": 779070
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 41.1,
+			"floor": 4,
+			"maxFloor": 5,
+			"toMetro": 5,
+			"mainPrice": 10800000,
+			"otherPrice": 262774
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 123,
+			"floor": 43,
+			"maxFloor": 75,
+			"toMetro": 2,
+			"mainPrice": 160000000,
+			"otherPrice": 1300813
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 56.9,
+			"floor": 3,
+			"maxFloor": 7,
+			"toMetro": 12,
+			"mainPrice": 32500000,
+			"otherPrice": 571178
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 71,
+			"floor": 4,
+			"maxFloor": 6,
+			"toMetro": 11,
+			"mainPrice": 17500000,
+			"otherPrice": 246479
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 81.6,
+			"floor": 5,
+			"maxFloor": 10,
+			"toMetro": 4,
+			"mainPrice": 42091157,
+			"otherPrice": 515823
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 36.8,
+			"floor": 2,
+			"maxFloor": 9,
+			"toMetro": 10,
+			"mainPrice": 11800000,
+			"otherPrice": 320652
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 65,
+			"floor": 47,
+			"maxFloor": 78,
+			"toMetro": 4,
+			"mainPrice": 35700000,
+			"otherPrice": 549231
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 84,
+			"floor": 4,
+			"maxFloor": 10,
+			"toMetro": 6,
+			"mainPrice": 78793071,
+			"otherPrice": 938013
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 64.6,
+			"floor": 2,
+			"maxFloor": 12,
+			"toMetro": 8,
+			"mainPrice": 19728840,
+			"otherPrice": 305400
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 78,
+			"floor": 38,
+			"maxFloor": 75,
+			"toMetro": 2,
+			"mainPrice": 56000000,
+			"otherPrice": 717949
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 64,
+			"floor": 15,
+			"maxFloor": 20,
+			"toMetro": 7,
+			"mainPrice": 34950000,
+			"otherPrice": 546094
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 70.1,
+			"floor": 9,
+			"maxFloor": 10,
+			"toMetro": 4,
+			"mainPrice": 39140686,
+			"otherPrice": 558355
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 72,
+			"floor": 31,
+			"maxFloor": 40,
+			"toMetro": 10,
+			"mainPrice": 45500000,
+			"otherPrice": 631944
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
 	}
 ]

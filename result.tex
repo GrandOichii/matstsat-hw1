@@ -1,7 +1,7 @@
 \documentclass{article}
 \usepackage{amsmath}
 \begin{document}
-Number of observations ($n$) = 449
+Number of observations ($n$) = 513
 
 $k=5$
 
@@ -9,33 +9,33 @@ Regression equation:
 $Y_i=\alpha+\beta_1square_i+\beta_2floor_i+\beta_3maxFloor_i+\beta_4toMetro_i+\beta_5otherPrice_i$
 
 
-$Y=\left[\begin{matrix}64977836\\26600000\\26386743\\\cdots\\76000000\end{matrix}\right]$
+$Y=\left[\begin{matrix}26600000\\15466570\\66559946\\\cdots\\45500000\end{matrix}\right]$
 
 
-$X=\begin{bmatrix}1 & 65.4300000000000 & 2 & \dots  & 993089 \\ 1 & 63.7000000000000 & 15 & \dots  & 417582 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 1 & 75.6000000000000 & 2 & \dots  & 1005291\end{bmatrix}$
+$X=\begin{bmatrix}1 & 63.7000000000000 & 15 & \dots  & 417582 \\ 1 & 80.2000000000000 & 8 & \dots  & 192850 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 1 & 72 & 31 & \dots  & 631944\end{bmatrix}$
 
 Calculating the estimate $\hat\beta$ values
 
-$\hat{\beta}=(X^TX)^{-1}X^TY=\left[\begin{matrix}-49462877.0516766\\757364.585489941\\-89455.1405469093\\-73718.264042654\\54385.5648089241\\74.4611537508182\end{matrix}\right]$
+$\hat{\beta}=(X^TX)^{-1}X^TY=\left[\begin{matrix}-43066082.9122951\\654157.368719682\\6956.88085381047\\-102621.774164875\\11887.6464603783\\74.9751142049771\end{matrix}\right]$
 
-Regression equation (with values): $Y_i=-49462877.0516766+757364.585489941*square-89455.1405469093*floor-73718.2640426540*maxFloor+54385.5648089241*toMetro+74.4611537508182*otherPrice$
+Regression equation (with values): $Y_i=-43066082.9122951+654157.368719682*square+6956.88085381047*floor-102621.774164875*maxFloor+11887.6464603783*toMetro+74.9751142049771*otherPrice$
 
 
-Estimated $Y$: $\hat{Y}=\left[\begin{matrix}73320157.1326581\\28146403.4567285\\37628907.7974807\\\cdots\\82478598.1461398\end{matrix}\right]$
+Estimated $Y$: $\hat{Y}=\left[\begin{matrix}28201670.2738086\\19472278.7397700\\74091169.8469365\\\cdots\\47642990.0111490\end{matrix}\right]$
 
-$\overline{Y}=39268458.465478845$
+$\overline{Y}=38024800.212475635$
 
-$TSS=\sum_{t=1}^{n} (Y_i-\overline{Y})^2=552692050510246336.00$
+$TSS=\sum_{t=1}^{n} (Y_i-\overline{Y})^2=533190975973430720.00$
 
-$ESS=\sum_{t=1}^{n} (\hat{Y_i}-\overline{Y})^2=512641730033639616.00$
+$ESS=\sum_{t=1}^{n} (\hat{Y_i}-\overline{Y})^2=501117440001600384.00$
 
-$RSS=TSS-ESS=40050320476606720.00$
+$RSS=TSS-ESS=32073535971830336.00$
 
-$R^2=\frac{ESS}{TSS}=0.93$
+$R^2=\frac{ESS}{TSS}=0.94$
 
-$\hat{\sigma^2}=\frac{RSS}{n-k-1}=90407043965252.19$
+$\hat{\sigma^2}=\frac{RSS}{n-k-1}=63261412173235.38$
 
-$\hat{V}(\hat{\beta})=\hat{\sigma^2}(X^TX)^{-1}=\left[\begin{matrix}3302128314124.48 & -21522074602.6407 & 10838441011.9444 & -20122138792.1541 & -105515904198.351 & -719430.113992324\\-21522074602.6407 & 461023559.810969 & -200184845.164351 & 17578192.8101135 & 60052345.337183 & -15165.3161175021\\10838441011.9444 & -200184845.164351 & 3177216451.36346 & -1565647926.78992 & -3923687.82920669 & 3634.37938091425\\-20122138792.1541 & 17578192.810114 & -1565647926.78992 & 1368127924.23898 & 398286089.384401 & 2409.71607137957\\-105515904198.351 & 60052345.3371849 & -3923687.82920782 & 398286089.384401 & 9710017067.55206 & 16761.0180540248\\-719430.113992323 & -15165.316117502 & 3634.37938091425 & 2409.71607137958 & 16761.0180540248 & 2.79301362420593\end{matrix}\right]
+$\hat{V}(\hat{\beta})=\hat{\sigma^2}(X^TX)^{-1}=\left[\begin{matrix}2173403952351.98 & -14842442326.2134 & -476593988.774739 & -7512802655.10147 & -67959210293.8632 & -501841.624581912\\-14842442326.2134 & 316521298.011091 & -81028697.7122819 & -37484620.8540502 & -2338249.82801213 & -8143.80852805313\\-476593988.774748 & -81028697.7122818 & 1716849402.68512 & -728798354.093464 & 112175785.416723 & 3207.86619794484\\-7512802655.10147 & -37484620.8540502 & -728798354.093464 & 651712027.669537 & 231635867.799452 & 783.708072535076\\-67959210293.8632 & -2338249.82801124 & 112175785.416722 & 231635867.799452 & 5884380629.34292 & 18622.7253524604\\-501841.62458191 & -8143.80852805312 & 3207.86619794482 & 783.708072535073 & 18622.7253524604 & 1.55646835773609\end{matrix}\right]
 
 $\cdot$ Calculate the significance of value $square_i$
 
@@ -43,13 +43,13 @@ $H_o: \hat{\beta_1}=0$
 
 $H_a: \hat{\beta_1}\neq0$
 
-$\hat{D}(\hat{\beta_1})=[\hat{V}(\hat{\beta})]_{1 1}=461023559.810969$
+$\hat{D}(\hat{\beta_1})=[\hat{V}(\hat{\beta})]_{1 1}=316521298.011091$
 
-$\sqrt{\hat{D}(\hat{\beta_1})}=21471.4591914702$
+$\sqrt{\hat{D}(\hat{\beta_1})}=17791.0454445794$
 
-$\hat{\beta_1}=757364.585489941$
+$\hat{\beta_1}=654157.368719682$
 
-$T_{obs}=\frac{\hat{\beta_1}-0}{\sqrt{\hat{D}(\hat{\beta_1})}}=35.27$
+$T_{obs}=\frac{\hat{\beta_1}-0}{\sqrt{\hat{D}(\hat{\beta_1})}}=36.77$
 
 $T\sim t(n-k-1)$
 
@@ -61,17 +61,17 @@ $H_o: \hat{\beta_2}=0$
 
 $H_a: \hat{\beta_2}\neq0$
 
-$\hat{D}(\hat{\beta_2})=[\hat{V}(\hat{\beta})]_{2 2}=3177216451.36346$
+$\hat{D}(\hat{\beta_2})=[\hat{V}(\hat{\beta})]_{2 2}=1716849402.68512$
 
-$\sqrt{\hat{D}(\hat{\beta_2})}=56366.8027420703$
+$\sqrt{\hat{D}(\hat{\beta_2})}=41434.8814730429$
 
-$\hat{\beta_2}=-89455.1405469093$
+$\hat{\beta_2}=6956.88085381047$
 
-$T_{obs}=\frac{\hat{\beta_2}-0}{\sqrt{\hat{D}(\hat{\beta_2})}}=-1.59$
+$T_{obs}=\frac{\hat{\beta_2}-0}{\sqrt{\hat{D}(\hat{\beta_2})}}=0.17$
 
 $T\sim t(n-k-1)$
 
-$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.1132\approx11.32\%$
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.8667\approx86.67\%$
 
 $\cdot$ Calculate the significance of value $maxFloor_i$
 
@@ -79,17 +79,17 @@ $H_o: \hat{\beta_3}=0$
 
 $H_a: \hat{\beta_3}\neq0$
 
-$\hat{D}(\hat{\beta_3})=[\hat{V}(\hat{\beta})]_{3 3}=1368127924.23898$
+$\hat{D}(\hat{\beta_3})=[\hat{V}(\hat{\beta})]_{3 3}=651712027.669537$
 
-$\sqrt{\hat{D}(\hat{\beta_3})}=36988.213315041$
+$\sqrt{\hat{D}(\hat{\beta_3})}=25528.6511133968$
 
-$\hat{\beta_3}=-73718.2640426540$
+$\hat{\beta_3}=-102621.774164875$
 
-$T_{obs}=\frac{\hat{\beta_3}-0}{\sqrt{\hat{D}(\hat{\beta_3})}}=-1.99$
+$T_{obs}=\frac{\hat{\beta_3}-0}{\sqrt{\hat{D}(\hat{\beta_3})}}=-4.02$
 
 $T\sim t(n-k-1)$
 
-$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.0469\approx4.69\%$
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.0001\approx0.01\%$
 
 $\cdot$ Calculate the significance of value $toMetro_i$
 
@@ -97,17 +97,17 @@ $H_o: \hat{\beta_4}=0$
 
 $H_a: \hat{\beta_4}\neq0$
 
-$\hat{D}(\hat{\beta_4})=[\hat{V}(\hat{\beta})]_{4 4}=9710017067.55206$
+$\hat{D}(\hat{\beta_4})=[\hat{V}(\hat{\beta})]_{4 4}=5884380629.34292$
 
-$\sqrt{\hat{D}(\hat{\beta_4})}=98539.4188513006$
+$\sqrt{\hat{D}(\hat{\beta_4})}=76709.7166553424$
 
-$\hat{\beta_4}=54385.5648089241$
+$\hat{\beta_4}=11887.6464603783$
 
-$T_{obs}=\frac{\hat{\beta_4}-0}{\sqrt{\hat{D}(\hat{\beta_4})}}=0.55$
+$T_{obs}=\frac{\hat{\beta_4}-0}{\sqrt{\hat{D}(\hat{\beta_4})}}=0.15$
 
 $T\sim t(n-k-1)$
 
-$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.5813\approx58.13\%$
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.8769\approx87.69\%$
 
 $\cdot$ Calculate the significance of value $otherPrice_i$
 
@@ -115,13 +115,13 @@ $H_o: \hat{\beta_5}=0$
 
 $H_a: \hat{\beta_5}\neq0$
 
-$\hat{D}(\hat{\beta_5})=[\hat{V}(\hat{\beta})]_{5 5}=2.79301362420593$
+$\hat{D}(\hat{\beta_5})=[\hat{V}(\hat{\beta})]_{5 5}=1.55646835773609$
 
-$\sqrt{\hat{D}(\hat{\beta_5})}=1.6712311701874$
+$\sqrt{\hat{D}(\hat{\beta_5})}=1.24758501022419$
 
-$\hat{\beta_5}=74.4611537508182$
+$\hat{\beta_5}=74.9751142049771$
 
-$T_{obs}=\frac{\hat{\beta_5}-0}{\sqrt{\hat{D}(\hat{\beta_5})}}=44.55$
+$T_{obs}=\frac{\hat{\beta_5}-0}{\sqrt{\hat{D}(\hat{\beta_5})}}=60.10$
 
 $T\sim t(n-k-1)$
 
@@ -133,9 +133,31 @@ $H_o: \beta_1=\beta_2=\beta_3=\beta_4=\beta_5=0$
 
 $H_a: |\beta_1|+|\beta_2|+|\beta_3|+|\beta_4|+|\beta_5|\neq0$
 
-$T_{obs}=\frac{R^2}{1-R^2}*\frac{n-k-1}{k}=1134.07$
+$T_{obs}=\frac{R^2}{1-R^2}*\frac{n-k-1}{k}=1584.28$
 
 $T\sim F(k,n-k-1)$
 
-$pvalue=P(\{T>T_{obs}\})=1-F_T(T_{obs})=1-fcdf(|T_{obs}|,k,n-k-1)=0.00\approx0.00\%$
-\end{document}
+$pvalue=P\{T>T_{obs}\}=1-F_T(T_{obs})=1-fcdf(|T_{obs}|,k,n-k-1)=0.00\approx0.00\%$
+\\\\Chow tests:
+
+$\cdot$ Testing IsNearCentralStation
+
+Pile 1 (IsNearCentralStation is true) size: 166
+
+Pile 2 (IsNearCentralStation is false) size: 347
+
+$(A)Y_i=\alpha^Ad^A_i+\beta^A_isquare_id^A_i+\beta^A_ifloor_id^A_i+\beta^A_imaxFloor_id^A_i+\beta^A_itoMetro_id^A_i+\beta^A_iotherPrice_id^A_i+\epsilon_i$
+
+$(B)Y_i=\alpha^Bd^B_i+\beta^B_isquare_id^B_i+\beta^B_ifloor_id^B_i+\beta^B_imaxFloor_id^B_i+\beta^B_itoMetro_id^B_i+\beta^B_iotherPrice_id^B_i+\epsilon_i$
+
+$RSS_{all}=32073535971830336.00$
+
+$RSS_A=15766057285328672.00$
+
+$RSS_B=11368651159974912.00$
+
+$T_{obs}=\frac{(RSS_{all}-RSS_A-RSS_B)/(k+1)}{(RSS_A+RSS_B)/(n - 2k - 2)}=15.1979557582591$
+
+$T_{crit}=finv(1 - SL, k + 1, n - 2k - 2)=2.1166649375737814$
+
+$T_{obs}>T_{crit}=>H_0$ is not valid $=>$ items should be split on IsNearCentralStation\end{document}

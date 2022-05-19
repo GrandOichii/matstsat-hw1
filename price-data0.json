@@ -1,27 +1,48 @@
 [
     {
-        "mainPrice": 1,
-        "first": 0,
-        "second": 0
+        "vars": {
+            "mainPrice": 1,
+            "first": 0,
+            "second": 0
+        },
+        "chowVars": {
+        }
     },
     {
-        "mainPrice": 2,
-        "first": 0,
-        "second": 0
+        "vars": {
+            "mainPrice": 2,
+            "first": 0,
+            "second": 0
+        },
+        "chowVars": {
+        }
     },
     {
-        "mainPrice": 3,
-        "first": 0,
-        "second": 0
+        "vars": {
+            "mainPrice": 3,
+            "first": 0,
+            "second": 0
+        },
+        "chowVars": {
+        }
     },
     {
-        "mainPrice": 4,
-        "first": 1,
-        "second": 0
+        "vars": {
+            "mainPrice": 4,
+            "first": 1,
+            "second": 0
+        },
+        "chowVars": {
+        }
     },
     {
-        "mainPrice": 5,
-        "first": 1,
-        "second": 1
+        "vars": {
+
+            "mainPrice": 5,
+            "first": 1,
+            "second": 1
+        },
+        "chowVars": {
+        }
     }
 ]

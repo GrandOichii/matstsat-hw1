@@ -1,5 +1,4 @@
 import json
-import termcolor
 
 import analisys
 
@@ -11,5 +10,4 @@ def read_items(path: str):
 
 items = read_items(DATA_PATH)
 result = analisys.analise(items, 'mainPrice')
-print(result)
 result.write_latex_to('result.tex')

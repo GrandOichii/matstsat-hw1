@@ -8,7 +8,7 @@ class AnalisysResult:
         self.regressor_pvalues: dict = {}
 
     def write_latex_to(self, path: str):
-        with open('result.tex', 'w') as f:
+        with open(path, 'w') as f:
             f.write(self.latex_text)
 
 def analise(items: list, ykey='y', exclude_keys=None) -> AnalisysResult:
@@ -23,8 +23,8 @@ def analise(items: list, ykey='y', exclude_keys=None) -> AnalisysResult:
     result.latex_text += 'Number of observations ($n$) = ' + str(n) + '\n'
 
     regressorNames = []
-    for key in items[0].keys():
-        if key != 'mainPrice' and not key in exclude_keys:
+    for key in items[0]['vars'].keys():
+        if key != ykey and not key in exclude_keys:
             regressorNames += [key]
 
     k = len(regressorNames)
@@ -38,7 +38,7 @@ def analise(items: list, ykey='y', exclude_keys=None) -> AnalisysResult:
     # calculate the y matrix
     yarr = []
     for item in items:
-        yarr += [item[ykey]]
+        yarr += [item['vars'][ykey]]
 
     ymat = Matrix(yarr)
 
@@ -52,10 +52,9 @@ def analise(items: list, ykey='y', exclude_keys=None) -> AnalisysResult:
     for item in items:
         arr = [1]
         for key in regressorNames:
-            arr += [item[key]]
+            arr += [item['vars'][key]]
         xarr += [arr]
     xmat = Matrix(xarr)
-    pprint(xmat)
 
     if shape(xmat)[0] > 4 and shape(xmat)[1] > 4:
         result.latex_text += f'\n\n$X=\\begin{{bmatrix}}{xmat[0, 0]} & {xmat[0, 1]} & {xmat[0, 2]} & \\dots  & {xmat[0, -1]} \\\\ {xmat[1, 0]} & {xmat[1, 1]} & {xmat[1, 2]} & \\dots  & {xmat[1, -1]} \\\\ \\vdots & \\vdots & \\vdots & \\ddots & \\vdots \\\\ {xmat[-1, 0]} & {xmat[-1, 1]} & {xmat[-1, 2]} & \\dots  & {xmat[-1, -1]}\\end{{bmatrix}}$\n'
@@ -63,7 +62,7 @@ def analise(items: list, ykey='y', exclude_keys=None) -> AnalisysResult:
         result.latex_text += f'\n\n$X={latex(xmat)}$\n'
     # calculate the estimates
     estimates = (xmat.T * xmat) ** -1 * xmat.T * ymat
-
+    
     result.latex_text += f'\nCalculating the estimate $\\hat\\beta$ values\n'
     result.latex_text += f'\n$\\hat{{\\beta}}=(X^TX)^{{-1}}X^TY={latex(estimates)}$\n'
 
@@ -158,7 +157,83 @@ def analise(items: list, ykey='y', exclude_keys=None) -> AnalisysResult:
     pvaluef = '%.2f' % pvalue
     ppvaluef = '%.2f' % ppvalue
     result.regression_pvalue = pvalue
-    result.latex_text += f'\n$pvalue=P(\\{{T>T_{{obs}}\\}})=1-F_T(T_{{obs}})=1-fcdf(|T_{{obs}}|,k,n-k-1)={pvaluef}\\approx{ppvaluef}\\%$\n'
+    result.latex_text += f'\n$pvalue=P\\{{T>T_{{obs}}\\}}=1-F_T(T_{{obs}})=1-fcdf(|T_{{obs}}|,k,n-k-1)={pvaluef}\\approx{ppvaluef}\\%$\n'
+
+    # do the chow tests
+    for chow_key in items[0]['chowVars'].keys():
+        result.latex_text += f'\\\\\\\\Chow tests:\n'
+        result.latex_text += chow_test(items, ykey, chow_key, regressorNames, k)
 
     result.latex_text += '\\end{document}'
     return result
+
+def chow_test(items: list, ykey: str, chow_key: str, regressorNames: list[str], k: int) -> str:
+    result = ''
+    result += f'\n$\cdot$ Testing {chow_key}\n'
+    pile1 = []
+    pile2 = []
+    for item in items:
+        if item['chowVars'][chow_key]:
+            pile1 += [item]
+        else:
+            pile2 += [item]
+    result += f'\nPile 1 ({chow_key} is true) size: {len(pile1)}\n'
+    result += f'\nPile 2 ({chow_key} is false) size: {len(pile2)}\n'
+    di = 'd^A_i'
+    Amodel_latex = f'\\alpha^A{di}'
+    for name in regressorNames:
+        Amodel_latex += f'+\\beta^A_i{name}_i{di}'
+    Amodel_latex = '\n$(A)Y_i=' + Amodel_latex + '+\\epsilon_i$\n'
+    Bmodel_latex =  Amodel_latex.replace('A', 'B')
+    result += Amodel_latex
+    result += Bmodel_latex
+
+    RSSall = calc_rss(items, ykey, regressorNames)
+    RSSa = calc_rss(pile1, ykey, regressorNames)
+    RSSb = calc_rss(pile2, ykey, regressorNames)
+
+    # RSSall = 677043.679
+    # RSSa = 9309.959
+    # RSSb = 13940.942
+    # k = 1
+
+    result += '\n$RSS_{{all}}={}$\n'.format('%.2f' % RSSall)
+    result += '\n$RSS_A={}$\n'.format('%.2f' % RSSa)
+    result += '\n$RSS_B={}$\n'.format('%.2f' % RSSb)
+
+    n = len(items)
+    # n = 35
+    tobs = ((RSSall - RSSa - RSSb) / (k + 1)) / ((RSSa+RSSb) / (n-2*k-2))
+
+    result += '\n$T_{obs}=\\frac{(RSS_{all}-RSS_A-RSS_B)/(k+1)}{(RSS_A+RSS_B)/(n - 2k - 2)}=' + f'{tobs}$\n'
+    tcrit = f.ppf(0.95, k + 1, n - 2 * k - 2)
+    result += '\n$T_{crit}=finv(1 - SL, k + 1, n - 2k - 2)=' + f'{tcrit}$\n'
+    if tobs > tcrit:
+        result += '\n$T_{obs}>T_{crit}=>H_0$ is not valid $=>$ items should be split on ' + chow_key
+    else:
+        result += '\n$T_{obs}<T_{crit}=>H_0$ is valid $=>$ items should not be split on ' + chow_key
+    return result
+
+def calc_rss(items: list, ykey: str, regressorNames: list) -> int:
+    yarr = []
+    for item in items:
+        yarr += [item['vars'][ykey]]
+    ymat = Matrix(yarr)
+    xarr = []
+    for item in items:
+        arr = [1]
+        for key in regressorNames:
+            arr += [item['vars'][key]]
+        xarr += [arr]
+    xmat = Matrix(xarr)    
+    estimates = (xmat.T * xmat) ** -1 * xmat.T * ymat
+    estimatedY = xmat * estimates
+    yaverage = sum(yarr)/len(yarr)
+    TSS = 0
+    for y in yarr:
+        TSS += (y - yaverage)**2
+    ESS = 0
+    for y in estimatedY:
+        ESS += (y - yaverage)**2
+    RSS = TSS - ESS
+    return RSS

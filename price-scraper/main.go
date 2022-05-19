@@ -13,6 +13,12 @@ import (
 	"github.com/go-rod/rod/lib/proto"
 )
 
+// Двухкомнатные квартиры взяты с сайта https://www.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=flat&p=%d&region=1&room2=1
+// Центральные районы Москвы взяты с сайта https://puls-msk.ru/centr-moskvy/
+// Станции метро районов москвы взяты с сайта https://ru.wikipedia.org
+
+// Расстояние от центра до станции метро
+
 const (
 	pages = 20
 
@@ -24,7 +30,101 @@ const (
 	geoSelector       = "div[data-name=\"SpecialGeo\"]"
 	mainPriceSelector = "span[data-mark=\"MainPrice\"]"
 	priceInfoSelector = "p[data-mark=\"PriceInfo\"]"
+	stationSelector   = "._93444fe79c--icon--SJUaS"
 )
+
+var centralStations = []string{
+	"Красные Ворота",
+	"Чистые пруды",
+	"Лубянка",
+	"Бауманская",
+	"Курская",
+	"Китай-город",
+	"Чкаловская",
+	"Электрозаводская",
+	"Арбатская",
+	"Смоленская",
+	"Библиотека имени Ленина",
+	"Александровский сад",
+	"Боровицкая",
+	"Новокузнецкая",
+	"Павелецкая",
+	"Добрынинская",
+	"Третьяковская",
+	"Серпуховская",
+	"Красносельская",
+	"Комсомольская",
+	"Чистые пруды",
+	"Комсомольская",
+	"Сухаревская",
+	"Тургеневская",
+	"Сретенский бульвар",
+	"Лубянка",
+	"Рижская",
+	"Проспект Мира",
+	"Сухаревская",
+	"Кузнецкий Мост",
+	"Трубная",
+	"Международная",
+	"Выставочная",
+	"Краснопресненская",
+	"Беговая",
+	"Улица 1905 года",
+	"Баррикадная",
+	"Деловой центр",
+	"Деловой центр",
+	"Шелепиха",
+	"Деловой центр",
+	"Шелепиха",
+	"Тестовская",
+	"Беговая",
+	"Таганская",
+	"Китай-город",
+	"Китай-город",
+	"Таганская",
+	"Пролетарская",
+	"Площадь Ильича",
+	"Марксистская",
+	"Крестьянская застава",
+	"Лубянка",
+	"Охотный Ряд",
+	"Библиотека имени Ленина",
+	"Белорусская",
+	"Маяковская",
+	"Тверская",
+	"Театральная",
+	"Площадь Революции",
+	"Арбатская",
+	"Александровский сад",
+	"Белорусская",
+	"Новослободская",
+	"Суворовская",
+	"Китай-город",
+	"Пушкинская",
+	"Китай-город",
+	"Менделеевская",
+	"Цветной бульвар",
+	"Чеховская",
+	"Боровицкая",
+	"Достоевская",
+	"Кропоткинская",
+	"Парк культуры",
+	"Фрунзенская",
+	"Спортивная",
+	"Воробьёвы горы",
+	"Парк культуры",
+	"Лужники",
+	"Полянка",
+}
+
+func IsCentralStation(station string) bool {
+	for _, s := range centralStations {
+		if s == station {
+			return true
+		}
+	}
+	return false
+}
 
 func checkErr(err error) {
 	if err != nil {
@@ -46,7 +146,7 @@ func initBrowser() (*rod.Browser, error) {
 	return result, nil
 }
 
-type FlatData struct {
+type BaseVars struct {
 	Square     float64 `json:"square"`
 	Floor      int     `json:"floor"`
 	MaxFloor   int     `json:"maxFloor"`
@@ -55,8 +155,21 @@ type FlatData struct {
 	OtherPrice int     `json:"otherPrice"`
 }
 
+func (v BaseVars) print() {
+	fmt.Printf("Square: %f\tFloor: %d/%d\tTo metro: %d\tPrice: %d\tOther price: %d\n", v.Square, v.Floor, v.MaxFloor, v.ToMetro, v.MainPrice, v.OtherPrice)
+}
+
+type ChowVars struct {
+	IsNearCentralStation bool
+}
+
+type FlatData struct {
+	Vars BaseVars `json:"vars"`
+	Chow ChowVars `json:"chowVars"`
+}
+
 func (f FlatData) print() {
-	fmt.Printf("Square: %f\tFloor: %d/%d\tTo metro: %d\tPrice: %d\tOther price: %d\n", f.Square, f.Floor, f.MaxFloor, f.ToMetro, f.MainPrice, f.OtherPrice)
+	f.Vars.print()
 }
 
 func (f *FlatData) inject(line string) error {
@@ -73,17 +186,17 @@ func (f *FlatData) inject(line string) error {
 	if err != nil {
 		return err
 	}
-	f.Square = square
+	f.Vars.Square = square
 
 	// set the floors
 	line = line[i+7:]
 	line = strings.TrimSuffix(line, " этаж")
 	floors := strings.Split(line, "/")
-	f.Floor, err = strconv.Atoi(floors[0])
+	f.Vars.Floor, err = strconv.Atoi(floors[0])
 	if err != nil {
 		return err
 	}
-	f.MaxFloor, err = strconv.Atoi(floors[1])
+	f.Vars.MaxFloor, err = strconv.Atoi(floors[1])
 	if err != nil {
 		return err
 	}
@@ -123,14 +236,28 @@ func main() {
 			err = fd.inject(titleText)
 			checkErr(err)
 
+			station, err := getStation(el)
+			if err != nil {
+				colorwrapper.Println("red", "Failed to get the metro station, ignoring")
+			}
+			fd.Chow.IsNearCentralStation = IsCentralStation(station)
+			s1, _ := colorwrapper.GetColored("normal-green", "is")
+			s2, _ := colorwrapper.GetColored("normal-red", "is not")
+			cmap := map[bool]string{
+				true:  s1,
+				false: s2,
+			}
+			s, _ := colorwrapper.GetColored("cyan", station)
+			fmt.Printf("\t%s %s a central station\n", s, cmap[fd.Chow.IsNearCentralStation])
+
 			geo, err := getGeo(el)
 			if err != nil {
-				colorwrapper.Println("red", "Failed to get the minutes ti the metro, ignoring")
+				colorwrapper.Println("red", "Failed to get the minutes to the metro, ignoring")
 				continue
 			}
-			fd.ToMetro = geo
+			fd.Vars.ToMetro = geo
 
-			fd.MainPrice, fd.OtherPrice, err = getPrices(el)
+			fd.Vars.MainPrice, fd.Vars.OtherPrice, err = getPrices(el)
 			checkErr(err)
 
 			fd.print()
@@ -163,6 +290,19 @@ func getTitleText(el *rod.Element) string {
 		}
 	}
 	return result
+}
+
+func getStation(el *rod.Element) (string, error) {
+	st, err := el.Element(stationSelector)
+	if err != nil {
+		return "", err
+	}
+	st, err = st.Next()
+	if err != nil {
+		return "", err
+	}
+	result, err := st.Text()
+	return result, err
 }
 
 func getGeo(el *rod.Element) (int, error) {
