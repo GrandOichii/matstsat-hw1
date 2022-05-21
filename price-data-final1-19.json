@@ -1,0 +1,3362 @@
+[
+	{
+		"vars": {
+			"square": 126.4,
+			"liveSquare": 114,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 58,
+			"toMetro": 12,
+			"mainPrice": 35599459,
+			"yearOfConstructuon": 2015,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 50.8,
+			"liveSquare": 30,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 32,
+			"toMetro": 7,
+			"mainPrice": 50693930,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 44,
+			"liveSquare": 27,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 9,
+			"toMetro": 5,
+			"mainPrice": 9000000,
+			"yearOfConstructuon": 1970,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 70.1,
+			"liveSquare": 29,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 26,
+			"toMetro": 10,
+			"mainPrice": 22733430,
+			"yearOfConstructuon": 2025,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 68.6,
+			"liveSquare": 27,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 51,
+			"toMetro": 14,
+			"mainPrice": 27858460,
+			"yearOfConstructuon": 2025,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 73.3,
+			"liveSquare": 32,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 21,
+			"toMetro": 9,
+			"mainPrice": 29100100,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 65,
+			"liveSquare": 27,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 55,
+			"toMetro": 8,
+			"mainPrice": 23900000,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 81.9,
+			"liveSquare": 26,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 8,
+			"toMetro": 2,
+			"mainPrice": 78624000,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 62,
+			"liveSquare": 33,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 18,
+			"toMetro": 7,
+			"mainPrice": 26800000,
+			"yearOfConstructuon": 2018,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 64.4,
+			"liveSquare": 38,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 10,
+			"toMetro": 9,
+			"mainPrice": 25800000,
+			"yearOfConstructuon": 1957,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 61.27,
+			"liveSquare": 23,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 54,
+			"toMetro": 5,
+			"mainPrice": 20930628,
+			"yearOfConstructuon": 2025,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 44.3,
+			"liveSquare": 30,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 5,
+			"toMetro": 7,
+			"mainPrice": 12700000,
+			"yearOfConstructuon": 1964,
+			"hasElevator": 0,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 48,
+			"liveSquare": 31,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 12,
+			"toMetro": 11,
+			"mainPrice": 14970000,
+			"yearOfConstructuon": 1966,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 78.35,
+			"liveSquare": 33,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 21,
+			"toMetro": 7,
+			"mainPrice": 39939999,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 42.2,
+			"liveSquare": 22,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 16,
+			"toMetro": 12,
+			"mainPrice": 6973550,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 63.6,
+			"liveSquare": 23,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 28,
+			"toMetro": 17,
+			"mainPrice": 28507618,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 51.5,
+			"liveSquare": 34,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 32,
+			"toMetro": 7,
+			"mainPrice": 24144672,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 45.25,
+			"liveSquare": 28,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 12,
+			"toMetro": 2022,
+			"mainPrice": 14500000,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 51.99,
+			"liveSquare": 25,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 17,
+			"toMetro": 15,
+			"mainPrice": 10592963,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+    {
+		"vars": {
+			"square": 58.2,
+			"liveSquare": 24,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 25,
+			"toMetro": 17,
+			"mainPrice": 17780100,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.9,
+			"liveSquare": 36,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 14,
+			"toMetro": 3,
+			"mainPrice": 19180000,
+			"yearOfConstructuon": 1968,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53.7,
+			"liveSquare": 24,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 30,
+			"toMetro": 11,
+			"mainPrice": 16244250,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 72,
+			"liveSquare": 31,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 25,
+			"toMetro": 8,
+			"mainPrice": 42800000,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 75,
+			"liveSquare": 40,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 19,
+			"toMetro": 16,
+			"mainPrice": 45900000,
+			"yearOfConstructuon": 2018,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 66.5,
+			"liveSquare": 27,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 28,
+			"toMetro": 5,
+			"mainPrice": 35207893,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 47.9,
+			"liveSquare": 33,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 26,
+			"toMetro": 15,
+			"mainPrice": 20118685,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 47,
+			"liveSquare": 28,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 16,
+			"toMetro": 12,
+			"mainPrice": 14100000,
+			"yearOfConstructuon": 1969,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 76.1,
+			"liveSquare": 35,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 16,
+			"toMetro": 6,
+			"mainPrice": 16859655,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62.7,
+			"liveSquare": 32,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 68,
+			"toMetro": 12,
+			"mainPrice": 17689315,
+			"yearOfConstructuon": 2026,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 81.81,
+			"liveSquare": 34,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 12,
+			"toMetro": 12,
+			"mainPrice": 56507440,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 64.82,
+			"liveSquare": 27,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 22,
+			"toMetro": 1,
+			"mainPrice": 34421760,
+			"yearOfConstructuon": 2025,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 35.4,
+			"liveSquare": 18,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 16,
+			"toMetro": 4,
+			"mainPrice": 7208006,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 60.8,
+			"liveSquare": 31,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 8,
+			"toMetro": 3,
+			"mainPrice": 16700000,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 85.9,
+			"liveSquare": 36,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 26,
+			"toMetro": 5,
+			"mainPrice": 39479640,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 41.9,
+			"liveSquare": 11,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 24,
+			"toMetro": 18,
+			"mainPrice": 11851329,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 67.3,
+			"liveSquare": 32,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 14,
+			"toMetro": 8,
+			"mainPrice": 16322985,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71.7,
+			"liveSquare": 50,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 8,
+			"toMetro": 7,
+			"mainPrice": 85000000,
+			"yearOfConstructuon": 2009,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 60,
+			"liveSquare": 26,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 22,
+			"toMetro": 18,
+			"mainPrice": 35000000,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 55.7,
+			"liveSquare": 31,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 24,
+			"toMetro": 10,
+			"mainPrice": 25622000,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 63.7,
+			"liveSquare": 43,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 78,
+			"toMetro": 6,
+			"mainPrice": 40000000,
+			"yearOfConstructuon": 2020,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 49.2,
+			"liveSquare": 12,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 14,
+			"toMetro": 12,
+			"mainPrice": 30750000,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 58.4,
+			"liveSquare": 31,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 18,
+			"toMetro": 7,
+			"mainPrice": 18162400,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.6,
+			"liveSquare": 25,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 9,
+			"toMetro": 17,
+			"mainPrice": 20914560,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 69.5,
+			"liveSquare": 38,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 53,
+			"toMetro": 9,
+			"mainPrice": 22962800,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 55.4,
+			"liveSquare": 31,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 22,
+			"toMetro": 10,
+			"mainPrice": 17417899,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 51.2,
+			"liveSquare": 23,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 14,
+			"toMetro": 8,
+			"mainPrice": 12419725,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 59.8,
+			"liveSquare": 29,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 22,
+			"toMetro": 8,
+			"mainPrice": 17727710,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 133.55,
+			"liveSquare": 43,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 7,
+			"toMetro": 4,
+			"mainPrice": 124988376,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 36.33,
+			"liveSquare": 18,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 28,
+			"toMetro": 4,
+			"mainPrice": 15800000,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 106.8,
+			"liveSquare": 31,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 8,
+			"toMetro": 5,
+			"mainPrice": 196140000,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 54,
+			"liveSquare": 31,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 16,
+			"toMetro": 3,
+			"mainPrice": 15500000,
+			"yearOfConstructuon": 1981,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 65.7,
+			"liveSquare": 32,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 28,
+			"toMetro": 15,
+			"mainPrice": 24900000,
+			"yearOfConstructuon": 2020,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 65.6,
+			"liveSquare": 31,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 48,
+			"toMetro": 12,
+			"mainPrice": 25952803,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 48,
+			"liveSquare": 30,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 12,
+			"toMetro": 12,
+			"mainPrice": 16500000,
+			"yearOfConstructuon": 1973,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 75,
+			"liveSquare": 25,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 14,
+			"toMetro": 10,
+			"mainPrice": 35000000,
+			"yearOfConstructuon": 2019,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 135.7,
+			"liveSquare": 100,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 10,
+			"toMetro": 9,
+			"mainPrice": 71000000,
+			"yearOfConstructuon": 1959,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 54,
+			"liveSquare": 27,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 27,
+			"toMetro": 15,
+			"mainPrice": 25265520,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56,
+			"liveSquare": 22,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 24,
+			"toMetro": 15,
+			"mainPrice": 19900000,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.49,
+			"liveSquare": 25,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 28,
+			"toMetro": 5,
+			"mainPrice": 19591908,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 36.05,
+			"liveSquare": 11,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 27,
+			"toMetro": 15,
+			"mainPrice": 7195310,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 54.9,
+			"liveSquare": 34,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 11,
+			"toMetro": 9,
+			"mainPrice": 32347080,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 122.56,
+			"liveSquare": 30,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 6,
+			"toMetro": 10,
+			"mainPrice": 119250880,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 61,
+			"liveSquare": 32,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 25,
+			"toMetro": 10,
+			"mainPrice": 18800000,
+			"yearOfConstructuon": 2004,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45.1,
+			"liveSquare": 22,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 15,
+			"toMetro": 7,
+			"mainPrice": 12696385,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 36.4,
+			"liveSquare": 21,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 22,
+			"toMetro": 5,
+			"mainPrice": 11946480,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 89.78,
+			"liveSquare": 35,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 12,
+			"toMetro": 12,
+			"mainPrice": 49145572,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 74,
+			"liveSquare": 25,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 17,
+			"toMetro": 18,
+			"mainPrice": 34500000,
+			"yearOfConstructuon": 2018,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 77,
+			"liveSquare": 50,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 13,
+			"toMetro": 7,
+			"mainPrice": 99000000,
+			"yearOfConstructuon": 2014,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 45.1,
+			"liveSquare": 33,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 5,
+			"toMetro": 7,
+			"mainPrice": 10990000,
+			"yearOfConstructuon": 1963,
+			"hasElevator": 0,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 60.4,
+			"liveSquare": 25,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 21,
+			"toMetro": 11,
+			"mainPrice": 18059600,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45,
+			"liveSquare": 28,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 8,
+			"toMetro": 5,
+			"mainPrice": 16900000,
+			"yearOfConstructuon": 2020,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 84,
+			"liveSquare": 31,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 30,
+			"toMetro": 4,
+			"mainPrice": 32500000,
+			"yearOfConstructuon": 2012,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 74.71,
+			"liveSquare": 45,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 28,
+			"toMetro": 2022,
+			"mainPrice": 24327518,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 70.1,
+			"liveSquare": 32,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 10,
+			"toMetro": 4,
+			"mainPrice": 35850051,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 44.7,
+			"liveSquare": 27,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 5,
+			"toMetro": 11,
+			"mainPrice": 12800000,
+			"yearOfConstructuon": 1964,
+			"hasElevator": 0,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 51.2,
+			"liveSquare": 29,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 18,
+			"toMetro": 13,
+			"mainPrice": 12528640,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 68.22,
+			"liveSquare": 37,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 31,
+			"toMetro": 18,
+			"mainPrice": 26060040,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 59.8,
+			"liveSquare": 27,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 29,
+			"toMetro": 7,
+			"mainPrice": 23650900,
+			"yearOfConstructuon": 2025,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 67.5,
+			"liveSquare": 30,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 12,
+			"toMetro": 2,
+			"mainPrice": 11455100,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 59.8,
+			"liveSquare": 35,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 25,
+			"toMetro": 10,
+			"mainPrice": 19339320,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 55.72,
+			"liveSquare": 30,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 25,
+			"toMetro": 19,
+			"mainPrice": 10921120,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56,
+			"liveSquare": 27,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 58,
+			"toMetro": 9,
+			"mainPrice": 24472000,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 43,
+			"liveSquare": 13,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 18,
+			"toMetro": 10,
+			"mainPrice": 24500000,
+			"yearOfConstructuon": 2019,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53.79,
+			"liveSquare": 24,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 22,
+			"toMetro": 13,
+			"mainPrice": 20230419,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 58,
+			"liveSquare": 30,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 24,
+			"toMetro": 15,
+			"mainPrice": 27900000,
+			"yearOfConstructuon": 2019,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 53.9,
+			"liveSquare": 22,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 21,
+			"toMetro": 7,
+			"mainPrice": 11168958,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 84.62,
+			"liveSquare": 51,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 17,
+			"toMetro": 13,
+			"mainPrice": 50348900,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 63.3,
+			"liveSquare": 26,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 19,
+			"toMetro": 1,
+			"mainPrice": 20699100,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 79,
+			"liveSquare": 41,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 18,
+			"toMetro": 4,
+			"mainPrice": 32400000,
+			"yearOfConstructuon": 2020,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56,
+			"liveSquare": 30,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 15,
+			"toMetro": 15,
+			"mainPrice": 24250000,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 78.2,
+			"liveSquare": 33,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 51,
+			"toMetro": 9,
+			"mainPrice": 36500000,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 61.2,
+			"liveSquare": 29,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 14,
+			"toMetro": 6,
+			"mainPrice": 15636600,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 131.91,
+			"liveSquare": 35,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 52,
+			"toMetro": 4,
+			"mainPrice": 131523162,
+			"yearOfConstructuon": 2012,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 50.5,
+			"liveSquare": 31,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 32,
+			"toMetro": 18,
+			"mainPrice": 22270500,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56.2,
+			"liveSquare": 40,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 13,
+			"toMetro": 15,
+			"mainPrice": 24830676,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 36.01,
+			"liveSquare": 33,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 18,
+			"toMetro": 7,
+			"mainPrice": 11960649,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 40.9,
+			"liveSquare": 12,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 21,
+			"toMetro": 13,
+			"mainPrice": 11190496,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62,
+			"liveSquare": 28,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 22,
+			"toMetro": 8,
+			"mainPrice": 41000000,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 61.38,
+			"liveSquare": 27,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 15,
+			"toMetro": 1,
+			"mainPrice": 20085991,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 75.1,
+			"liveSquare": 38,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 11,
+			"toMetro": 18,
+			"mainPrice": 28500000,
+			"yearOfConstructuon": 2019,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45,
+			"liveSquare": 29,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 9,
+			"toMetro": 4,
+			"mainPrice": 11500000,
+			"yearOfConstructuon": 1968,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 66.99,
+			"liveSquare": 17,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 10,
+			"toMetro": 19,
+			"mainPrice": 20150000,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 91,
+			"liveSquare": 58,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 25,
+			"toMetro": 13,
+			"mainPrice": 42000000,
+			"yearOfConstructuon": 2008,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 58.49,
+			"liveSquare": 14,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 21,
+			"toMetro": 17,
+			"mainPrice": 21057932,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 57.5,
+			"liveSquare": 34,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 35,
+			"toMetro": 8,
+			"mainPrice": 24399895,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 50.5,
+			"liveSquare": 30,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 16,
+			"toMetro": 10,
+			"mainPrice": 14000000,
+			"yearOfConstructuon": 1982,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45,
+			"liveSquare": 28,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 9,
+			"toMetro": 4,
+			"mainPrice": 11330000,
+			"yearOfConstructuon": 1969,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 44.5,
+			"liveSquare": 30,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 9,
+			"toMetro": 6,
+			"mainPrice": 15000000,
+			"yearOfConstructuon": 1970,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 46,
+			"liveSquare": 30,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 12,
+			"toMetro": 11,
+			"mainPrice": 10900000,
+			"yearOfConstructuon": 1976,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56,
+			"liveSquare": 40,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 6,
+			"toMetro": 29,
+			"mainPrice": 5800000,
+			"yearOfConstructuon": 2010,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53,
+			"liveSquare": 32,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 22,
+			"toMetro": 16,
+			"mainPrice": 25300000,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 44.2,
+			"liveSquare": 35,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 5,
+			"toMetro": 4,
+			"mainPrice": 16800000,
+			"yearOfConstructuon": 1962,
+			"hasElevator": 0,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 58.94,
+			"liveSquare": 27,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 12,
+			"toMetro": 5,
+			"mainPrice": 27200000,
+			"yearOfConstructuon": 2019,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 71,
+			"liveSquare": 27,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 19,
+			"toMetro": 7,
+			"mainPrice": 32900000,
+			"yearOfConstructuon": 2019,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 93,
+			"liveSquare": 67,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 8,
+			"toMetro": 18,
+			"mainPrice": 37490000,
+			"yearOfConstructuon": 2016,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 83.9,
+			"liveSquare": 57,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 13,
+			"toMetro": 7,
+			"mainPrice": 52938693,
+			"yearOfConstructuon": 2013,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 78,
+			"liveSquare": 33,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 52,
+			"toMetro": 10,
+			"mainPrice": 38000000,
+			"yearOfConstructuon": 2020,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 65,
+			"liveSquare": 39,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 27,
+			"toMetro": 10,
+			"mainPrice": 27500000,
+			"yearOfConstructuon": 2000,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57,
+			"liveSquare": 35,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 9,
+			"toMetro": 1,
+			"mainPrice": 19300000,
+			"yearOfConstructuon": 1959,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 46,
+			"liveSquare": 30,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 4,
+			"toMetro": 3,
+			"mainPrice": 12500000,
+			"yearOfConstructuon": 1961,
+			"hasElevator": 0,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 80,
+			"liveSquare": 70,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 85,
+			"toMetro": 2,
+			"mainPrice": 39999999,
+			"yearOfConstructuon": 2016,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 81,
+			"liveSquare": 50,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 4,
+			"toMetro": 15,
+			"mainPrice": 25500000,
+			"yearOfConstructuon": 2015,
+			"hasElevator": 0,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45.1,
+			"liveSquare": 29,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 9,
+			"toMetro": 10,
+			"mainPrice": 9500000,
+			"yearOfConstructuon": 1971,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 46,
+			"liveSquare": 17,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 21,
+			"toMetro": 10,
+			"mainPrice": 18800000,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 81,
+			"liveSquare": 39,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 12,
+			"toMetro": 5,
+			"mainPrice": 34500000,
+			"yearOfConstructuon": 2004,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45,
+			"liveSquare": 29,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 5,
+			"toMetro": 8,
+			"mainPrice": 9500000,
+			"yearOfConstructuon": 1969,
+			"hasElevator": 0,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 53,
+			"liveSquare": 31,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 14,
+			"toMetro": 5,
+			"mainPrice": 13500000,
+			"yearOfConstructuon": 1992,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 78.4,
+			"liveSquare": 51,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 40,
+			"toMetro": 6,
+			"mainPrice": 52000000,
+			"yearOfConstructuon": 2012,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 65,
+			"liveSquare": 39,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 27,
+			"toMetro": 16,
+			"mainPrice": 28000000,
+			"yearOfConstructuon": 2000,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 94.4,
+			"liveSquare": 57,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 7,
+			"toMetro": 5,
+			"mainPrice": 110000000,
+			"yearOfConstructuon": 2007,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 69,
+			"liveSquare": 55,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 78,
+			"toMetro": 4,
+			"mainPrice": 41900000,
+			"yearOfConstructuon": 2020,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 75,
+			"liveSquare": 70,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 78,
+			"toMetro": 4,
+			"mainPrice": 49900000,
+			"yearOfConstructuon": 2020,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 68.5,
+			"liveSquare": 26,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 13,
+			"toMetro": 15,
+			"mainPrice": 37800000,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 51,
+			"liveSquare": 34,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 12,
+			"toMetro": 15,
+			"mainPrice": 29950000,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 47,
+			"liveSquare": 28,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 6,
+			"toMetro": 15,
+			"mainPrice": 6900000,
+			"yearOfConstructuon": 2019,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 32.2,
+			"liveSquare": 21,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 6,
+			"toMetro": 2,
+			"mainPrice": 5957000,
+			"yearOfConstructuon": 1955,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 35.5,
+			"liveSquare": 21,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 8,
+			"toMetro": 10,
+			"mainPrice": 11890000,
+			"yearOfConstructuon": 1960,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 60,
+			"liveSquare": 36,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 8,
+			"toMetro": 10,
+			"mainPrice": 19990000,
+			"yearOfConstructuon": 1960,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71.8,
+			"liveSquare": 32,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 14,
+			"toMetro": 12,
+			"mainPrice": 19709100,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45,
+			"liveSquare": 20,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 44,
+			"toMetro": 11,
+			"mainPrice": 29000000,
+			"yearOfConstructuon": 2018,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 85,
+			"liveSquare": 70,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 49,
+			"toMetro": 3,
+			"mainPrice": 44900000,
+			"yearOfConstructuon": 2016,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 64.1,
+			"liveSquare": 31,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 33,
+			"toMetro": 7,
+			"mainPrice": 23794138,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 53,
+			"liveSquare": 31,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 17,
+			"toMetro": 7,
+			"mainPrice": 19500000,
+			"yearOfConstructuon": 1998,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 39.3,
+			"liveSquare": 26,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 22,
+			"toMetro": 10,
+			"mainPrice": 13360330,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 42,
+			"liveSquare": 16,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 52,
+			"toMetro": 2,
+			"mainPrice": 28990000,
+			"yearOfConstructuon": 2019,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 57.5,
+			"liveSquare": 32,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 12,
+			"toMetro": 2,
+			"mainPrice": 31500000,
+			"yearOfConstructuon": 1965,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 52.54,
+			"liveSquare": 21,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 54,
+			"toMetro": 5,
+			"mainPrice": 20127180,
+			"yearOfConstructuon": 2025,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 51,
+			"liveSquare": 33,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 16,
+			"toMetro": 15,
+			"mainPrice": 14500000,
+			"yearOfConstructuon": 1985,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 61.4,
+			"liveSquare": 21,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 25,
+			"toMetro": 13,
+			"mainPrice": 14269360,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 105,
+			"liveSquare": 60,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 12,
+			"toMetro": 5,
+			"mainPrice": 99700000,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 64.5,
+			"liveSquare": 28,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 26,
+			"toMetro": 14,
+			"mainPrice": 20111100,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.6,
+			"liveSquare": 28,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 58,
+			"toMetro": 9,
+			"mainPrice": 18892800,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 36,
+			"liveSquare": 22,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 33,
+			"toMetro": 7,
+			"mainPrice": 18431277,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 68.6,
+			"liveSquare": 28,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 24,
+			"toMetro": 5,
+			"mainPrice": 31418800,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 72,
+			"liveSquare": 50,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 78,
+			"toMetro": 4,
+			"mainPrice": 49900000,
+			"yearOfConstructuon": 2020,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 58.5,
+			"liveSquare": 36,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 30,
+			"toMetro": 19,
+			"mainPrice": 22500000,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 66,
+			"liveSquare": 29,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 26,
+			"toMetro": 14,
+			"mainPrice": 20024400,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 41.6,
+			"liveSquare": 26,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 33,
+			"toMetro": 12,
+			"mainPrice": 12280320,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 56.84,
+			"liveSquare": 22,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 33,
+			"toMetro": 2022,
+			"mainPrice": 15011444,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71.6,
+			"liveSquare": 39,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 20,
+			"toMetro": 20,
+			"mainPrice": 40800000,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 39.74,
+			"liveSquare": 20,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 31,
+			"toMetro": 18,
+			"mainPrice": 15776780,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 44.29,
+			"liveSquare": 24,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 31,
+			"toMetro": 18,
+			"mainPrice": 22012130,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 58,
+			"liveSquare": 26,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 21,
+			"toMetro": 11,
+			"mainPrice": 21228000,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 75.3,
+			"liveSquare": 29,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 21,
+			"toMetro": 7,
+			"mainPrice": 39039999,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 70.1,
+			"liveSquare": 32,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 10,
+			"toMetro": 4,
+			"mainPrice": 36683330,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 51.2,
+			"liveSquare": 24,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 33,
+			"toMetro": 9,
+			"mainPrice": 14023680,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 71,
+			"liveSquare": 34,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 10,
+			"toMetro": 4,
+			"mainPrice": 38884783,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 55.8,
+			"liveSquare": 24,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 21,
+			"toMetro": 13,
+			"mainPrice": 21764790,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 61.2,
+			"liveSquare": 29,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 24,
+			"toMetro": 3,
+			"mainPrice": 17600000,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 63.05,
+			"liveSquare": 33,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 25,
+			"toMetro": 19,
+			"mainPrice": 12168650,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 57.6,
+			"liveSquare": 25,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 9,
+			"toMetro": 17,
+			"mainPrice": 21055680,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 67.5,
+			"liveSquare": 32,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 19,
+			"toMetro": 10,
+			"mainPrice": 35490000,
+			"yearOfConstructuon": 2018,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 54.3,
+			"liveSquare": 20,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 15,
+			"toMetro": 13,
+			"mainPrice": 11924280,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62.2,
+			"liveSquare": 24,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 33,
+			"toMetro": 12,
+			"mainPrice": 17011700,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 72.88,
+			"liveSquare": 35,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 33,
+			"toMetro": 2022,
+			"mainPrice": 17265272,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 58.7,
+			"liveSquare": 29,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 12,
+			"toMetro": 2,
+			"mainPrice": 10914054,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 58.7,
+			"liveSquare": 27,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 22,
+			"toMetro": 6,
+			"mainPrice": 16286315,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 48.9,
+			"liveSquare": 21,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 33,
+			"toMetro": 2022,
+			"mainPrice": 10704210,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62.02,
+			"liveSquare": 51,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 65,
+			"toMetro": 7,
+			"mainPrice": 62500000,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 56.7,
+			"liveSquare": 30,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 41,
+			"toMetro": 15,
+			"mainPrice": 31000000,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 67.54,
+			"liveSquare": 56,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 65,
+			"toMetro": 7,
+			"mainPrice": 58800000,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 70,
+			"liveSquare": 35,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 6,
+			"toMetro": 4,
+			"mainPrice": 38276030,
+			"yearOfConstructuon": 1940,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 49.2,
+			"liveSquare": 12,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 14,
+			"toMetro": 12,
+			"mainPrice": 29244480,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 32.6,
+			"liveSquare": 19,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 27,
+			"toMetro": 7,
+			"mainPrice": 9352940,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62.7,
+			"liveSquare": 30,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 28,
+			"toMetro": 10,
+			"mainPrice": 38825156,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 62.9,
+			"liveSquare": 33,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 28,
+			"toMetro": 5,
+			"mainPrice": 33699933,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 68.5,
+			"liveSquare": 36,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 53,
+			"toMetro": 9,
+			"mainPrice": 22474850,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 120.24,
+			"liveSquare": 40,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 21,
+			"toMetro": 6,
+			"mainPrice": 119638800,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 59,
+			"liveSquare": 22,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 33,
+			"toMetro": 2022,
+			"mainPrice": 12319200,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 64.4,
+			"liveSquare": 28,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 23,
+			"toMetro": 7,
+			"mainPrice": 20118560,
+			"yearOfConstructuon": 2021,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 59.1,
+			"liveSquare": 23,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 33,
+			"toMetro": 10,
+			"mainPrice": 15052770,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 81.7,
+			"liveSquare": 36,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 28,
+			"toMetro": 5,
+			"mainPrice": 46610912,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 58.1,
+			"liveSquare": 36,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 77,
+			"toMetro": 4,
+			"mainPrice": 46480000,
+			"yearOfConstructuon": 2019,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 50.88,
+			"liveSquare": 14,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 13,
+			"toMetro": 1,
+			"mainPrice": 29144064,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 83.92,
+			"liveSquare": 33,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 21,
+			"toMetro": 14,
+			"mainPrice": 44508950,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 43.2,
+			"liveSquare": 15,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 25,
+			"toMetro": 7,
+			"mainPrice": 16800000,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 69.13,
+			"liveSquare": 57,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 65,
+			"toMetro": 7,
+			"mainPrice": 60143100,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 66.9,
+			"liveSquare": 28,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 23,
+			"toMetro": 7,
+			"mainPrice": 20110140,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 82.01,
+			"liveSquare": 28,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 51,
+			"toMetro": 6,
+			"mainPrice": 36084400,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 84.04,
+			"liveSquare": 29,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 51,
+			"toMetro": 6,
+			"mainPrice": 39246680,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 62.4,
+			"liveSquare": 33,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 43,
+			"toMetro": 18,
+			"mainPrice": 33770880,
+			"yearOfConstructuon": 2023,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 45,
+			"liveSquare": 27,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 7,
+			"toMetro": 10,
+			"mainPrice": 22300000,
+			"yearOfConstructuon": 1944,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 48.9,
+			"liveSquare": 16,
+			"isFirstOrLastFloor": 1,
+			"maxFloor": 10,
+			"toMetro": 18,
+			"mainPrice": 27000000,
+			"yearOfConstructuon": 2019,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 58,
+			"liveSquare": 35,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 14,
+			"toMetro": 23,
+			"mainPrice": 12200000,
+			"yearOfConstructuon": 2008,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 90,
+			"liveSquare": 41,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 37,
+			"toMetro": 2,
+			"mainPrice": 34900000,
+			"yearOfConstructuon": 2010,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 32.6,
+			"liveSquare": 19,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 33,
+			"toMetro": 11,
+			"mainPrice": 10347240,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 52.1,
+			"liveSquare": 28,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 32,
+			"toMetro": 12,
+			"mainPrice": 17849460,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 55,
+			"liveSquare": 33,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 9,
+			"toMetro": 3,
+			"mainPrice": 27000000,
+			"yearOfConstructuon": 1961,
+			"hasElevator": 1,
+			"isNovostroyka": 0
+		},
+		"chowVars": {
+			"IsNearCentralStation": true
+		}
+	},
+	{
+		"vars": {
+			"square": 55.6,
+			"liveSquare": 21,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 32,
+			"toMetro": 6,
+			"mainPrice": 19521160,
+			"yearOfConstructuon": 2022,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	},
+	{
+		"vars": {
+			"square": 32.8,
+			"liveSquare": 19,
+			"isFirstOrLastFloor": 0,
+			"maxFloor": 33,
+			"toMetro": 11,
+			"mainPrice": 10282800,
+			"yearOfConstructuon": 2024,
+			"hasElevator": 1,
+			"isNovostroyka": 1
+		},
+		"chowVars": {
+			"IsNearCentralStation": false
+		}
+	}
+]

@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"os"
 	"strconv"
@@ -20,7 +21,8 @@ import (
 // Расстояние от центра до станции метро
 
 const (
-	pages = 20
+	startPage = 18
+	endPage   = 20
 
 	URL = "https://www.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=flat&p=%d&region=1&room2=1"
 
@@ -30,8 +32,36 @@ const (
 	geoSelector       = "div[data-name=\"SpecialGeo\"]"
 	mainPriceSelector = "span[data-mark=\"MainPrice\"]"
 	priceInfoSelector = "p[data-mark=\"PriceInfo\"]"
-	stationSelector   = "._93444fe79c--icon--SJUaS"
+	stationSelector   = ".a10a3f92e9--underground_link--Sxo7K"
 )
+
+var ignoreList = []string{
+	"https://www.cian.ru/sale/flat/271547026/",
+	"https://www.cian.ru/sale/flat/271704920/",
+	"https://www.cian.ru/sale/flat/269222371/",
+	"https://www.cian.ru/sale/flat/272566535/",
+	"https://www.cian.ru/sale/flat/273637601/",
+	"https://www.cian.ru/sale/flat/270817751/",
+	"https://www.cian.ru/sale/flat/272532068/",
+	"https://www.cian.ru/sale/flat/271222341/",
+	"https://www.cian.ru/sale/flat/273717818/",
+	"https://www.cian.ru/sale/flat/273578888/",
+	"https://www.cian.ru/sale/flat/272575953/",
+	"https://www.cian.ru/sale/flat/269019912/",
+	"https://www.cian.ru/sale/flat/272329175/",
+	"https://www.cian.ru/sale/flat/271034921/",
+	"https://www.cian.ru/sale/flat/273316215/",
+	"https://www.cian.ru/sale/flat/271161220/",
+}
+
+func ignoreThis(link string) bool {
+	for _, ign := range ignoreList {
+		if ign == link {
+			return true
+		}
+	}
+	return false
+}
 
 var centralStations = []string{
 	"Красные Ворота",
@@ -147,20 +177,27 @@ func initBrowser() (*rod.Browser, error) {
 }
 
 type BaseVars struct {
-	Square     float64 `json:"square"`
-	Floor      int     `json:"floor"`
-	MaxFloor   int     `json:"maxFloor"`
-	ToMetro    int     `json:"toMetro"`
-	MainPrice  int     `json:"mainPrice"`
-	OtherPrice int     `json:"otherPrice"`
+	Square             float64 `json:"square"`
+	LiveSquare         int     `json:"liveSquare"`
+	IsFirstOrLastFloor int     `json:"isFirstOrLastFloor"`
+	MaxFloor           float64 `json:"maxFloor"`
+	ToMetro            float64 `json:"toMetro"`
+	MainPrice          int     `json:"mainPrice"`
+	Year               int     `json:"yearOfConstructuon"`
+	HasElevator        int     `json:"hasElevator"`
+	Type               int     `json:"isNovostroyka"`
 }
 
 func (v BaseVars) print() {
-	fmt.Printf("Square: %f\tFloor: %d/%d\tTo metro: %d\tPrice: %d\tOther price: %d\n", v.Square, v.Floor, v.MaxFloor, v.ToMetro, v.MainPrice, v.OtherPrice)
+	fmt.Printf("Square: %f\tNumber of floors: %v\tIs first or last floor: %v\tTo metro: %v\tPrice: %v\tHas elevator: %v\tLive square: %v\n", v.Square, v.MaxFloor, v.IsFirstOrLastFloor, v.ToMetro, v.MainPrice, v.HasElevator, v.LiveSquare)
 }
 
 type ChowVars struct {
 	IsNearCentralStation bool
+}
+
+func (c ChowVars) print() {
+	fmt.Printf("Is near center: %v\n", c.IsNearCentralStation)
 }
 
 type FlatData struct {
@@ -170,38 +207,39 @@ type FlatData struct {
 
 func (f FlatData) print() {
 	f.Vars.print()
+	f.Chow.print()
 }
 
-func (f *FlatData) inject(line string) error {
-	origLine := line
-	line = strings.TrimPrefix(line, "2-комн. ")
-	line = strings.TrimPrefix(line, "кв., ")
-	line = strings.TrimPrefix(line, "апарт., ")
-	i := strings.Index(line, " ")
-	if i == -1 {
-		return fmt.Errorf("can't inject line %s - no space for square", origLine)
-	}
-	// set the square
-	square, err := strconv.ParseFloat(strings.ReplaceAll(line[:i], ",", "."), 64)
-	if err != nil {
-		return err
-	}
-	f.Vars.Square = square
+// func (f *FlatData) inject(line string) error {
+// 	origLine := line
+// 	line = strings.TrimPrefix(line, "2-комн. ")
+// 	line = strings.TrimPrefix(line, "кв., ")
+// 	line = strings.TrimPrefix(line, "апарт., ")
+// 	i := strings.Index(line, " ")
+// 	if i == -1 {
+// 		return fmt.Errorf("can't inject line %s - no space for square", origLine)
+// 	}
+// 	// set the square
+// 	square, err := strconv.ParseFloat(strings.ReplaceAll(line[:i], ",", "."), 64)
+// 	if err != nil {
+// 		return err
+// 	}
+// 	f.Vars.Square = square
 
-	// set the floors
-	line = line[i+7:]
-	line = strings.TrimSuffix(line, " этаж")
-	floors := strings.Split(line, "/")
-	f.Vars.Floor, err = strconv.Atoi(floors[0])
-	if err != nil {
-		return err
-	}
-	f.Vars.MaxFloor, err = strconv.Atoi(floors[1])
-	if err != nil {
-		return err
-	}
-	return nil
-}
+// 	// set the floors
+// 	line = line[i+7:]
+// 	line = strings.TrimSuffix(line, " этаж")
+// 	floors := strings.Split(line, "/")
+// 	f.Vars.Floor, err = strconv.Atoi(floors[0])
+// 	if err != nil {
+// 		return err
+// 	}
+// 	f.Vars.MaxFloor, err = strconv.Atoi(floors[1])
+// 	if err != nil {
+// 		return err
+// 	}
+// 	return nil
+// }
 
 func main() {
 	browser, err := initBrowser()
@@ -213,7 +251,7 @@ func main() {
 	page, err := browser.Page(proto.TargetCreateTarget{})
 	defer page.Close()
 	checkErr(err)
-	for i := 1; i <= pages; i++ {
+	for i := startPage; i <= endPage; i++ {
 		waitFunc := page.MustWaitNavigation()
 
 		colorwrapper.Printf("cyan", "Accessing page #%d\n", i)
@@ -226,44 +264,27 @@ func main() {
 		els := page.MustElements(cardSelector)
 		fmt.Printf("Found cards: %d\n", len(els))
 		for _, el := range els {
-			fd := FlatData{}
-
-			titleText := getTitleText(el)
-			if titleText == "" {
-				colorwrapper.Println("red", "No card info found, ignoring")
+			link, err := el.Element("._93444fe79c--link--eoxce")
+			checkErr(err)
+			text, err := link.Attribute("href")
+			checkErr(err)
+			if ignoreThis(*text) {
 				continue
 			}
-			err = fd.inject(titleText)
-			checkErr(err)
-
-			station, err := getStation(el)
+			fd, err := extractFlatData(browser, *text)
 			if err != nil {
-				colorwrapper.Println("red", "Failed to get the metro station, ignoring")
+				colorwrapper.Printf("red", "Failed to fetch info from %s\n", *text)
+			} else {
+				fds = append(fds, fd)
+				colorwrapper.Printf("green", "Extracted info from %s\n", *text)
+				// fd.print()
+				count++
 			}
-			fd.Chow.IsNearCentralStation = IsCentralStation(station)
-			s1, _ := colorwrapper.GetColored("normal-green", "is")
-			s2, _ := colorwrapper.GetColored("normal-red", "is not")
-			cmap := map[bool]string{
-				true:  s1,
-				false: s2,
-			}
-			s, _ := colorwrapper.GetColored("cyan", station)
-			fmt.Printf("\t%s %s a central station\n", s, cmap[fd.Chow.IsNearCentralStation])
-
-			geo, err := getGeo(el)
-			if err != nil {
-				colorwrapper.Println("red", "Failed to get the minutes to the metro, ignoring")
-				continue
-			}
-			fd.Vars.ToMetro = geo
-
-			fd.Vars.MainPrice, fd.Vars.OtherPrice, err = getPrices(el)
-			checkErr(err)
-
-			fd.print()
-			fds = append(fds, &fd)
-			count++
 		}
+		data, err := json.MarshalIndent(fds, "", "\t")
+		checkErr(err)
+		err = os.WriteFile("../price-data.json", data, 0755)
+		checkErr(err)
 	}
 	data, err := json.MarshalIndent(fds, "", "\t")
 	checkErr(err)
@@ -273,56 +294,234 @@ func main() {
 	colorwrapper.Println("green", "Saved!")
 }
 
-func getTitleText(el *rod.Element) string {
-	result := ""
-	title, err := el.Element(titleSelector)
-	if err == nil {
-		text := title.MustText()
-		if strings.HasPrefix(text, "2-") {
-			result = text
-		}
+func extractFlatData(browser *rod.Browser, link string) (*FlatData, error) {
+	fmt.Printf("\tLooking at page %s\n", link)
+	page, err := browser.Page(proto.TargetCreateTarget{})
+	waitFunc := page.MustWaitNavigation()
+	err = page.Navigate(link)
+	checkErr(err)
+	waitFunc()
+	defer page.Close()
+
+	result := FlatData{}
+	// metro and time
+	metro, time, err := getStation(page)
+	if err != nil {
+		return nil, err
 	}
-	subtitle, err := el.Element(subtitleSelector)
-	if err == nil {
-		text := subtitle.MustText()
-		if strings.HasPrefix(text, "2-") {
-			result = text
-		}
+	colorwrapper.Printf("cyan", "\tExtracted metro\n")
+	result.Chow.IsNearCentralStation = IsCentralStation(metro)
+	result.Vars.ToMetro = time
+	// square
+	result.Vars.Square, err = getSquare(page)
+	if err != nil {
+		return nil, err
 	}
-	return result
+	colorwrapper.Printf("cyan", "\tExtracted square\n")
+	// floor data
+	var floor float64
+	floor, result.Vars.MaxFloor, err = extractFloorData(page)
+	if err != nil {
+		return nil, err
+	}
+	colorwrapper.Printf("cyan", "\tExtracted floor\n")
+	result.Vars.IsFirstOrLastFloor = 0
+	if floor == 0 || floor == result.Vars.MaxFloor {
+		result.Vars.IsFirstOrLastFloor = 1
+	}
+	if err != nil {
+		return nil, err
+	}
+	// price
+	f, err := extractPrice(page)
+	if err != nil {
+		return nil, err
+	}
+	colorwrapper.Printf("cyan", "\tExtracted price\n")
+	result.Vars.MainPrice = int(f)
+	result.Vars.Year, err = extractYear(page)
+	if err != nil {
+		return nil, err
+	}
+	colorwrapper.Printf("cyan", "\tExtracted year\n")
+	result.Vars.HasElevator = 0
+	if result.Vars.MaxFloor > 5 {
+		result.Vars.HasElevator = 1
+	}
+	sq, err := extractLiveSquare(page)
+	if err != nil {
+		return nil, err
+	}
+	colorwrapper.Printf("cyan", "\tExtracted live square\n")
+	result.Vars.LiveSquare = sq
+	result.Vars.Type, err = extractType(page)
+	if err != nil {
+		return nil, err
+	}
+	colorwrapper.Printf("cyan", "\tExtracted type\n")
+	return &result, nil
 }
 
-func getStation(el *rod.Element) (string, error) {
-	st, err := el.Element(stationSelector)
+func extractLiveSquare(page *rod.Page) (int, error) {
+	els, err := page.Elements("div[class=\"a10a3f92e9--info-title--JWtIm\"]")
 	if err != nil {
-		return "", err
+		return 0, err
+	}
+	for _, el := range els {
+		text, err := el.Text()
+		if err != nil {
+			return 0, err
+		}
+		if strings.Contains(text, "Жилая") {
+			prev, err := el.Previous()
+			if err != nil {
+				return 0, err
+			}
+			t, err := prev.Text()
+			if err != nil {
+				return 0, err
+			}
+			f, err := extractFloat(t)
+			if err != nil {
+				return 0, err
+			}
+			return int(f), nil
+		}
+	}
+	return 0, errors.New("can't get live space")
+}
+
+func extractYear(page *rod.Page) (int, error) {
+	els, err := page.Elements("div[class=\"a10a3f92e9--info-title--JWtIm\"]")
+	if err != nil {
+		return 0, err
+	}
+	for _, el := range els {
+		text, err := el.Text()
+		if err != nil {
+			return 0, err
+		}
+		if text == "Построен" {
+			prev, err := el.Previous()
+			if err != nil {
+				return 0, err
+			}
+			t, err := prev.Text()
+			if err != nil {
+				return 0, err
+			}
+			f, err := extractFloat(t)
+			if err != nil {
+				return 0, err
+			}
+			return int(f), nil
+		}
+		if text == "Срок сдачи" {
+			prev, err := el.Previous()
+			if err != nil {
+				return 0, err
+			}
+			t, err := prev.Text()
+			if err != nil {
+				return 0, err
+			}
+			f, err := extractFloat(t[len(t)-4:])
+			if err != nil {
+				return 0, err
+			}
+			return int(f), nil
+		}
+		if text == "Сдан" {
+			prev, err := el.Previous()
+			if err != nil {
+				return 0, err
+			}
+			t, err := prev.Text()
+			if err != nil {
+				return 0, err
+			}
+			f, err := extractFloat(t[len(t)-4:])
+			if err != nil {
+				return 0, err
+			}
+			return int(f), nil
+		}
+	}
+	return 0, errors.New("can't get date of construction")
+}
+
+func extractFloorData(page *rod.Page) (float64, float64, error) {
+	els, err := page.Elements("div[data-testid=\"object-summary-description-value\"]")
+	if err != nil {
+		return 0, 0, err
+	}
+	for _, el := range els {
+		text, err := el.Text()
+		if err != nil {
+			return 0, 0, err
+		}
+		if strings.Contains(text, " из ") {
+			split := strings.Split(text, " из ")
+			result1, err := extractFloat(split[0])
+			if err != nil {
+				return 0, 0, err
+			}
+			result2, err := extractFloat(split[1])
+			if err != nil {
+				return 0, 0, err
+			}
+			return result1, result2, nil
+		}
+	}
+	return 0, 0, fmt.Errorf("no floor data found")
+}
+
+func extractPrice(page *rod.Page) (float64, error) {
+	el, err := page.Element("span[itemprop=\"price\"]")
+	if err != nil {
+		return 0, err
+	}
+	text, err := el.Text()
+	if err != nil {
+		return 0, err
+	}
+	return extractFloat(text)
+}
+
+func getSquare(page *rod.Page) (float64, error) {
+	el, err := page.Element(".a10a3f92e9--info-value--bm3DC")
+	if err != nil {
+		return 0, err
+	}
+	text, err := el.Text()
+	if err != nil {
+		return 0, err
+	}
+	return extractFloat(text)
+}
+
+func getStation(page *rod.Page) (string, float64, error) {
+	st, err := page.Element(stationSelector)
+	if err != nil {
+		return "", 0, err
+	}
+	result1, err := st.Text()
+	if err != nil {
+		return "", 0, err
 	}
 	st, err = st.Next()
 	if err != nil {
-		return "", err
+		return "", 0, err
 	}
-	result, err := st.Text()
-	return result, err
-}
-
-func getGeo(el *rod.Element) (int, error) {
-	geo, err := el.Element(geoSelector)
+	text, err := st.Text()
 	if err != nil {
-		return 0, err
+		return "", 0, err
 	}
-	text, err := geo.Text()
-	origText := text
+	result2, err := extractFloat(text)
 	if err != nil {
-		return 0, err
+		return "", 0, err
 	}
-	sp := strings.Split(text, "\n")
-	if len(sp) == 1 {
-		return 0, fmt.Errorf("failed to access minutes from %s", origText)
-	}
-	dist := sp[1]
-	i := strings.Index(dist, " ")
-	result, err := strconv.Atoi(dist[:i])
-	return result, err
+	return result1, result2, err
 }
 
 func getPrices(el *rod.Element) (int, int, error) {
@@ -357,4 +556,49 @@ func getPrices(el *rod.Element) (int, int, error) {
 		return 0, 0, err
 	}
 	return result1, result2, nil
+}
+
+func extractFloat(line string) (float64, error) {
+	ntext := ""
+	nums := []string{"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", ".", ","}
+	sp := strings.Split(line, "")
+	for _, c := range sp {
+		for _, n := range nums {
+			if c == n {
+				ntext += c
+				break
+			}
+		}
+	}
+	ntext = strings.ReplaceAll(ntext, ",", ".")
+	return strconv.ParseFloat(ntext, 64)
+}
+
+func extractType(page *rod.Page) (int, error) {
+	els, err := page.Elements(".a10a3f92e9--name--x7_lt")
+	if err != nil {
+		return 0, err
+	}
+	for _, el := range els {
+		text, err := el.Text()
+		if err != nil {
+			return 0, err
+		}
+		if text == "Тип жилья" {
+			next, err := el.Next()
+			if err != nil {
+				return 0, err
+			}
+			t, err := next.Text()
+			if err != nil {
+				return 0, err
+			}
+			result := 0
+			if t == "Новостройка" {
+				result = 1
+			}
+			return result, nil
+		}
+	}
+	return 0, errors.New("failed to extract type")
 }

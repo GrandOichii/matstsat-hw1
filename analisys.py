@@ -66,7 +66,7 @@ def analise(items: list, ykey='y', exclude_keys=None) -> AnalisysResult:
     result.latex_text += f'\nCalculating the estimate $\\hat\\beta$ values\n'
     result.latex_text += f'\n$\\hat{{\\beta}}=(X^TX)^{{-1}}X^TY={latex(estimates)}$\n'
 
-    result.latex_text += '\nRegression equation (with values): $Y_i={}{}$\n'.format(estimates[0], ''.join(['{}{}*{}'.format('+' if estimates[i+1] > 0 else '', estimates[i+1], regressorNames[i]) for i in range(len(regressorNames))]))
+    result.latex_text += '\nRegression equation (with values): $\\hat{{Y_i}}={}{}$\n'.format(estimates[0], ''.join(['{}{}*{}'.format('+' if estimates[i+1] > 0 else '', estimates[i+1], regressorNames[i]) for i in range(len(regressorNames))]))
 
     # calculate the estimated y values
     estimatedY = xmat * estimates
