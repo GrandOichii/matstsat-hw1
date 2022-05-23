@@ -1,5 +1,9 @@
+import math
 from sympy import *
-from scipy.stats import t, f
+from scipy.stats import t, f, chi2
+import copy
+
+SL = 0.05
 
 class AnalisysResult:
     def __init__(self):
@@ -33,7 +37,7 @@ def analise(items: list, ykey='y', exclude_keys=None) -> AnalisysResult:
 
     result.latex_text += '\nRegression equation: \n'
 
-    result.latex_text += '$Y_i=\\alpha+{}$\n'.format('+'.join([f'\\beta_{i+1}{regressorNames[i]}_i' for i in range(len(regressorNames))]))
+    result.latex_text += '${}_i=\\alpha+{}+\\epsilon_i$\n'.format(ykey, '+'.join([f'\\beta_{i+1}{regressorNames[i]}_i' for i in range(len(regressorNames))]))
 
     # calculate the y matrix
     yarr = []
@@ -43,9 +47,9 @@ def analise(items: list, ykey='y', exclude_keys=None) -> AnalisysResult:
     ymat = Matrix(yarr)
 
     if shape(ymat)[0] > 4:
-        result.latex_text += f'\n\n$Y=\\left[\\begin{{matrix}}{ymat[0]}\\\\{ymat[1]}\\\\{ymat[2]}\\\\\\cdots\\\\{ymat[-1]}\\end{{matrix}}\\right]$\n'
+        result.latex_text += f'\n\n${ykey}=\\left[\\begin{{matrix}}{ymat[0]}\\\\{ymat[1]}\\\\{ymat[2]}\\\\\\cdots\\\\{ymat[-1]}\\end{{matrix}}\\right]$\n'
     else:
-        result.latex_text += f'\n\n$Y={latex(ymat)}$\n'
+        result.latex_text += f'\n\n${ykey}={latex(ymat)}$\n'
 
     # calculate the x matrix
     xarr = []
@@ -66,30 +70,30 @@ def analise(items: list, ykey='y', exclude_keys=None) -> AnalisysResult:
     result.latex_text += f'\nCalculating the estimate $\\hat\\beta$ values\n'
     result.latex_text += f'\n$\\hat{{\\beta}}=(X^TX)^{{-1}}X^TY={latex(estimates)}$\n'
 
-    result.latex_text += '\nRegression equation (with values): $\\hat{{Y_i}}={}{}$\n'.format(estimates[0], ''.join(['{}{}*{}'.format('+' if estimates[i+1] > 0 else '', estimates[i+1], regressorNames[i]) for i in range(len(regressorNames))]))
+    result.latex_text += '\nRegression equation (with values): $\\hat{{{}_i}}={}{}$\n'.format(ykey, estimates[0], ''.join(['{}{}*{}'.format('+' if estimates[i+1] > 0 else '', estimates[i+1], regressorNames[i]) for i in range(len(regressorNames))]))
 
     # calculate the estimated y values
     estimatedY = xmat * estimates
 
     if shape(estimatedY)[0] > 4:
-        result.latex_text += f'\n\nEstimated $Y$: $\\hat{{Y}}=\\left[\\begin{{matrix}}{estimatedY[0]}\\\\{estimatedY[1]}\\\\{estimatedY[2]}\\\\\\cdots\\\\{estimatedY[-1]}\\end{{matrix}}\\right]$\n'
+        result.latex_text += f'\n\nEstimated ${ykey}$: $\\hat{{{ykey}}}=\\left[\\begin{{matrix}}{estimatedY[0]}\\\\{estimatedY[1]}\\\\{estimatedY[2]}\\\\\\cdots\\\\{estimatedY[-1]}\\end{{matrix}}\\right]$\n'
     else:
         result.latex_text += f'\n\nEstimated $Y$: $Y={latex(estimatedY)}$\n'
 
     yaverage = sum(yarr)/len(yarr)
 
-    result.latex_text += f'\n$\overline{{Y}}={yaverage}$\n'
+    result.latex_text += f'\n$\overline{ykey}={yaverage}$\n'
 
     TSS = 0
     for y in yarr:
         TSS += (y - yaverage)**2
     tssf = '%.2f' % TSS
-    result.latex_text += f'\n$TSS=\sum_{{t=1}}^{{n}} (Y_i-\overline{{Y}})^2={tssf}$\n'
+    result.latex_text += f'\n$TSS=\sum_{{t=1}}^{{n}} ({ykey}_i-\overline{{{ykey}}})^2={tssf}$\n'
     ESS = 0
     for y in estimatedY:
         ESS += (y - yaverage)**2
     essf = '%.2f' % ESS
-    result.latex_text += f'\n$ESS=\sum_{{t=1}}^{{n}} (\hat{{Y_i}}-\overline{{Y}})^2={essf}$\n'
+    result.latex_text += f'\n$ESS=\sum_{{t=1}}^{{n}} (\hat{{{ykey}_i}}-\overline{{{ykey}}})^2={essf}$\n'
     RSS = TSS - ESS
     rssf = '%.2f' % RSS
     result.latex_text += f'\n$RSS=TSS-ESS={rssf}$\n'
@@ -131,7 +135,7 @@ def analise(items: list, ykey='y', exclude_keys=None) -> AnalisysResult:
         levelPC = pvalue * 100, 
         pvaluef = '%.4f' % pvalue
         levelPCf = '%.2f' % levelPC
-        result.latex_text += f'\n$pvalue=P\\{{|T|>|T_{{obs}}|\\}}=2F(-|T_{{obs}}|)=2*tcdf(-|T_{{obs}}|, n-k-1)={pvaluef}\\approx{levelPCf}\\%$\n'
+        result.latex_text += f'\n$pvalue=P\\{{|T|>|T_{{obs}}|\\}}=2F(-|T_{{obs}}|)=2*tcdf(-|T_{{obs}}|, n-k-1)={pvaluef}\\approx{levelPCf}\\%\\bigskip$\n'
 
         result.regressor_pvalues[regressorNames[i]] = pvalue
 
@@ -162,10 +166,61 @@ def analise(items: list, ykey='y', exclude_keys=None) -> AnalisysResult:
     # do the chow tests
     for chow_key in items[0]['chowVars'].keys():
         result.latex_text += f'\\\\\\\\Chow tests:\n'
-        result.latex_text += chow_test(items, ykey, chow_key, regressorNames, k)
+        result.latex_text += chow_test(items, ykey, chow_key, regressorNames, k) + '$\\bigskip$\n'
+
+    # do the reset tests
+    result.latex_text += f'\nRESET-test\n\n$RSS_R={rssf}\n\nUR:' + '{}_i=\\alpha+{}'.format(ykey, '+'.join([f'\\beta_{i+1}{regressorNames[i]}_i' for i in range(len(regressorNames))])) + '+\\delta{\\hat{Y_i}}^2+\\epsilon_i$\n'
+    itemsWithSquared = copy_items(items)
+    squaredEstY = []
+    for y in estimatedY:
+        squaredEstY += [y ** 2]
+    for i in range(len(itemsWithSquared)):
+        itemsWithSquared[i]['vars']['Y^2'] = squaredEstY[i]
+    UR_RSS = calc_rss(itemsWithSquared, ykey, regressorNames + ['Y^2'])
+    UR_RSSs = '%.2f' % UR_RSS
+    R_RSS = RSS
+    result.latex_text += f'\n$RSS_{{UR}}={UR_RSSs}$\n'
+    tobs = (R_RSS - UR_RSS) / (UR_RSS / (n - k - 2))
+    result.latex_text += '\n$T_{obs}=\\frac{RSS_R-RSS_{UR}}{RSS_{UR}/(n-k_{R}-2)}=' + str(tobs) + '$\n'
+    tcrit = f.ppf(1-SL, 1, n - k - 2)
+    result.latex_text += f'\n$T_{{crit}}=finc(1-SL,1,n-k_R-2)={tcrit}$\n'
+    if tobs > tcrit:
+        result.latex_text += '\n$T_{obs}>T_{crit}=>$don\'t need to add more members\n'
+    else:
+        result.latex_text += '\n$T_{obs}<T_{crit}=>$need to add more members\n'
+
+    # do the box cox test
+    result.latex_text += '$\\bigskip$\n\nBOX COX test\n'
+    result.latex_text += '\n$Y_i^*=\\frac{Y_i}{\\sqrt[n]{Y_1\\cdot...\\cdot Y_n}}$\n'
+    ystar_denom = sum(yarr) ** (1/n)
+    ystar = [y / ystar_denom for y in yarr]
+    star_first = copy_items(items)
+    star_second = copy_items(items)
+    for i in range(len(star_second)):
+        star_first[i]['vars'][ykey] = ystar[i]
+        star_second[i]['vars'][ykey] = math.sqrt(ystar[i])
+    
+    RSS_star1 = calc_rss(star_first, ykey, regressorNames)
+    RSS_star1s = '%.2f' % RSS_star1
+    RSS_star2 = calc_rss(star_second, ykey, regressorNames)
+    RSS_star2s = '%.2f' % RSS_star2
+    result.latex_text += '\n${}_i^*=\\alpha+{}+\\epsilon_i$\n'.format(ykey, '+'.join([f'\\beta_{i+1}{regressorNames[i]}_i' for i in range(len(regressorNames))]))
+    result.latex_text += f'\n$RSS_1^*={RSS_star1s}$\n'
+    result.latex_text += '\n$\\ln{{{}_i}}^*=\\alpha+{}+\\epsilon_i$\n'.format(ykey, '+'.join([f'\\beta_{i+1}{regressorNames[i]}_i' for i in range(len(regressorNames))]))
+    result.latex_text += f'\n$RSS_2^*={RSS_star2s}$\n'
+
+    tobs = (n / 2) * abs(math.log(RSS_star1 / RSS_star2))
+    result.latex_text += '\n$T_{obs}=\\frac n2 |\\ln{\\frac{RSS_2^*}{RSS_1^*}}|=' + str(tobs) + '$\n'
+    tcrit = chi2.ppf(1-SL, 1)
+    result.latex_text += f'\n$T_{{crit}}=chi2inv(1-SL,1)={tcrit}$\n'
+    if tobs > tcrit:
+        result.latex_text += '\n$T_{obs}>T_{crit}=>$ models have the same quality\n'
+    else:
+        result.latex_text += '\n$T_{obs}<T_{crit}=>$ models have different quality\n'
 
     result.latex_text += '\\end{document}'
     return result
+
 
 def chow_test(items: list, ykey: str, chow_key: str, regressorNames: list[str], k: int) -> str:
     result = ''
@@ -183,7 +238,7 @@ def chow_test(items: list, ykey: str, chow_key: str, regressorNames: list[str], 
     Amodel_latex = f'\\alpha^A{di}'
     for name in regressorNames:
         Amodel_latex += f'+\\beta^A_i{name}_i{di}'
-    Amodel_latex = '\n$(A)Y_i=' + Amodel_latex + '+\\epsilon_i$\n'
+    Amodel_latex = f'\n$(A){ykey}_i=' + Amodel_latex + '+\\epsilon_i$\n'
     Bmodel_latex =  Amodel_latex.replace('A', 'B')
     result += Amodel_latex
     result += Bmodel_latex
@@ -192,26 +247,20 @@ def chow_test(items: list, ykey: str, chow_key: str, regressorNames: list[str], 
     RSSa = calc_rss(pile1, ykey, regressorNames)
     RSSb = calc_rss(pile2, ykey, regressorNames)
 
-    # RSSall = 677043.679
-    # RSSa = 9309.959
-    # RSSb = 13940.942
-    # k = 1
-
     result += '\n$RSS_{{all}}={}$\n'.format('%.2f' % RSSall)
     result += '\n$RSS_A={}$\n'.format('%.2f' % RSSa)
     result += '\n$RSS_B={}$\n'.format('%.2f' % RSSb)
 
     n = len(items)
-    # n = 35
     tobs = ((RSSall - RSSa - RSSb) / (k + 1)) / ((RSSa+RSSb) / (n-2*k-2))
 
     result += '\n$T_{obs}=\\frac{(RSS_{all}-RSS_A-RSS_B)/(k+1)}{(RSS_A+RSS_B)/(n - 2k - 2)}=' + f'{tobs}$\n'
-    tcrit = f.ppf(0.95, k + 1, n - 2 * k - 2)
+    tcrit = f.ppf(1-SL, k + 1, n - 2 * k - 2)
     result += '\n$T_{crit}=finv(1 - SL, k + 1, n - 2k - 2)=' + f'{tcrit}$\n'
     if tobs > tcrit:
-        result += '\n$T_{obs}>T_{crit}=>H_0$ is not valid $=>$ items should be split on ' + chow_key
+        result += '\n$T_{obs}>T_{crit}=>H_0$ is not valid $=>$ items should be split on ' + chow_key + '\n'
     else:
-        result += '\n$T_{obs}<T_{crit}=>H_0$ is valid $=>$ items should not be split on ' + chow_key
+        result += '\n$T_{obs}<T_{crit}=>H_0$ is valid $=>$ items should not be split on ' + chow_key + '\n'
     return result
 
 def calc_rss(items: list, ykey: str, regressorNames: list) -> int:
@@ -237,3 +286,10 @@ def calc_rss(items: list, ykey: str, regressorNames: list) -> int:
         ESS += (y - yaverage)**2
     RSS = TSS - ESS
     return RSS
+
+def copy_items(items: list[dict]) -> list[dict]:
+    result = []
+    for li in items:
+        d2 = copy.deepcopy(li)
+        result.append(d2)
+    return result

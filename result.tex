@@ -1,41 +1,41 @@
 \documentclass{article}
 \usepackage{amsmath}
 \begin{document}
-Number of observations ($n$) = 210
+Number of observations ($n$) = 204
 
 $k=8$
 
 Regression equation: 
-$Y_i=\alpha+\beta_1square_i+\beta_2liveSquare_i+\beta_3isFirstOrLastFloor_i+\beta_4maxFloor_i+\beta_5toMetro_i+\beta_6yearOfConstructuon_i+\beta_7hasElevator_i+\beta_8isNovostroyka_i$
+$mainPrice_i=\alpha+\beta_1square_i+\beta_2liveSquare_i+\beta_3isFirstOrLastFloor_i+\beta_4maxFloor_i+\beta_5toMetro_i+\beta_6yearOfConstructuon_i+\beta_7hasElevator_i+\beta_8isNovostroyka_i+\epsilon_i$
 
 
-$Y=\left[\begin{matrix}35599459\\50693930\\9000000\\\cdots\\10282800\end{matrix}\right]$
+$mainPrice=\left[\begin{matrix}35599459\\50693930\\9000000\\\cdots\\10282800\end{matrix}\right]$
 
 
 $X=\begin{bmatrix}1 & 126.400000000000 & 114 & \dots  & 1 \\ 1 & 50.8000000000000 & 30 & \dots  & 0 \\ \vdots & \vdots & \vdots & \ddots & \vdots \\ 1 & 32.8000000000000 & 19 & \dots  & 1\end{bmatrix}$
 
 Calculating the estimate $\hat\beta$ values
 
-$\hat{\beta}=(X^TX)^{-1}X^TY=\left[\begin{matrix}-26439946.0638785\\1116589.66280109\\-274336.555208688\\-2169760.49411428\\33979.7857293415\\-5203.60326569729\\-2565.79473693081\\1262460.64910957\\-3262518.19959612\end{matrix}\right]$
+$\hat{\beta}=(X^TX)^{-1}X^TY=\left[\begin{matrix}-118403977.929178\\1088127.7463845\\-249953.112313752\\-1825279.10424812\\1151.11823731525\\-591485.255160478\\46739.0392572553\\1411437.8506476\\-3516625.85978516\end{matrix}\right]$
 
-Regression equation (with values): $\hat{Y_i}=-26439946.0638785+1116589.66280109*square-274336.555208688*liveSquare-2169760.49411428*isFirstOrLastFloor+33979.7857293415*maxFloor-5203.60326569729*toMetro-2565.79473693081*yearOfConstructuon+1262460.64910957*hasElevator-3262518.19959612*isNovostroyka$
+Regression equation (with values): $\hat{mainPrice_i}=-118403977.929178+1088127.74638450*square-249953.112313752*liveSquare-1825279.10424812*isFirstOrLastFloor+1151.11823731525*maxFloor-591485.255160478*toMetro+46739.0392572553*yearOfConstructuon+1411437.85064760*hasElevator-3516625.85978516*isNovostroyka$
 
 
-Estimated $Y$: $\hat{Y}=\left[\begin{matrix}78160870.4081006\\19175497.9669340\\9600796.68721223\\\cdots\\-1157332.47785661\end{matrix}\right]$
+Estimated $mainPrice$: $\hat{mainPrice}=\left[\begin{matrix}75683632.3001255\\21235271.4832879\\11439908.7507947\\\cdots\\-1436220.43911424\end{matrix}\right]$
 
-$\overline{Y}=29113318.766666666$
+$\overlinemainPrice=29508182.82843137$
 
-$TSS=\sum_{t=1}^{n} (Y_i-\overline{Y})^2=120878287827387888.00$
+$TSS=\sum_{t=1}^{n} (mainPrice_i-\overline{mainPrice})^2=119649850862217792.00$
 
-$ESS=\sum_{t=1}^{n} (\hat{Y_i}-\overline{Y})^2=70690647257398392.00$
+$ESS=\sum_{t=1}^{n} (\hat{mainPrice_i}-\overline{mainPrice})^2=71511632247840096.00$
 
-$RSS=TSS-ESS=50187640569989496.00$
+$RSS=TSS-ESS=48138218614377696.00$
 
-$R^2=\frac{ESS}{TSS}=0.58$
+$R^2=\frac{ESS}{TSS}=0.60$
 
-$\hat{\sigma^2}=\frac{RSS}{n-k-1}=249689754079549.72$
+$\hat{\sigma^2}=\frac{RSS}{n-k-1}=246862659560911.25$
 
-$\hat{V}(\hat{\beta})=\hat{\sigma^2}(X^TX)^{-1}=\left[\begin{matrix}2.21188878009636 \cdot 10^{16} & 3398299908894.9 & -5287551781839.79 & -155265264950740.0 & 3671241088023.62 & 2805377502.52684 & -11174892857705.2 & 190034873609187.0 & 144094392311181.0\\3398299908896.15 & 7302759190.90525 & -7419710926.18538 & 18728831760.0307 & 1452653898.24246 & 8374686.25904212 & -1791174679.79317 & -49360794357.598 & -3284539149.89567\\-5287551781841.02 & -7419710926.1853 & 15868120743.4346 & -40260535853.4645 & -3628579801.22358 & -5342809.9801076 & 2619195937.95592 & 49152607008.4659 & 37236708629.2091\\-155265264950733.0 & 18728831760.0403 & -40260535853.4743 & 19999860214114.6 & 34430745200.7267 & 386245417.786089 & 74544142016.7672 & 3362455658923.28 & -658415322760.873\\3671241088023.78 & 1452653898.24229 & -3628579801.22342 & 34430745200.7244 & 5884690868.08337 & 556538.693634624 & -1859398626.40321 & -46290927212.9959 & -13132968685.9986\\2805377502.52719 & 8374686.25904128 & -5342809.9801049 & 386245417.786145 & 556538.69363434 & 10929357.4719044 & -1674104.52747435 & 57156004.0266794 & -1257529142.1876\\-11174892857705.2 & -1791174679.79254 & 2619195937.9553 & 74544142016.7711 & -1859398626.40313 & -1674104.52747416 & 5658546633.50892 & -114705566247.234 & -73470485859.9471\\190034873609171.0 & -49360794357.6142 & 49152607008.4828 & 3362455658923.31 & -46290927213.0003 & 57156004.026643 & -114705566247.226 & 44706837627151.7 & 72288893469.4818\\144094392311176.0 & -3284539149.90469 & 37236708629.2179 & -658415322760.895 & -13132968686.0003 & -1257529142.18763 & -73470485859.9448 & 72288893469.5385 & 6538740566591.99\end{matrix}\right]
+$\hat{V}(\hat{\beta})=\hat{\sigma^2}(X^TX)^{-1}=\left[\begin{matrix}2.34243035070499 \cdot 10^{16} & 4028288309302.42 & -5857238279797.66 & -157236829305037.0 & 4312016940949.77 & 8855052185542.0 & -11880083451834.0 & 182827308518587.0 & 145891755865162.0\\4028288309302.64 & 7550721538.46407 & -7658806960.68588 & 17408634434.7203 & 1759104411.12649 & 3561498158.16283 & -2127629644.78999 & -51562535354.295 & -1986555938.34066\\-5857238279797.87 & -7658806960.68586 & 16154245046.7462 & -39569272409.2167 & -3940748218.2509 & -2982227931.17156 & 2921889385.46305 & 51491457363.1127 & 36427323441.7667\\-157236829305036.0 & 17408634434.722 & -39569272409.2184 & 19791441535326.3 & 32971239799.1508 & -25117249519.3954 & 75716614251.3945 & 3328674796591.3 & -665165854574.167\\4312016940949.79 & 1759104411.12645 & -3940748218.25087 & 32971239799.1505 & 6153284971.55152 & 3621803549.58182 & -2201722648.02733 & -48478319460.2604 & -11850739446.8329\\8855052185542.07 & 3561498158.16276 & -2982227931.1715 & -25117249519.3963 & 3621803549.58182 & 52470812009.3338 & -4744541179.64894 & -25002231160.4022 & 21021758265.5808\\-11880083451834.0 & -2127629644.78988 & 2921889385.46294 & 75716614251.3952 & -2201722648.02732 & -4744541179.64891 & 6039181582.89033 & -110715435658.294 & -74491956728.1812\\182827308518585.0 & -51562535354.2969 & 51491457363.1149 & 3328674796591.3 & -48478319460.2611 & -25002231160.4036 & -110715435658.293 & 44225896295784.3 & 64135386962.4989\\145891755865161.0 & -1986555938.34212 & 36427323441.7682 & -665165854574.17 & -11850739446.8333 & 21021758265.5799 & -74491956728.1807 & 64135386962.5108 & 6477122942176.83\end{matrix}\right]
 
 $\cdot$ Calculate the significance of value $square_i$
 
@@ -43,17 +43,17 @@ $H_o: \hat{\beta_1}=0$
 
 $H_a: \hat{\beta_1}\neq0$
 
-$\hat{D}(\hat{\beta_1})=[\hat{V}(\hat{\beta})]_{1 1}=7302759190.90525$
+$\hat{D}(\hat{\beta_1})=[\hat{V}(\hat{\beta})]_{1 1}=7550721538.46407$
 
-$\sqrt{\hat{D}(\hat{\beta_1})}=85456.1828711373$
+$\sqrt{\hat{D}(\hat{\beta_1})}=86894.8878730163$
 
-$\hat{\beta_1}=1116589.66280109$
+$\hat{\beta_1}=1088127.74638450$
 
-$T_{obs}=\frac{\hat{\beta_1}-0}{\sqrt{\hat{D}(\hat{\beta_1})}}=13.07$
+$T_{obs}=\frac{\hat{\beta_1}-0}{\sqrt{\hat{D}(\hat{\beta_1})}}=12.52$
 
 $T\sim t(n-k-1)$
 
-$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.0000\approx0.00\%$
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.0000\approx0.00\%\bigskip$
 
 $\cdot$ Calculate the significance of value $liveSquare_i$
 
@@ -61,17 +61,17 @@ $H_o: \hat{\beta_2}=0$
 
 $H_a: \hat{\beta_2}\neq0$
 
-$\hat{D}(\hat{\beta_2})=[\hat{V}(\hat{\beta})]_{2 2}=15868120743.4346$
+$\hat{D}(\hat{\beta_2})=[\hat{V}(\hat{\beta})]_{2 2}=16154245046.7462$
 
-$\sqrt{\hat{D}(\hat{\beta_2})}=125968.729228466$
+$\sqrt{\hat{D}(\hat{\beta_2})}=127099.351087038$
 
-$\hat{\beta_2}=-274336.555208688$
+$\hat{\beta_2}=-249953.112313752$
 
-$T_{obs}=\frac{\hat{\beta_2}-0}{\sqrt{\hat{D}(\hat{\beta_2})}}=-2.18$
+$T_{obs}=\frac{\hat{\beta_2}-0}{\sqrt{\hat{D}(\hat{\beta_2})}}=-1.97$
 
 $T\sim t(n-k-1)$
 
-$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.0306\approx3.06\%$
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.0506\approx5.06\%\bigskip$
 
 $\cdot$ Calculate the significance of value $isFirstOrLastFloor_i$
 
@@ -79,17 +79,17 @@ $H_o: \hat{\beta_3}=0$
 
 $H_a: \hat{\beta_3}\neq0$
 
-$\hat{D}(\hat{\beta_3})=[\hat{V}(\hat{\beta})]_{3 3}=19999860214114.6$
+$\hat{D}(\hat{\beta_3})=[\hat{V}(\hat{\beta})]_{3 3}=19791441535326.3$
 
-$\sqrt{\hat{D}(\hat{\beta_3})}=4472120.32643516$
+$\sqrt{\hat{D}(\hat{\beta_3})}=4448757.3023628$
 
-$\hat{\beta_3}=-2169760.49411428$
+$\hat{\beta_3}=-1825279.10424812$
 
-$T_{obs}=\frac{\hat{\beta_3}-0}{\sqrt{\hat{D}(\hat{\beta_3})}}=-0.49$
+$T_{obs}=\frac{\hat{\beta_3}-0}{\sqrt{\hat{D}(\hat{\beta_3})}}=-0.41$
 
 $T\sim t(n-k-1)$
 
-$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.6281\approx62.81\%$
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.6820\approx68.20\%\bigskip$
 
 $\cdot$ Calculate the significance of value $maxFloor_i$
 
@@ -97,17 +97,17 @@ $H_o: \hat{\beta_4}=0$
 
 $H_a: \hat{\beta_4}\neq0$
 
-$\hat{D}(\hat{\beta_4})=[\hat{V}(\hat{\beta})]_{4 4}=5884690868.08337$
+$\hat{D}(\hat{\beta_4})=[\hat{V}(\hat{\beta})]_{4 4}=6153284971.55152$
 
-$\sqrt{\hat{D}(\hat{\beta_4})}=76711.7387893363$
+$\sqrt{\hat{D}(\hat{\beta_4})}=78442.877124386$
 
-$\hat{\beta_4}=33979.7857293415$
+$\hat{\beta_4}=1151.11823731525$
 
-$T_{obs}=\frac{\hat{\beta_4}-0}{\sqrt{\hat{D}(\hat{\beta_4})}}=0.44$
+$T_{obs}=\frac{\hat{\beta_4}-0}{\sqrt{\hat{D}(\hat{\beta_4})}}=0.01$
 
 $T\sim t(n-k-1)$
 
-$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.6583\approx65.83\%$
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.9883\approx98.83\%\bigskip$
 
 $\cdot$ Calculate the significance of value $toMetro_i$
 
@@ -115,17 +115,17 @@ $H_o: \hat{\beta_5}=0$
 
 $H_a: \hat{\beta_5}\neq0$
 
-$\hat{D}(\hat{\beta_5})=[\hat{V}(\hat{\beta})]_{5 5}=10929357.4719044$
+$\hat{D}(\hat{\beta_5})=[\hat{V}(\hat{\beta})]_{5 5}=52470812009.3338$
 
-$\sqrt{\hat{D}(\hat{\beta_5})}=3305.95787509527$
+$\sqrt{\hat{D}(\hat{\beta_5})}=229065.082475121$
 
-$\hat{\beta_5}=-5203.60326569729$
+$\hat{\beta_5}=-591485.255160478$
 
-$T_{obs}=\frac{\hat{\beta_5}-0}{\sqrt{\hat{D}(\hat{\beta_5})}}=-1.57$
+$T_{obs}=\frac{\hat{\beta_5}-0}{\sqrt{\hat{D}(\hat{\beta_5})}}=-2.58$
 
 $T\sim t(n-k-1)$
 
-$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.1171\approx11.71\%$
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.0106\approx1.06\%\bigskip$
 
 $\cdot$ Calculate the significance of value $yearOfConstructuon_i$
 
@@ -133,17 +133,17 @@ $H_o: \hat{\beta_6}=0$
 
 $H_a: \hat{\beta_6}\neq0$
 
-$\hat{D}(\hat{\beta_6})=[\hat{V}(\hat{\beta})]_{6 6}=5658546633.50892$
+$\hat{D}(\hat{\beta_6})=[\hat{V}(\hat{\beta})]_{6 6}=6039181582.89033$
 
-$\sqrt{\hat{D}(\hat{\beta_6})}=75223.3117690847$
+$\sqrt{\hat{D}(\hat{\beta_6})}=77712.1713947714$
 
-$\hat{\beta_6}=-2565.79473693081$
+$\hat{\beta_6}=46739.0392572553$
 
-$T_{obs}=\frac{\hat{\beta_6}-0}{\sqrt{\hat{D}(\hat{\beta_6})}}=-0.03$
+$T_{obs}=\frac{\hat{\beta_6}-0}{\sqrt{\hat{D}(\hat{\beta_6})}}=0.60$
 
 $T\sim t(n-k-1)$
 
-$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.9728\approx97.28\%$
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.5482\approx54.82\%\bigskip$
 
 $\cdot$ Calculate the significance of value $hasElevator_i$
 
@@ -151,17 +151,17 @@ $H_o: \hat{\beta_7}=0$
 
 $H_a: \hat{\beta_7}\neq0$
 
-$\hat{D}(\hat{\beta_7})=[\hat{V}(\hat{\beta})]_{7 7}=44706837627151.7$
+$\hat{D}(\hat{\beta_7})=[\hat{V}(\hat{\beta})]_{7 7}=44225896295784.3$
 
-$\sqrt{\hat{D}(\hat{\beta_7})}=6686317.19462603$
+$\sqrt{\hat{D}(\hat{\beta_7})}=6650255.35568254$
 
-$\hat{\beta_7}=1262460.64910957$
+$\hat{\beta_7}=1411437.85064760$
 
-$T_{obs}=\frac{\hat{\beta_7}-0}{\sqrt{\hat{D}(\hat{\beta_7})}}=0.19$
+$T_{obs}=\frac{\hat{\beta_7}-0}{\sqrt{\hat{D}(\hat{\beta_7})}}=0.21$
 
 $T\sim t(n-k-1)$
 
-$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.8504\approx85.04\%$
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.8321\approx83.21\%\bigskip$
 
 $\cdot$ Calculate the significance of value $isNovostroyka_i$
 
@@ -169,17 +169,17 @@ $H_o: \hat{\beta_8}=0$
 
 $H_a: \hat{\beta_8}\neq0$
 
-$\hat{D}(\hat{\beta_8})=[\hat{V}(\hat{\beta})]_{8 8}=6538740566591.99$
+$\hat{D}(\hat{\beta_8})=[\hat{V}(\hat{\beta})]_{8 8}=6477122942176.83$
 
-$\sqrt{\hat{D}(\hat{\beta_8})}=2557096.11993605$
+$\sqrt{\hat{D}(\hat{\beta_8})}=2545019.24200522$
 
-$\hat{\beta_8}=-3262518.19959612$
+$\hat{\beta_8}=-3516625.85978516$
 
-$T_{obs}=\frac{\hat{\beta_8}-0}{\sqrt{\hat{D}(\hat{\beta_8})}}=-1.28$
+$T_{obs}=\frac{\hat{\beta_8}-0}{\sqrt{\hat{D}(\hat{\beta_8})}}=-1.38$
 
 $T\sim t(n-k-1)$
 
-$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.2035\approx20.35\%$
+$pvalue=P\{|T|>|T_{obs}|\}=2F(-|T_{obs}|)=2*tcdf(-|T_{obs}|, n-k-1)=0.1686\approx16.86\%\bigskip$
 
 $\cdot$ Check the validity of the entire regression equation
 
@@ -187,7 +187,7 @@ $H_o: \beta_1=\beta_2=\beta_3=\beta_4=\beta_5=\beta_6=\beta_7=\beta_8=0$
 
 $H_a: |\beta_1|+|\beta_2|+|\beta_3|+|\beta_4|+|\beta_5|+|\beta_6|+|\beta_7|+|\beta_8|\neq0$
 
-$T_{obs}=\frac{R^2}{1-R^2}*\frac{n-k-1}{k}=35.39$
+$T_{obs}=\frac{R^2}{1-R^2}*\frac{n-k-1}{k}=36.21$
 
 $T\sim F(k,n-k-1)$
 
@@ -198,20 +198,55 @@ $\cdot$ Testing IsNearCentralStation
 
 Pile 1 (IsNearCentralStation is true) size: 51
 
-Pile 2 (IsNearCentralStation is false) size: 159
+Pile 2 (IsNearCentralStation is false) size: 153
 
-$(A)Y_i=\alpha^Ad^A_i+\beta^A_isquare_id^A_i+\beta^A_iliveSquare_id^A_i+\beta^A_iisFirstOrLastFloor_id^A_i+\beta^A_imaxFloor_id^A_i+\beta^A_itoMetro_id^A_i+\beta^A_iyearOfConstructuon_id^A_i+\beta^A_ihasElevator_id^A_i+\beta^A_iisNovostroyka_id^A_i+\epsilon_i$
+$(A)mainPrice_i=\alpha^Ad^A_i+\beta^A_isquare_id^A_i+\beta^A_iliveSquare_id^A_i+\beta^A_iisFirstOrLastFloor_id^A_i+\beta^A_imaxFloor_id^A_i+\beta^A_itoMetro_id^A_i+\beta^A_iyearOfConstructuon_id^A_i+\beta^A_ihasElevator_id^A_i+\beta^A_iisNovostroyka_id^A_i+\epsilon_i$
 
-$(B)Y_i=\alpha^Bd^B_i+\beta^B_isquare_id^B_i+\beta^B_iliveSquare_id^B_i+\beta^B_iisFirstOrLastFloor_id^B_i+\beta^B_imaxFloor_id^B_i+\beta^B_itoMetro_id^B_i+\beta^B_iyearOfConstructuon_id^B_i+\beta^B_ihasElevator_id^B_i+\beta^B_iisNovostroyka_id^B_i+\epsilon_i$
+$(B)mainPrice_i=\alpha^Bd^B_i+\beta^B_isquare_id^B_i+\beta^B_iliveSquare_id^B_i+\beta^B_iisFirstOrLastFloor_id^B_i+\beta^B_imaxFloor_id^B_i+\beta^B_itoMetro_id^B_i+\beta^B_iyearOfConstructuon_id^B_i+\beta^B_ihasElevator_id^B_i+\beta^B_iisNovostroyka_id^B_i+\epsilon_i$
 
-$RSS_{all}=50187640569989496.00$
+$RSS_{all}=48138218614377696.00$
 
 $RSS_A=23493548978821672.00$
 
-$RSS_B=12252540517449712.00$
+$RSS_B=11920679081705464.00$
 
-$T_{obs}=\frac{(RSS_{all}-RSS_A-RSS_B)/(k+1)}{(RSS_A+RSS_B)/(n - 2k - 2)}=8.61874479831206$
+$T_{obs}=\frac{(RSS_{all}-RSS_A-RSS_B)/(k+1)}{(RSS_A+RSS_B)/(n - 2k - 2)}=7.42533399278987$
 
-$T_{crit}=finv(1 - SL, k + 1, n - 2k - 2)=1.9289038438311263$
+$T_{crit}=finv(1 - SL, k + 1, n - 2k - 2)=1.9305005191684594$
 
-$T_{obs}>T_{crit}=>H_0$ is not valid $=>$ items should be split on IsNearCentralStation\end{document}
+$T_{obs}>T_{crit}=>H_0$ is not valid $=>$ items should be split on IsNearCentralStation
+$\bigskip$
+
+RESET-test
+
+$RSS_R=48138218614377696.00
+
+UR:mainPrice_i=\alpha+\beta_1square_i+\beta_2liveSquare_i+\beta_3isFirstOrLastFloor_i+\beta_4maxFloor_i+\beta_5toMetro_i+\beta_6yearOfConstructuon_i+\beta_7hasElevator_i+\beta_8isNovostroyka_i+\delta{\hat{Y_i}}^2+\epsilon_i$
+
+$RSS_{UR}=41565414180511792.00$
+
+$T_{obs}=\frac{RSS_R-RSS_{UR}}{RSS_{UR}/(n-k_{R}-2)}=30.6775256618960$
+
+$T_{crit}=finc(1-SL,1,n-k_R-2)=3.889839220077634$
+
+$T_{obs}>T_{crit}=>$don't need to add more members
+$\bigskip$
+
+BOX COX test
+
+$Y_i^*=\frac{Y_i}{\sqrt[n]{Y_1\cdot...\cdot Y_n}}$
+
+$mainPrice_i^*=\alpha+\beta_1square_i+\beta_2liveSquare_i+\beta_3isFirstOrLastFloor_i+\beta_4maxFloor_i+\beta_5toMetro_i+\beta_6yearOfConstructuon_i+\beta_7hasElevator_i+\beta_8isNovostroyka_i+\epsilon_i$
+
+$RSS_1^*=38602181807061304.00$
+
+$\ln{mainPrice_i}^*=\alpha+\beta_1square_i+\beta_2liveSquare_i+\beta_3isFirstOrLastFloor_i+\beta_4maxFloor_i+\beta_5toMetro_i+\beta_6yearOfConstructuon_i+\beta_7hasElevator_i+\beta_8isNovostroyka_i+\epsilon_i$
+
+$RSS_2^*=194531687.12$
+
+$T_{obs}=\frac n2 |\ln{\frac{RSS_2^*}{RSS_1^*}}|=1948.8099161161313$
+
+$T_{crit}=chi2inv(1-SL,1)=3.841458820694124$
+
+$T_{obs}>T_{crit}=>$ models have the same quality
+\end{document}
