@@ -22,7 +22,7 @@ import (
 
 const (
 	startPage = 18
-	endPage   = 20
+	endPage   = 30
 
 	URL = "https://www.cian.ru/cat.php?deal_type=sale&engine_version=2&offer_type=flat&p=%d&region=1&room2=1"
 
