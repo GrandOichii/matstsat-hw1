@@ -65,6 +65,8 @@ def analise(items: list, ykey='y', exclude_keys=None) -> AnalisysResult:
     else:
         result.latex_text += f'\n\n$X={latex(xmat)}$\n'
     # calculate the estimates
+    # print('%.2f' % (xmat.T * xmat).det())
+
     estimates = (xmat.T * xmat) ** -1 * xmat.T * ymat
     
     result.latex_text += f'\nCalculating the estimate $\\hat\\beta$ values\n'
@@ -221,7 +223,6 @@ def analise(items: list, ykey='y', exclude_keys=None) -> AnalisysResult:
     result.latex_text += '\\end{document}'
     return result
 
-
 def chow_test(items: list, ykey: str, chow_key: str, regressorNames: list[str], k: int) -> str:
     result = ''
     result += f'\n$\cdot$ Testing {chow_key}\n'
@@ -234,10 +235,9 @@ def chow_test(items: list, ykey: str, chow_key: str, regressorNames: list[str], 
             pile2 += [item]
     result += f'\nPile 1 ({chow_key} is true) size: {len(pile1)}\n'
     result += f'\nPile 2 ({chow_key} is false) size: {len(pile2)}\n'
-    di = 'd^A_i'
-    Amodel_latex = f'\\alpha^A{di}'
+    Amodel_latex = f'\\alpha^A'
     for name in regressorNames:
-        Amodel_latex += f'+\\beta^A_i{name}_i{di}'
+        Amodel_latex += f'+\\beta^A_i{name}_i'
     Amodel_latex = f'\n$(A){ykey}_i=' + Amodel_latex + '+\\epsilon_i$\n'
     Bmodel_latex =  Amodel_latex.replace('A', 'B')
     result += Amodel_latex
@@ -247,7 +247,7 @@ def chow_test(items: list, ykey: str, chow_key: str, regressorNames: list[str], 
     RSSa = calc_rss(pile1, ykey, regressorNames)
     RSSb = calc_rss(pile2, ykey, regressorNames)
 
-    result += '\n$RSS_{{all}}={}$\n'.format('%.2f' % RSSall)
+    result += '\n$RSS_{{all}}=RSS={}$\n'.format('%.2f' % RSSall)
     result += '\n$RSS_A={}$\n'.format('%.2f' % RSSa)
     result += '\n$RSS_B={}$\n'.format('%.2f' % RSSb)
 
